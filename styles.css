@@ -819,6 +819,9 @@ body::before{
 }
 .notfound-card{
   padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255,255,255,.12);
+  background: rgba(0,0,0,.16);
 }
 .notfound-title{
   font-size: 22px;
