@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Characters — Ninjago Wiki Project" />
+    <title>Characters • Ninjago Wiki Project</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="theme-color" content="#06070a" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <img class="brand-img" src="/assets/logo.png" alt="" loading="eager" decoding="async" />
+          </span>
+        </a>
+
+        <input class="menu-toggle" type="checkbox" id="menu-toggle" />
+        <label class="menu-button" for="menu-toggle" aria-label="Open navigation" role="button">
+          <span class="menu-button-lines" aria-hidden="true">
+            <span></span>
+          </span>
+        </label>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="/characters" aria-current="page">Characters</a>
+          <a href="/episodes">Episodes</a>
+          <a href="/timeline">Timeline</a>
+          <a href="/locations">Locations</a>
+          <a href="/vehicles">Vehicles</a>
+          <a href="/weapons">Weapons</a>
+          <a href="/sets">Sets</a>
+          <a href="/media">Media</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="page">
+      <section class="section section--tight">
+        <div class="container">
+          <div class="page-search page-search--characters-top" role="search" aria-label="Character search">
+            <div class="search-bar">
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <input
+                id="characters-search"
+                class="search-input"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Search characters…"
+                aria-label="Search characters"
+              />
+            </div>
+            <p class="characters-search-note" id="characters-search-note" hidden aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div id="characters-browse-root" class="characters-browse-root" aria-label="Characters by category"></div>
+        </div>
+
+        <div class="container characters-search-panel" id="characters-search-panel" hidden>
+          <p class="characters-load-status" id="characters-load-status" aria-live="polite"></p>
+          <div class="characters-grid" id="characters-grid" aria-label="Search results"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner footer-inner--min">
+        <div class="footer-left">
+          <div class="footer-meta">
+            <div class="footer-line footer-line--muted">Fan-made Ninjago wiki. Not affiliated with LEGO or the official show.</div>
+          </div>
+        </div>
+        <div class="footer-links" aria-label="Footer links">
+          <a class="footer-link" href="/about">About</a>
+          <a class="footer-link footer-link--discord" href="https://discord.com/invite/ninjago" target="_blank" rel="noreferrer">
+            <span class="footer-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.3 7.2c-1.9-1-3.9-1.6-6.3-1.6s-4.4.6-6.3 1.6C3.2 11.1 2.7 14.9 3 18.7c1.1.8 2.4 1.3 3.7 1.6l.9-1.8c-.5-.2-1-.5-1.4-.8 3 1.4 6.1 1.4 9.1 0-.4.3-.9.6-1.4.8l.9 1.8c1.3-.3 2.6-.8 3.7-1.6.3-3.9-.2-7.6-2.1-11.5Z" fill="currentColor"/>
+                <path d="M9.5 14.5c-.9 0-1.6-.7-1.6-1.5 0-.9.7-1.5 1.6-1.5.9 0 1.6.7 1.6 1.5 0 .9-.7 1.5-1.6 1.5Zm5 0c-.9 0-1.6-.7-1.6-1.5 0-.9.7-1.5 1.6-1.5.9 0 1.6.7 1.6 1.5 0 .9-.7 1.5-1.6 1.5Z" fill="currentColor"/>
+              </svg>
+            </span>
+            <span>Discord</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

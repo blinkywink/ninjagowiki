@@ -62,6 +62,17 @@ class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_error(403, "Forbidden")
             return
         
+        # Extensionless URLs: /about → about.html, /pages/foo → pages/foo.html
+        if not os.path.isfile(full_path) and not os.path.isdir(full_path):
+            base, ext = os.path.splitext(file_path)
+            if not ext and file_path:
+                html_try = file_path + ".html"
+                full_html = os.path.join(self.directory, html_try)
+                if os.path.isfile(full_html):
+                    self.path = "/" + html_try
+                    super().do_GET()
+                    return
+        
         if os.path.isfile(full_path):
             # File exists, serve it normally
             super().do_GET()
