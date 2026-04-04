@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Episodes — Ninjago Wiki Project" />
+    <title>Episodes • Ninjago Wiki Project</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="theme-color" content="#06070a" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <img class="brand-img" src="/assets/logo.png" alt="" loading="eager" decoding="async" />
+          </span>
+        </a>
+
+        <input class="menu-toggle" type="checkbox" id="menu-toggle" />
+        <label class="menu-button" for="menu-toggle" aria-label="Open navigation" role="button">
+          <span class="menu-button-lines" aria-hidden="true">
+            <span></span>
+          </span>
+        </label>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="/characters">Characters</a>
+          <a href="/episodes">Episodes</a>
+          <a href="/pages/content/year/2011/pilot-episodes/timeline">Timeline</a>
+          <a href="/weapons">Weapons</a>
+          <a href="/sets">Sets</a>
+          <a href="/media">Media</a>
+          <a href="/all-pages">All Pages</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="page">
+      <section class="section section--tight">
+        <div class="container">
+          <div class="page-search page-search--characters-top" role="search" aria-label="Episode search">
+            <div class="search-bar">
+              <svg class="search-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2"/>
+                <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <input
+                id="episodes-search"
+                class="search-input"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Episode title, season name, s01e02, dr4e01…"
+                aria-label="Search episodes"
+              />
+            </div>
+            <p class="characters-search-note" id="episodes-search-note" hidden aria-live="polite"></p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div id="episodes-browse-root" class="characters-browse-root" aria-label="Episodes by season"></div>
+        </div>
+
+        <div class="container characters-search-panel" id="episodes-search-panel" hidden>
+          <p class="characters-load-status" id="episodes-load-status" aria-live="polite"></p>
+          <div class="characters-grid" id="episodes-grid" aria-label="Search results"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner footer-inner--min">
+        <div class="footer-left">
+          <div class="footer-meta">
+            <div class="footer-line footer-line--muted">Fan-made Ninjago wiki. Not affiliated with LEGO or the official show.</div>
+          </div>
+        </div>
+        <div class="footer-links" aria-label="Footer links">
+          <a class="footer-link" href="/about">About</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>

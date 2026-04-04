@@ -1,0 +1,926 @@
+{
+  "v": 1,
+  "source": "wiki_pages.json (magazine*) + fandom tree Category:Albums, Category:Songs",
+  "groups": [
+    {
+      "id": "magazines",
+      "title": "Magazines",
+      "groupKey": "magazines",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "Hero Magazine Nr. 1 Cole",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-1-cole",
+          "slug": "hero-magazine-nr-1-cole",
+          "filter": "hero magazine nr. 1 cole Hero Magazine Nr. 1 Cole Hero Magazine Nr. 1 Cole Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d5/Legacy_HERO_Cole_DE.jpg/revision/latest/scale-to-width-down/450?cb=20250630140636"
+        },
+        {
+          "display": "Hero Magazine Nr. 10 Zane",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-10-zane",
+          "slug": "hero-magazine-nr-10-zane",
+          "filter": "hero magazine nr. 10 zane Hero Magazine Nr. 10 Zane Hero Magazine Nr. 10 Zane Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/b7/Legacy_HERO_10_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204249"
+        },
+        {
+          "display": "Hero Magazine Nr. 11 Kai",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-11-kai",
+          "slug": "hero-magazine-nr-11-kai",
+          "filter": "hero magazine nr. 11 kai Hero Magazine Nr. 11 Kai Hero Magazine Nr. 11 Kai Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/Legacy_HERO_11_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204251"
+        },
+        {
+          "display": "Hero Magazine Nr. 12 Wu",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-12-wu",
+          "slug": "hero-magazine-nr-12-wu",
+          "filter": "hero magazine nr. 12 wu Hero Magazine Nr. 12 Wu Hero Magazine Nr. 12 Wu Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cd/Legacy_HERO_12_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204253"
+        },
+        {
+          "display": "Hero Magazine Nr. 13 Zane",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-13-zane",
+          "slug": "hero-magazine-nr-13-zane",
+          "filter": "hero magazine nr. 13 zane Hero Magazine Nr. 13 Zane Hero Magazine Nr. 13 Zane Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/19/Legacy_HERO_13_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204256"
+        },
+        {
+          "display": "Hero Magazine Nr. 14 Kai",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-14-kai",
+          "slug": "hero-magazine-nr-14-kai",
+          "filter": "hero magazine nr. 14 kai Hero Magazine Nr. 14 Kai Hero Magazine Nr. 14 Kai Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/02/Legacy_HERO_14_DE.webp/revision/latest/scale-to-width-down/450?cb=20260212215028"
+        },
+        {
+          "display": "Hero Magazine Nr. 2 Lloyd",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-2-lloyd",
+          "slug": "hero-magazine-nr-2-lloyd",
+          "filter": "hero magazine nr. 2 lloyd Hero Magazine Nr. 2 Lloyd Hero Magazine Nr. 2 Lloyd Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/2f/Legacy_HERO_2_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204234"
+        },
+        {
+          "display": "Hero Magazine Nr. 3 Wu",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-3-wu",
+          "slug": "hero-magazine-nr-3-wu",
+          "filter": "hero magazine nr. 3 wu Hero Magazine Nr. 3 Wu Hero Magazine Nr. 3 Wu Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a1/Legacy_HERO_3_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204236"
+        },
+        {
+          "display": "Hero Magazine Nr. 4 Jay",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-4-jay",
+          "slug": "hero-magazine-nr-4-jay",
+          "filter": "hero magazine nr. 4 jay Hero Magazine Nr. 4 Jay Hero Magazine Nr. 4 Jay Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/26/Legacy_HERO_4_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204238"
+        },
+        {
+          "display": "Hero Magazine Nr. 5 Kai",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-5-kai",
+          "slug": "hero-magazine-nr-5-kai",
+          "filter": "hero magazine nr. 5 kai Hero Magazine Nr. 5 Kai Hero Magazine Nr. 5 Kai Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/56/Legacy_HERO_5_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204240"
+        },
+        {
+          "display": "Hero Magazine Nr. 6 Cole",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-6-cole",
+          "slug": "hero-magazine-nr-6-cole",
+          "filter": "hero magazine nr. 6 cole Hero Magazine Nr. 6 Cole Hero Magazine Nr. 6 Cole Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8a/Legacy_HERO_6_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204242"
+        },
+        {
+          "display": "Hero Magazine Nr. 7 Wu",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-7-wu",
+          "slug": "hero-magazine-nr-7-wu",
+          "filter": "hero magazine nr. 7 wu Hero Magazine Nr. 7 Wu Hero Magazine Nr. 7 Wu Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/94/Legacy_HERO_7_DE.png/revision/latest/scale-to-width-down/450?cb=20250703215002"
+        },
+        {
+          "display": "Hero Magazine Nr. 8 Cole",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-8-cole",
+          "slug": "hero-magazine-nr-8-cole",
+          "filter": "hero magazine nr. 8 cole Hero Magazine Nr. 8 Cole Hero Magazine Nr. 8 Cole Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/7d/Legacy_HERO_8_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204246"
+        },
+        {
+          "display": "Hero Magazine Nr. 9 Lloyd",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/hero-magazine-nr-9-lloyd",
+          "slug": "hero-magazine-nr-9-lloyd",
+          "filter": "hero magazine nr. 9 lloyd Hero Magazine Nr. 9 Lloyd Hero Magazine Nr. 9 Lloyd Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/88/Legacy_HERO_9_DE.png/revision/latest/scale-to-width-down/450?cb=20250703204248"
+        },
+        {
+          "display": "Ninjago Magazine",
+          "href": "/pages/content/real-life-articles/companies/blue-ocean/ninjago-magazine",
+          "slug": "ninjago-magazine",
+          "filter": "ninjago magazine Ninjago Magazine Ninjago Magazine Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/33/2814386.jpg/revision/latest/scale-to-width-down/450?cb=20260401064745"
+        },
+        {
+          "display": "Ninjago Magazine (2012)",
+          "href": "/pages/content/characters/elemental-masters/ninja/ninjago-magazine-2012",
+          "slug": "ninjago-magazine-2012",
+          "filter": "ninjago magazine (2012) Ninjago Magazine (2012) Ninjago Magazine (2012) Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/b6/Ninjago_Magazine_2012_DE_Issue_6_Cover.webp/revision/latest/scale-to-width-down/450?cb=20250315013156"
+        },
+        {
+          "display": "Ninjago Magazine Issue 17",
+          "href": "/pages/content/seasons/skybound/ninjago-magazine-issue-17",
+          "slug": "ninjago-magazine-issue-17",
+          "filter": "ninjago magazine issue 17 Ninjago Magazine Issue 17 Ninjago Magazine Issue 17 Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/72/NinjagoMagazineIssue17Cover_EN.jpg/revision/latest/scale-to-width-down/450?cb=20250730123739"
+        },
+        {
+          "display": "Ninjago Magazine Issue 18",
+          "href": "/pages/content/seasons/skybound/ninjago-magazine-issue-18",
+          "slug": "ninjago-magazine-issue-18",
+          "filter": "ninjago magazine issue 18 Ninjago Magazine Issue 18 Ninjago Magazine Issue 18 Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6e/LEGONinjagoMagazineIssue18FrontCoverEN.jpg/revision/latest/scale-to-width-down/450?cb=20250511202208"
+        },
+        {
+          "display": "Ninjago Magazine Issue 54",
+          "href": "/pages/content/seasons/secrets-of-the-forbidden-spinjitzu/ninjago-magazine-issue-54",
+          "slug": "ninjago-magazine-issue-54",
+          "filter": "ninjago magazine issue 54 Ninjago Magazine Issue 54 Ninjago Magazine Issue 54 Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/ad/Ninjago_Magazine_Issue_54_0000.jpg/revision/latest/scale-to-width-down/450?cb=20250308092814"
+        },
+        {
+          "display": "Ninjago Magazine Special Edition Issue (2016)",
+          "href": "/pages/content/seasons/skybound/ninjago-magazine-special-edition-issue-2016",
+          "slug": "ninjago-magazine-special-edition-issue-2016",
+          "filter": "ninjago magazine special edition issue (2016) Ninjago Magazine Special Edition Issue (2016) Ninjago Magazine Special Edition Issue (2016) Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/47/NinjagoMagazineSpecialEditionIssue2016Cover_PL.jpg/revision/latest/scale-to-width-down/450?cb=20250628080303"
+        },
+        {
+          "display": "Ninjago XXL Magazine",
+          "href": "/pages/content/real-life-articles/companies/blue-ocean/ninjago-xxl-magazine",
+          "slug": "ninjago-xxl-magazine",
+          "filter": "ninjago xxl magazine Ninjago XXL Magazine Ninjago XXL Magazine Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/5d/Ninja-Go_XXL_magazine.jpg/revision/latest/scale-to-width-down/450?cb=20250516194154"
+        },
+        {
+          "display": "Ninjago: Legacy HERO Magazine",
+          "href": "/pages/content/year/2019/ninjago-legacy/ninjago-legacy-hero/ninjago-legacy-hero-magazine",
+          "slug": "ninjago-legacy-hero-magazine",
+          "filter": "ninjago: legacy hero magazine Ninjago: Legacy HERO Magazine Ninjago: Legacy HERO Magazine Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d5/Legacy_HERO_Cole_DE.jpg/revision/latest/scale-to-width-down/450?cb=20250630140636"
+        },
+        {
+          "display": "Ninjago: Legacy Magazine",
+          "href": "/pages/content/real-life-articles/companies/blue-ocean/ninjago-legacy-magazine",
+          "slug": "ninjago-legacy-magazine",
+          "filter": "ninjago: legacy magazine Ninjago: Legacy Magazine Ninjago: Legacy Magazine Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d9/Ninjago_Legacy_Issue_42.webp/revision/latest/scale-to-width-down/450?cb=20260315191107"
+        },
+        {
+          "display": "Snake Attack! (Magazine)",
+          "href": "/pages/content/year/2019/ninjago-legacy/snake-attack-magazine",
+          "slug": "snake-attack-magazine",
+          "filter": "snake attack! (magazine) Snake Attack! (Magazine) Snake Attack! (Magazine) Magazines magazine mini comic legacy hero magazine polybag",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/79/Mag2019njol02uk.png/revision/latest/scale-to-width-down/450?cb=20250701064228"
+        }
+      ]
+    },
+    {
+      "id": "albums",
+      "title": "Albums",
+      "groupKey": "albums",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "Demos, Sketches and Rarities",
+          "href": "/pages/content/music/albums/demos-sketches-and-rarities",
+          "slug": "demos-sketches-and-rarities",
+          "filter": "demos, sketches and rarities Demos, Sketches and Rarities Demos, Sketches and Rarities Albums album soundtrack score music cd ost",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/Demos%2C_Sketches_and_Rarities.jpg/revision/latest/scale-to-width-down/450?cb=20250814162743"
+        },
+        {
+          "display": "For the Spinners",
+          "href": "/pages/content/music/albums/for-the-spinners",
+          "slug": "for-the-spinners",
+          "filter": "for the spinners For the Spinners For the Spinners Albums album soundtrack score music cd ost",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a7/For_the_Spinners.jpg/revision/latest/scale-to-width-down/450?cb=20201123000048"
+        },
+        {
+          "display": "LEGO Ninjago: Dragons Rising Original Score (Vol. 1)",
+          "href": "/pages/content/music/albums/lego-ninjago-dragons-rising-original-score-vol-1",
+          "slug": "lego-ninjago-dragons-rising-original-score-vol-1",
+          "filter": "lego ninjago: dragons rising original score (vol. 1) LEGO Ninjago: Dragons Rising Original Score (Vol. 1) LEGO Ninjago: Dragons Rising Original Score (Vol. 1) Albums album soundtrack score music cd ost",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/0f/DragonsRIsingOriginalScoreVol1.jpg/revision/latest/scale-to-width-down/450?cb=20240216143040"
+        },
+        {
+          "display": "Ninjago: 10 Year Anniversary Soundtrack",
+          "href": "/pages/content/music/albums/ninjago-10-year-anniversary-soundtrack",
+          "slug": "ninjago-10-year-anniversary-soundtrack",
+          "filter": "ninjago: 10 year anniversary soundtrack Ninjago: 10 Year Anniversary Soundtrack Ninjago: 10 Year Anniversary Soundtrack Albums album soundtrack score music cd ost",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6d/N10YAS.jpg/revision/latest/scale-to-width-down/450?cb=20210731094715"
+        },
+        {
+          "display": "Ninjago: Masters of Spinjitzu (Original Television Soundtrack)",
+          "href": "/pages/content/year/2011/pilot-episodes/ninjago-masters-of-spinjitzu-original-television-soundtrack",
+          "slug": "ninjago-masters-of-spinjitzu-original-television-soundtrack",
+          "filter": "ninjago: masters of spinjitzu (original television soundtrack) Ninjago: Masters of Spinjitzu (Original Television Soundtrack) Ninjago: Masters of Spinjitzu (Original Television Soundtrack) Albums album soundtrack score music cd ost",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/91/Ninjago_Soundtrack_Album.jpg/revision/latest/scale-to-width-down/450?cb=20260321034707"
+        },
+        {
+          "display": "Ninjago: Masters of Spinjitzu - Season 2 (Original Television Soundtrack)",
+          "href": "/pages/content/music/albums/ninjago-masters-of-spinjitzu-season-2-original-television-soundtrack",
+          "slug": "ninjago-masters-of-spinjitzu-season-2-original-television-soundtrack",
+          "filter": "ninjago: masters of spinjitzu - season 2 (original television soundtrack) Ninjago: Masters of Spinjitzu - Season 2 (Original Television Soundtrack) Ninjago: Masters of Spinjitzu - Season 2 (Original Television Soundtrack) Albums album soundtrack score music cd ost",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e2/Ninjago_Season_2_Soundtrack.jpg/revision/latest/scale-to-width-down/450?cb=20260321035912"
+        },
+        {
+          "display": "The Complete Ninjago Discography of The Fold",
+          "href": "/pages/content/music/albums/the-complete-ninjago-discography-of-the-fold",
+          "slug": "the-complete-ninjago-discography-of-the-fold",
+          "filter": "the complete ninjago discography of the fold The Complete Ninjago Discography of The Fold The Complete Ninjago Discography of The Fold Albums album soundtrack score music cd ost",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/92/Ninjagomastersofspinjitzuthecompletediscographyofthefold.jpg/revision/latest/scale-to-width-down/450?cb=20180213192819"
+        }
+      ]
+    },
+    {
+      "id": "songs",
+      "title": "Songs",
+      "groupKey": "songs",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "21st Century Ninja",
+          "href": "/pages/content/real-life-articles/the-fold/21st-century-ninja",
+          "slug": "21st-century-ninja",
+          "filter": "21st century ninja 21st Century Ninja 21st Century Ninja Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f6/21stCenturyNinja.jpg/revision/latest?cb=20150712182714"
+        },
+        {
+          "display": "99 Bottles of Tea",
+          "href": "/pages/content/music/in-universe-songs/99-bottles-of-tea",
+          "slug": "99-bottles-of-tea",
+          "filter": "99 bottles of tea 99 Bottles of Tea 99 Bottles of Tea Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8e/Screenshot_%281303%29.png/revision/latest/scale-to-width-down/450?cb=20201204170525"
+        },
+        {
+          "display": "A-W-E-S-O-M-E",
+          "href": "/pages/content/real-life-articles/the-fold/a-w-e-s-o-m-e",
+          "slug": "a-w-e-s-o-m-e",
+          "filter": "a-w-e-s-o-m-e A-W-E-S-O-M-E A-W-E-S-O-M-E Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8b/A-W-E-S-O-M-E.png/revision/latest/scale-to-width-down/450?cb=20240219024017"
+        },
+        {
+          "display": "After the Blackout",
+          "href": "/pages/content/real-life-articles/the-fold/after-the-blackout",
+          "slug": "after-the-blackout",
+          "filter": "after the blackout After the Blackout After the Blackout Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/ca/AfterTheBlackout.jpg/revision/latest/scale-to-width-down/450?cb=20150712173021"
+        },
+        {
+          "display": "Back to Ninjago",
+          "href": "/pages/content/real-life-articles/the-fold/back-to-ninjago",
+          "slug": "back-to-ninjago",
+          "filter": "back to ninjago Back to Ninjago Back to Ninjago Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fd/BackToNinjago.jpg/revision/latest/scale-to-width-down/450?cb=20200812022216"
+        },
+        {
+          "display": "Boo Lloyd",
+          "href": "/pages/content/music/in-universe-songs/boo-lloyd-2",
+          "slug": "boo-lloyd-2",
+          "filter": "boo lloyd Boo Lloyd Boo Lloyd Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d0/Boolloyd.jpg/revision/latest/scale-to-width-down/450?cb=20210911005543"
+        },
+        {
+          "display": "Born to be a Ninja",
+          "href": "/pages/content/real-life-articles/the-fold/born-to-be-a-ninja",
+          "slug": "born-to-be-a-ninja",
+          "filter": "born to be a ninja Born to be a Ninja Born to be a Ninja Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e8/BornToBeANinja.jpg/revision/latest/scale-to-width-down/450?cb=20210118212849"
+        },
+        {
+          "display": "Bring on the Pirates",
+          "href": "/pages/content/real-life-articles/the-fold/bring-on-the-pirates",
+          "slug": "bring-on-the-pirates",
+          "filter": "bring on the pirates Bring on the Pirates Bring on the Pirates Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/7b/Bring_on_the_Pirates_Cover.png/revision/latest/scale-to-width-down/450?cb=20201103184115"
+        },
+        {
+          "display": "Close the Circle",
+          "href": "/pages/content/year/2016/day-of-the-departed/close-the-circle",
+          "slug": "close-the-circle",
+          "filter": "close the circle Close the Circle Close the Circle Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d7/Close_the_Circle_Cover.png/revision/latest/scale-to-width-down/450?cb=20201103183155"
+        },
+        {
+          "display": "Cole's Song",
+          "href": "/pages/content/music/in-universe-songs/coles-song",
+          "slug": "coles-song",
+          "filter": "coles song Cole's Song Cole's Song Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/24/Screenshot_%28238%29.png/revision/latest/scale-to-width-down/450?cb=20201029043643"
+        },
+        {
+          "display": "Dance of Doom",
+          "href": "/pages/content/year/2017/dance-of-doom",
+          "slug": "dance-of-doom",
+          "filter": "dance of doom Dance of Doom Dance of Doom Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f8/Lego_Ninjago_-_Dance_Of_Doom_-_Louis_Cole_%26_Genevieve_Artadi_%28official_video%29/revision/latest/scale-to-width-down/450?cb=20181119213024"
+        },
+        {
+          "display": "Dance Routine Song",
+          "href": "/pages/content/music/in-universe-songs/dance-routine-song",
+          "slug": "dance-routine-song",
+          "filter": "dance routine song Dance Routine Song Dance Routine Song Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/04/Ninja_dance_routine.png/revision/latest/scale-to-width-down/450?cb=20210625061308"
+        },
+        {
+          "display": "Dareth the Man (Dareth's Blues)",
+          "href": "/pages/content/music/in-universe-songs/dareth-the-man-dareths-blues",
+          "slug": "dareth-the-man-dareths-blues",
+          "filter": "dareth the man (dareths blues) Dareth the Man (Dareth's Blues) Dareth the Man (Dareth's Blues) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/48/Screenshotter--NEW451-7%E2%80%9933%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20200520025354"
+        },
+        {
+          "display": "Day of the Departed (song)",
+          "href": "/pages/content/year/2016/day-of-the-departed/day-of-the-departed-song",
+          "slug": "day-of-the-departed-song",
+          "filter": "day of the departed (song) Day of the Departed (song) Day of the Departed (song) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/81/Day_of_the_Departed_Cover.png/revision/latest/scale-to-width-down/450?cb=20201103183435"
+        },
+        {
+          "display": "Digital Love",
+          "href": "/pages/content/real-life-articles/the-fold/digital-love",
+          "slug": "digital-love",
+          "filter": "digital love Digital Love Digital Love Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/5a/DigitalLove.png/revision/latest/scale-to-width-down/450?cb=20200719210050"
+        },
+        {
+          "display": "Enter the Tournament",
+          "href": "/pages/content/real-life-articles/the-fold/enter-the-tournament",
+          "slug": "enter-the-tournament",
+          "filter": "enter the tournament Enter the Tournament Enter the Tournament Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ed/EnterTheTournament.jpg/revision/latest/scale-to-width-down/450?cb=20210130234603"
+        },
+        {
+          "display": "Everybody Have a Ninja Day",
+          "href": "/pages/content/music/in-universe-songs/everybody-have-a-ninja-day",
+          "slug": "everybody-have-a-ninja-day",
+          "filter": "everybody have a ninja day Everybody Have a Ninja Day Everybody Have a Ninja Day Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/25/Moviemagic2.png/revision/latest/scale-to-width-down/450?cb=20200821150737"
+        },
+        {
+          "display": "Eye of the Storm",
+          "href": "/pages/content/real-life-articles/the-fold/eye-of-the-storm",
+          "slug": "eye-of-the-storm",
+          "filter": "eye of the storm Eye of the Storm Eye of the Storm Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/03/Eye_of_the_Storm_Cover.png/revision/latest/scale-to-width-down/450?cb=20201017184214"
+        },
+        {
+          "display": "Feels Good to be a Ninja",
+          "href": "/pages/content/year/2023/feels-good-to-be-a-ninja",
+          "slug": "feels-good-to-be-a-ninja",
+          "filter": "feels good to be a ninja Feels Good to be a Ninja Feels Good to be a Ninja Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": ""
+        },
+        {
+          "display": "Found My Place",
+          "href": "/pages/content/year/2017/found-my-place",
+          "slug": "found-my-place",
+          "filter": "found my place Found My Place Found My Place Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/51/FoundMyPlace.png/revision/latest/scale-to-width-down/450?cb=20200725134906"
+        },
+        {
+          "display": "Full Digital",
+          "href": "/pages/content/real-life-articles/the-fold/full-digital",
+          "slug": "full-digital",
+          "filter": "full digital Full Digital Full Digital Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/FullDigital.jpg/revision/latest/scale-to-width-down/450?cb=20150712175002"
+        },
+        {
+          "display": "Geckles' Song",
+          "href": "/pages/content/music/in-universe-songs/geckles-song",
+          "slug": "geckles-song",
+          "filter": "geckles song Geckles' Song Geckles' Song Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+        },
+        {
+          "display": "Glow-Worm",
+          "href": "/pages/content/music/in-universe-songs/glow-worm",
+          "slug": "glow-worm",
+          "filter": "glow-worm Glow-Worm Glow-Worm Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e0/Screenshot_%281224%29.png/revision/latest/scale-to-width-down/450?cb=20210707144456"
+        },
+        {
+          "display": "Hello My Baby",
+          "href": "/pages/content/music/in-universe-songs/hello-my-baby",
+          "slug": "hello-my-baby",
+          "filter": "hello my baby Hello My Baby Hello My Baby Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/83/HelloMyBaby.png/revision/latest/scale-to-width-down/450?cb=20181201173329"
+        },
+        {
+          "display": "Heroes",
+          "href": "/pages/content/year/2017/heroes",
+          "slug": "heroes",
+          "filter": "heroes Heroes Heroes Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/07/Ninjago_Movie_soundtrack.png/revision/latest/scale-to-width-down/450?cb=20211025003709"
+        },
+        {
+          "display": "Hey, Hey!",
+          "href": "/pages/content/music/in-universe-songs/hey-hey",
+          "slug": "hey-hey",
+          "filter": "hey, hey! Hey, Hey! Hey, Hey! Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+        },
+        {
+          "display": "I Just Can't Forget About You",
+          "href": "/pages/content/seasons/season-2-dragons-rising/i-just-cant-forget-about-you",
+          "slug": "i-just-cant-forget-about-you",
+          "filter": "i just cant forget about you I Just Can't Forget About You I Just Can't Forget About You Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": ""
+        },
+        {
+          "display": "In the Land of Lee",
+          "href": "/pages/content/music/in-universe-songs/in-the-land-of-lee",
+          "slug": "in-the-land-of-lee",
+          "filter": "in the land of lee In the Land of Lee In the Land of Lee Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/c6/In_the_Land_of_Lee.png/revision/latest/scale-to-width-down/450?cb=20250429164750"
+        },
+        {
+          "display": "Inner Steel",
+          "href": "/pages/content/music/in-universe-songs/inner-steel",
+          "slug": "inner-steel",
+          "filter": "inner steel Inner Steel Inner Steel Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4c/Inner_Steel.png/revision/latest/scale-to-width-down/450?cb=20220610231352"
+        },
+        {
+          "display": "It's Garmadon",
+          "href": "/pages/content/year/2017/its-garmadon",
+          "slug": "its-garmadon",
+          "filter": "its garmadon It's Garmadon It's Garmadon Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/af/Its_Garmadon.jpeg/revision/latest/scale-to-width-down/450?cb=20211025004144"
+        },
+        {
+          "display": "Misfortune's Keep (song)",
+          "href": "/pages/content/characters/groups/pirates/sky-pirates/misfortunes-keep-song",
+          "slug": "misfortunes-keep-song",
+          "filter": "misfortunes keep (song) Misfortune's Keep (song) Misfortune's Keep (song) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+        },
+        {
+          "display": "My Poison",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/my-poison",
+          "slug": "my-poison",
+          "filter": "my poison My Poison My Poison Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/df/26Treblemakers.png/revision/latest/scale-to-width-down/450?cb=20130107083749"
+        },
+        {
+          "display": "Ninja-Go!",
+          "href": "/pages/content/real-life-articles/the-fold/ninja-go-2",
+          "slug": "ninja-go-2",
+          "filter": "ninja-go! Ninja-Go! Ninja-Go! Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f8/Ninja-Go%21.jpg/revision/latest/scale-to-width-down/450?cb=20200728033740"
+        },
+        {
+          "display": "Ninjago Music",
+          "href": "/pages/content/lego-themes/ninjago/ninjago-music",
+          "slug": "ninjago-music",
+          "filter": "ninjago music Ninjago Music Ninjago Music Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/89/NinjagoMusicLogo.jpg/revision/latest/scale-to-width-down/450?cb=20250803155505"
+        },
+        {
+          "display": "Ninjago soundtrack",
+          "href": "/pages/content/lego-themes/ninjago/ninjago-soundtrack",
+          "slug": "ninjago-soundtrack",
+          "filter": "ninjago soundtrack Ninjago soundtrack Ninjago soundtrack Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/28/NINJAGO-_A_Musical_Journey_%281-4%29/revision/latest/scale-to-width-down/450?cb=20210114222823"
+        },
+        {
+          "display": "Ninjago soundtrack/Crystalized",
+          "href": "/pages/content/seasons/crystalized/ninjago-soundtrackcrystalized",
+          "slug": "ninjago-soundtrackcrystalized",
+          "filter": "ninjago soundtrack/crystalized Ninjago soundtrack/Crystalized Ninjago soundtrack/Crystalized Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Day of the Departed",
+          "href": "/pages/content/year/2016/day-of-the-departed/ninjago-soundtrackday-of-the-departed",
+          "slug": "ninjago-soundtrackday-of-the-departed",
+          "filter": "ninjago soundtrack/day of the departed Ninjago soundtrack/Day of the Departed Ninjago soundtrack/Day of the Departed Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8e/Michael_Kramer_-_Ninjago_Soundtrack_Maybe_I%27m_Departed_%28From_Day_of_the_Departed_Special%29/revision/latest/scale-to-width-down/450?cb=20191001032423"
+        },
+        {
+          "display": "Ninjago soundtrack/Hunted",
+          "href": "/pages/content/seasons/hunted/ninjago-soundtrackhunted",
+          "slug": "ninjago-soundtrackhunted",
+          "filter": "ninjago soundtrack/hunted Ninjago soundtrack/Hunted Ninjago soundtrack/Hunted Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": ""
+        },
+        {
+          "display": "Ninjago soundtrack/Legacy of the Green Ninja",
+          "href": "/pages/content/seasons/legacy-of-the-green-ninja/ninjago-soundtracklegacy-of-the-green-ninja",
+          "slug": "ninjago-soundtracklegacy-of-the-green-ninja",
+          "filter": "ninjago soundtrack/legacy of the green ninja Ninjago soundtrack/Legacy of the Green Ninja Ninjago soundtrack/Legacy of the Green Ninja Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/28/Ninjago_Soundtrack_-_Day_Jobs/revision/latest/scale-to-width-down/450?cb=20201126064251"
+        },
+        {
+          "display": "Ninjago soundtrack/March of the Oni",
+          "href": "/pages/content/seasons/march-of-the-oni/ninjago-soundtrackmarch-of-the-oni",
+          "slug": "ninjago-soundtrackmarch-of-the-oni",
+          "filter": "ninjago soundtrack/march of the oni Ninjago soundtrack/March of the Oni Ninjago soundtrack/March of the Oni Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/77/More_to_Life_Than_Surviving_-_Ninjago_Soundtrack_-_March_of_the_Oni_Season_10/revision/latest/scale-to-width-down/450?cb=20260227142145"
+        },
+        {
+          "display": "Ninjago soundtrack/Master of the Mountain",
+          "href": "/pages/content/seasons/master-of-the-mountain/ninjago-soundtrackmaster-of-the-mountain",
+          "slug": "ninjago-soundtrackmaster-of-the-mountain",
+          "filter": "ninjago soundtrack/master of the mountain Ninjago soundtrack/Master of the Mountain Ninjago soundtrack/Master of the Mountain Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Pilot episodes",
+          "href": "/pages/content/year/2011/pilot-episodes/ninjago-soundtrackpilot-episodes",
+          "slug": "ninjago-soundtrackpilot-episodes",
+          "filter": "ninjago soundtrack/pilot episodes Ninjago soundtrack/Pilot episodes Ninjago soundtrack/Pilot episodes Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": ""
+        },
+        {
+          "display": "Ninjago soundtrack/Possession",
+          "href": "/pages/content/seasons/possession/ninjago-soundtrackpossession",
+          "slug": "ninjago-soundtrackpossession",
+          "filter": "ninjago soundtrack/possession Ninjago soundtrack/Possession Ninjago soundtrack/Possession Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ea/Welcome_to_Cloud_Kingdom_-_Ninjago_Soundtrack_-_Possession_Season_5/revision/latest/scale-to-width-down/450?cb=20260130143910"
+        },
+        {
+          "display": "Ninjago soundtrack/Prime Empire",
+          "href": "/pages/content/seasons/prime-empire/ninjago-soundtrackprime-empire",
+          "slug": "ninjago-soundtrackprime-empire",
+          "filter": "ninjago soundtrack/prime empire Ninjago soundtrack/Prime Empire Ninjago soundtrack/Prime Empire Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Rebooted",
+          "href": "/pages/content/seasons/rebooted/ninjago-soundtrackrebooted",
+          "slug": "ninjago-soundtrackrebooted",
+          "filter": "ninjago soundtrack/rebooted Ninjago soundtrack/Rebooted Ninjago soundtrack/Rebooted Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fd/Michael_Kramer_-_Ninjago_Soundtrack_Moon_Rover_Chase_%28From_Season_3%2C_Episode_33%29/revision/latest/scale-to-width-down/450?cb=20191016035829"
+        },
+        {
+          "display": "Ninjago soundtrack/Rise of the Snakes",
+          "href": "/pages/content/seasons/rise-of-the-snakes/ninjago-soundtrackrise-of-the-snakes",
+          "slug": "ninjago-soundtrackrise-of-the-snakes",
+          "filter": "ninjago soundtrack/rise of the snakes Ninjago soundtrack/Rise of the Snakes Ninjago soundtrack/Rise of the Snakes Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8c/The_Mailman_-_Jay%27s_Parents/revision/latest/scale-to-width-down/450?cb=20201219204717"
+        },
+        {
+          "display": "Ninjago soundtrack/Seabound",
+          "href": "/pages/content/seasons/seabound/ninjago-soundtrackseabound",
+          "slug": "ninjago-soundtrackseabound",
+          "filter": "ninjago soundtrack/seabound Ninjago soundtrack/Seabound Ninjago soundtrack/Seabound Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Season 1 (Dragons Rising)",
+          "href": "/pages/content/seasons/season-1-dragons-rising/ninjago-soundtrackseason-1-dragons-rising",
+          "slug": "ninjago-soundtrackseason-1-dragons-rising",
+          "filter": "ninjago soundtrack/season 1 (dragons rising) Ninjago soundtrack/Season 1 (Dragons Rising) Ninjago soundtrack/Season 1 (Dragons Rising) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Season 2 (Dragons Rising)",
+          "href": "/pages/content/seasons/season-2-dragons-rising/ninjago-soundtrackseason-2-dragons-rising",
+          "slug": "ninjago-soundtrackseason-2-dragons-rising",
+          "filter": "ninjago soundtrack/season 2 (dragons rising) Ninjago soundtrack/Season 2 (Dragons Rising) Ninjago soundtrack/Season 2 (Dragons Rising) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Season 3 (Dragons Rising)",
+          "href": "/pages/content/seasons/season-3-dragons-rising/ninjago-soundtrackseason-3-dragons-rising",
+          "slug": "ninjago-soundtrackseason-3-dragons-rising",
+          "filter": "ninjago soundtrack/season 3 (dragons rising) Ninjago soundtrack/Season 3 (Dragons Rising) Ninjago soundtrack/Season 3 (Dragons Rising) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Season 4 (Dragons Rising)",
+          "href": "/pages/content/seasons/season-4-dragons-rising/ninjago-soundtrackseason-4-dragons-rising",
+          "slug": "ninjago-soundtrackseason-4-dragons-rising",
+          "filter": "ninjago soundtrack/season 4 (dragons rising) Ninjago soundtrack/Season 4 (Dragons Rising) Ninjago soundtrack/Season 4 (Dragons Rising) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Secrets of the Forbidden Spinjitzu",
+          "href": "/pages/content/seasons/secrets-of-the-forbidden-spinjitzu/ninjago-soundtracksecrets-of-the-forbidden-spinjitzu",
+          "slug": "ninjago-soundtracksecrets-of-the-forbidden-spinjitzu",
+          "filter": "ninjago soundtrack/secrets of the forbidden spinjitzu Ninjago soundtrack/Secrets of the Forbidden Spinjitzu Ninjago soundtrack/Secrets of the Forbidden Spinjitzu Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": ""
+        },
+        {
+          "display": "Ninjago soundtrack/Skybound",
+          "href": "/pages/content/seasons/skybound/ninjago-soundtrackskybound",
+          "slug": "ninjago-soundtrackskybound",
+          "filter": "ninjago soundtrack/skybound Ninjago soundtrack/Skybound Ninjago soundtrack/Skybound Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/36/Jay_Vincent_-_Ninjago_Soundtrack_-_Nadakhan_Suite_%28From_Season_6-_Skybound%29/revision/latest/scale-to-width-down/450?cb=20201130192510"
+        },
+        {
+          "display": "Ninjago soundtrack/Sons of Garmadon",
+          "href": "/pages/content/seasons/sons-of-garmadon/ninjago-soundtracksons-of-garmadon",
+          "slug": "ninjago-soundtracksons-of-garmadon",
+          "filter": "ninjago soundtrack/sons of garmadon Ninjago soundtrack/Sons of Garmadon Ninjago soundtrack/Sons of Garmadon Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/ff/Michael_Kramer_-_Ninjago_Soundtrack_-_Sons_of_Garmadon_Heist_%28From_Season_8%2C_Episode_75%29/revision/latest/scale-to-width-down/450?cb=20201111070638"
+        },
+        {
+          "display": "Ninjago soundtrack/The Hands of Time",
+          "href": "/pages/content/seasons/the-hands-of-time/ninjago-soundtrackthe-hands-of-time",
+          "slug": "ninjago-soundtrackthe-hands-of-time",
+          "filter": "ninjago soundtrack/the hands of time Ninjago soundtrack/The Hands of Time Ninjago soundtrack/The Hands of Time Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/74/Jay_Vincent_-_Ninjago_Soundtrack_-_Kai_Finds_the_Blacksmith_Shop_%28From_Season_7%2C_Episode_72%29/revision/latest/scale-to-width-down/450?cb=20201101204521"
+        },
+        {
+          "display": "Ninjago soundtrack/The Island",
+          "href": "/pages/content/year/2021/the-island/ninjago-soundtrackthe-island",
+          "slug": "ninjago-soundtrackthe-island",
+          "filter": "ninjago soundtrack/the island Ninjago soundtrack/The Island Ninjago soundtrack/The Island Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
+        },
+        {
+          "display": "Ninjago soundtrack/Tournament of Elements",
+          "href": "/pages/content/seasons/tournament-of-elements/ninjago-soundtracktournament-of-elements",
+          "slug": "ninjago-soundtracktournament-of-elements",
+          "filter": "ninjago soundtrack/tournament of elements Ninjago soundtrack/Tournament of Elements Ninjago soundtrack/Tournament of Elements Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a8/Ninjago-_The_Tournament_of_Elements_Soundtrack_-_Meet_the_Elemental_Masters/revision/latest/scale-to-width-down/450?cb=20251207112352"
+        },
+        {
+          "display": "Ninjago Victory",
+          "href": "/pages/content/year/2021/the-island/ninjago-victory",
+          "slug": "ninjago-victory",
+          "filter": "ninjago victory Ninjago Victory Ninjago Victory Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/15/Ninjago_Victory.jpg/revision/latest/scale-to-width-down/450?cb=20201017222735"
+        },
+        {
+          "display": "No More",
+          "href": "/pages/content/mini-movies/wus-teas/no-more",
+          "slug": "no-more",
+          "filter": "no more No More No More Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+        },
+        {
+          "display": "Operation New Me",
+          "href": "/pages/content/year/2017/operation-new-me",
+          "slug": "operation-new-me",
+          "filter": "operation new me Operation New Me Operation New Me Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/07/Ninjago_Movie_soundtrack.png/revision/latest/scale-to-width-down/450?cb=20211025003709"
+        },
+        {
+          "display": "Pieces",
+          "href": "/pages/content/year/2016/day-of-the-departed/pieces",
+          "slug": "pieces",
+          "filter": "pieces Pieces Pieces Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/5c/Pieces1.png/revision/latest/scale-to-width-down/450?cb=20201111203458"
+        },
+        {
+          "display": "Rang Dang Dang",
+          "href": "/pages/content/year/2016/day-of-the-departed/rang-dang-dang",
+          "slug": "rang-dang-dang",
+          "filter": "rang dang dang Rang Dang Dang Rang Dang Dang Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/44/Be_my_Dotd.jpeg/revision/latest/scale-to-width-down/450?cb=20241008170148"
+        },
+        {
+          "display": "Revenge Will Be Mine",
+          "href": "/pages/content/year/2016/day-of-the-departed/revenge-will-be-mine",
+          "slug": "revenge-will-be-mine",
+          "filter": "revenge will be mine Revenge Will Be Mine Revenge Will Be Mine Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d6/DoDRoyal.png/revision/latest/scale-to-width-down/450?cb=20161115185225"
+        },
+        {
+          "display": "Rise of the Vermillion",
+          "href": "/pages/content/real-life-articles/the-fold/rise-of-the-vermillion",
+          "slug": "rise-of-the-vermillion",
+          "filter": "rise of the vermillion Rise of the Vermillion Rise of the Vermillion Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/71/Rise_of_the_Vermillion_Cover.png/revision/latest/scale-to-width-down/450?cb=20201027014934"
+        },
+        {
+          "display": "Rocktagon",
+          "href": "/pages/content/music/in-universe-songs/rocktagon",
+          "slug": "rocktagon",
+          "filter": "rocktagon Rocktagon Rocktagon Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/25/Moviemagic2.png/revision/latest/scale-to-width-down/450?cb=20200821150737"
+        },
+        {
+          "display": "Samurai Song",
+          "href": "/pages/content/music/in-universe-songs/samurai-song",
+          "slug": "samurai-song",
+          "filter": "samurai song Samurai Song Samurai Song Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/36/Ohcursedramen.png/revision/latest/scale-to-width-down/450?cb=20230325002625"
+        },
+        {
+          "display": "Shake What Your Momma Gave You",
+          "href": "/pages/content/year/2011/pilot-episodes/shake-what-your-momma-gave-you",
+          "slug": "shake-what-your-momma-gave-you",
+          "filter": "shake what your momma gave you Shake What Your Momma Gave You Shake What Your Momma Gave You Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+        },
+        {
+          "display": "Soto's Crew Sea Shanty",
+          "href": "/pages/content/characters/groups/pirates/sotos-crew-sea-shanty",
+          "slug": "sotos-crew-sea-shanty",
+          "filter": "soto's crew sea shanty Soto's Crew Sea Shanty Soto's Crew Sea Shanty Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+        },
+        {
+          "display": "Spider's in the House",
+          "href": "/pages/content/music/in-universe-songs/spiders-in-the-house",
+          "slug": "spiders-in-the-house",
+          "filter": "spiders in the house Spider's in the House Spider's in the House Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/03/MoS79HarumiSinging.png/revision/latest/scale-to-width-down/450?cb=20200819212938"
+        },
+        {
+          "display": "Spinnin' Out In Color",
+          "href": "/pages/content/real-life-articles/the-fold/spinnin-out-in-color",
+          "slug": "spinnin-out-in-color",
+          "filter": "spinnin' out in color Spinnin' Out In Color Spinnin' Out In Color Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/76/Spinnin%27_Out_in_Color_Cover.png/revision/latest/scale-to-width-down/450?cb=20201017184237"
+        },
+        {
+          "display": "Ten for Ninjago",
+          "href": "/pages/content/real-life-articles/the-fold/ten-for-ninjago",
+          "slug": "ten-for-ninjago",
+          "filter": "ten for ninjago Ten for Ninjago Ten for Ninjago Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/10_for_Ninjago.jpeg/revision/latest/scale-to-width-down/450?cb=20210626062144"
+        },
+        {
+          "display": "The Arcadian Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-arcadian-whip",
+          "slug": "the-arcadian-whip",
+          "filter": "the arcadian whip The Arcadian Whip The Arcadian Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cd/The_Arcadian_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020220952"
+        },
+        {
+          "display": "The Blacksmith Doo-Wop",
+          "href": "/pages/content/music/in-universe-songs/the-blacksmith-doo-wop",
+          "slug": "the-blacksmith-doo-wop",
+          "filter": "the blacksmith doo-wop The Blacksmith Doo-Wop The Blacksmith Doo-Wop Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ee/Derp%2C_you_say.PNG/revision/latest/scale-to-width-down/450?cb=20210107012718"
+        },
+        {
+          "display": "The Christmas Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-christmas-whip",
+          "slug": "the-christmas-whip",
+          "filter": "the christmas whip The Christmas Whip The Christmas Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4a/The_Christmas_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201218231130"
+        },
+        {
+          "display": "The Clutch Powers Song",
+          "href": "/pages/content/year/2021/ninjago-reimagined/the-clutch-powers-song",
+          "slug": "the-clutch-powers-song",
+          "filter": "the clutch powers song The Clutch Powers Song The Clutch Powers Song Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/da/Screenshot_%283150%29.png/revision/latest/scale-to-width-down/450?cb=20210514160403"
+        },
+        {
+          "display": "The Crystalized Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-crystalized-whip",
+          "slug": "the-crystalized-whip",
+          "filter": "the crystalized whip The Crystalized Whip The Crystalized Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/96/The_Crystalized_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20230610044544"
+        },
+        {
+          "display": "The Ghost Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-ghost-whip",
+          "slug": "the-ghost-whip",
+          "filter": "the ghost whip The Ghost Whip The Ghost Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/7d/The_Ghost_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020220509"
+        },
+        {
+          "display": "The Lego Ninjago Movie (Original Motion Picture Soundtrack)",
+          "href": "/pages/content/year/2017/the-lego-ninjago-movie-original-motion-picture-soundtrack",
+          "slug": "the-lego-ninjago-movie-original-motion-picture-soundtrack",
+          "filter": "the lego ninjago movie (original motion picture soundtrack) The Lego Ninjago Movie (Original Motion Picture Soundtrack) The Lego Ninjago Movie (Original Motion Picture Soundtrack) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/07/Ninjago_Movie_soundtrack.png/revision/latest/scale-to-width-down/450?cb=20211025003709"
+        },
+        {
+          "display": "The Merged Whip",
+          "href": "/pages/content/seasons/season-4-dragons-rising/the-merged-whip",
+          "slug": "the-merged-whip",
+          "filter": "the merged whip The Merged Whip The Merged Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": ""
+        },
+        {
+          "display": "The Miracle Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-miracle-whip",
+          "slug": "the-miracle-whip",
+          "filter": "the miracle whip The Miracle Whip The Miracle Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/7e/The_Miracle_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201212172502"
+        },
+        {
+          "display": "The Ninja Roll",
+          "href": "/pages/content/real-life-articles/the-fold/the-ninja-roll",
+          "slug": "the-ninja-roll",
+          "filter": "the ninja roll The Ninja Roll The Ninja Roll Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/af/TheNinjaRoll.jpg/revision/latest/scale-to-width-down/450?cb=20200723021403"
+        },
+        {
+          "display": "The Pirate Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-pirate-whip",
+          "slug": "the-pirate-whip",
+          "filter": "the pirate whip The Pirate Whip The Pirate Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/2d/The_Pirate_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020220533"
+        },
+        {
+          "display": "The Rift Whip",
+          "href": "/pages/content/year/2016/day-of-the-departed/the-rift-whip",
+          "slug": "the-rift-whip",
+          "filter": "the rift whip The Rift Whip The Rift Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e0/The_Rift_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020215932"
+        },
+        {
+          "display": "The Shintaro Dungeon Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-shintaro-dungeon-whip",
+          "slug": "the-shintaro-dungeon-whip",
+          "filter": "the shintaro dungeon whip The Shintaro Dungeon Whip The Shintaro Dungeon Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/35/The_Shintaro_Dungeon_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020215953"
+        },
+        {
+          "display": "The Temporal Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-temporal-whip",
+          "slug": "the-temporal-whip",
+          "filter": "the temporal whip The Temporal Whip The Temporal Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f8/The_Temporal_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020220011"
+        },
+        {
+          "display": "The Time is Now",
+          "href": "/pages/content/real-life-articles/the-fold/the-time-is-now",
+          "slug": "the-time-is-now",
+          "filter": "the time is now The Time is Now The Time is Now Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/12/The_Time_is_Now_Cover.png/revision/latest/scale-to-width-down/450?cb=20201027014844"
+        },
+        {
+          "display": "The Weekend Whip",
+          "href": "/pages/content/year/2011/pilot-episodes/the-weekend-whip",
+          "slug": "the-weekend-whip",
+          "filter": "the weekend whip The Weekend Whip The Weekend Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/35/The_Weekend_Whips_1-9.png/revision/latest/scale-to-width-down/450?cb=20250807211324"
+        },
+        {
+          "display": "The Weekend Whip (15th Anniversary mix)",
+          "href": "/pages/content/songs/the-weekend-whip/the-weekend-whip-15th-anniversary-mix",
+          "slug": "the-weekend-whip-15th-anniversary-mix",
+          "filter": "the weekend whip (15th anniversary mix) The Weekend Whip (15th Anniversary mix) The Weekend Whip (15th Anniversary mix) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/dd/15th_Anniversary_Weekend_Whip.webp/revision/latest/scale-to-width-down/450?cb=20260122150044"
+        },
+        {
+          "display": "The Weekend Whip (Chris Lord-Alge mix)",
+          "href": "/pages/content/year/2011/pilot-episodes/the-weekend-whip-chris-lord-alge-mix",
+          "slug": "the-weekend-whip-chris-lord-alge-mix",
+          "filter": "the weekend whip (chris lord-alge mix) The Weekend Whip (Chris Lord-Alge mix) The Weekend Whip (Chris Lord-Alge mix) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4a/TheWeekendWhip.jpg/revision/latest/scale-to-width-down/450?cb=20180319142311"
+        },
+        {
+          "display": "The Weekend Whip (Michael AM 2014 Remix)",
+          "href": "/pages/content/mini-series/decoded/the-weekend-whip-michael-am-2014-remix",
+          "slug": "the-weekend-whip-michael-am-2014-remix",
+          "filter": "the weekend whip (michael am 2014 remix) The Weekend Whip (Michael AM 2014 Remix) The Weekend Whip (Michael AM 2014 Remix) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/45/The_Weekend_Whip_Remix_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020220442"
+        },
+        {
+          "display": "The Weekend Whip (The Anacondrai Remix)",
+          "href": "/pages/content/real-life-articles/the-fold/the-weekend-whip-the-anacondrai-remix",
+          "slug": "the-weekend-whip-the-anacondrai-remix",
+          "filter": "the weekend whip (the anacondrai remix) The Weekend Whip (The Anacondrai Remix) The Weekend Whip (The Anacondrai Remix) Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/65/Tournament_whip_poster.jpg/revision/latest/scale-to-width-down/450?cb=20200911192047"
+        },
+        {
+          "display": "The Wicked Whip",
+          "href": "/pages/content/real-life-articles/the-fold/the-wicked-whip",
+          "slug": "the-wicked-whip",
+          "filter": "the wicked whip The Wicked Whip The Wicked Whip Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/39/The_Wicked_Whip_Cover.png/revision/latest/scale-to-width-down/450?cb=20201020220611"
+        },
+        {
+          "display": "Warlord Ballad",
+          "href": "/pages/content/music/in-universe-songs/warlord-ballad",
+          "slug": "warlord-ballad",
+          "filter": "warlord ballad Warlord Ballad Warlord Ballad Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/25/Moviemagic2.png/revision/latest/scale-to-width-down/450?cb=20200821150737"
+        },
+        {
+          "display": "We Are Ninja",
+          "href": "/pages/content/real-life-articles/the-fold/we-are-ninja",
+          "slug": "we-are-ninja",
+          "filter": "we are ninja We Are Ninja We Are Ninja Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9b/WeAreNinjas.jpg/revision/latest/scale-to-width-down/450?cb=20201019155751"
+        },
+        {
+          "display": "We Are Ninjago",
+          "href": "/pages/content/real-life-articles/the-fold/we-are-ninjago",
+          "slug": "we-are-ninjago",
+          "filter": "we are ninjago We Are Ninjago We Are Ninjago Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/35/We_Are_Ninjago_Cover.png/revision/latest/scale-to-width-down/450?cb=20201103183951"
+        },
+        {
+          "display": "We Rise",
+          "href": "/pages/content/year/2023/we-rise",
+          "slug": "we-rise",
+          "filter": "we rise We Rise We Rise Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/22/NINJAGO_Dragons_Rising_-_We_Rise_-_Official_Music_Video%21/revision/latest/scale-to-width-down/450?cb=20230517130333"
+        },
+        {
+          "display": "You Got Soul, You Got Style",
+          "href": "/pages/content/music/in-universe-songs/you-got-soul-you-got-style",
+          "slug": "you-got-soul-you-got-style",
+          "filter": "you got soul, you got style You Got Soul, You Got Style You Got Soul, You Got Style Songs song music lyrics theme whip weekend whip ninjago music",
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+        }
+      ]
+    }
+  ]
+}

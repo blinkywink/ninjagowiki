@@ -19,8 +19,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT = SCRIPT_DIR.parent
 
 NAV_RE = re.compile(
-    r'<nav\s+class="nav"\s+aria-label="Primary">\s*.*?\s*</nav>',
-    re.DOTALL | re.IGNORECASE,
+    r'^[ \t]*<nav\s+class="nav"\s+aria-label="Primary">\s*.*?\s*</nav>',
+    re.DOTALL | re.IGNORECASE | re.MULTILINE,
 )
 
 STANDARD_NAV = """        <nav class="nav" aria-label="Primary">

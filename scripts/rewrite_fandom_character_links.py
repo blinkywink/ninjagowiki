@@ -34,6 +34,11 @@ SITE_ROUTES_JSON = ROOT / "assets" / "data" / "site_routes.json"
 
 WIKI_HOST = "ninjago.fandom.com"
 
+
+def _is_ninjago_wiki_host(host: str) -> bool:
+    h = (host or "").lower().rstrip(".")
+    return h == WIKI_HOST or h.endswith("." + WIKI_HOST)
+
 # Opening <a ... href="..."> — href value in group "url".
 A_HREF_RE = re.compile(
     r'(?P<before><a\s[^>]*\bhref\s*=\s*)(?P<quote>["\'])(?P<url>[^"\']*)(?P=quote)',
@@ -52,10 +57,11 @@ SKIP_PATH_PREFIXES = (
     "/wiki/category:",
     "/wiki/template:",
     "/wiki/user:",
+    "/wiki/user_talk:",
     "/wiki/talk:",
     "/wiki/mediawiki:",
     "/wiki/help:",
-    "/wiki/ninjago:",
+    "/wiki/ninjago_wiki:",
 )
 
 
@@ -148,7 +154,7 @@ def parse_href_for_lookup(href: str) -> tuple[str | None, str, str]:
         host = (p2.netloc or "").lower()
         path = unquote(p2.path)
 
-    if WIKI_HOST not in host and host != "":
+    if host and not _is_ninjago_wiki_host(host):
         # Relative /wiki/... with no host
         if not host and path.startswith("/wiki/"):
             pass
@@ -183,18 +189,24 @@ def local_href_for_url(href: str, path_to_local: dict[str, str]) -> str | None:
 
 
 def rewrite_html_a_hrefs(html: str, path_to_local: dict[str, str]) -> tuple[str, int]:
-    """Return (new_html, replacement_count)."""
+    """Return (new_html, replacement_count). Count only hrefs that actually change."""
+
+    changed = 0
 
     def repl(m: re.Match[str]) -> str:
+        nonlocal changed
         url = m.group("url")
         new_url = local_href_for_url(url, path_to_local)
         if new_url is None or new_url == url:
             return m.group(0)
         q = m.group("quote")
-        return f'{m.group("before")}{q}{new_url}{q}'
+        out = f'{m.group("before")}{q}{new_url}{q}'
+        if out != m.group(0):
+            changed += 1
+        return out
 
-    new_html, n = A_HREF_RE.subn(repl, html)
-    return new_html, n
+    new_html = A_HREF_RE.sub(repl, html)
+    return new_html, changed
 
 
 def rewrite_characters_hash_hrefs(html: str) -> tuple[str, int]:
