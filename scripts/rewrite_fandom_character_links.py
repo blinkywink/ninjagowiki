@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """
-Rewrite <a href="https://ninjago.fandom.com/wiki/..."> to /characters/<slug> when we
-have a local character page (characters/<slug>/index.html).
+Rewrite:
+1) <a href="https://ninjago.fandom.com/wiki/..."> → /characters/<slug> when we have that
+   character page (from characters.json wikiUrl + characters/<slug>/index.html).
+2) <a href="/characters#slug"> → /characters/slug (homepage used to send people to the
+   browse page + hash instead of the article).
 
-Uses assets/data/characters.json wikiUrl → slug; only rewrites when the local HTML exists.
+Uses assets/data/characters.json for wiki URLs, merged with assets/data/site_routes.json
+(/pages/… routes from wiki_pages.json) so generic mirrored articles link locally too.
+Hash fix does not require a manifest row beyond the slug matching your URL scheme.
 
 Default is dry-run (report only). Pass --apply to overwrite files.
 
@@ -25,12 +30,19 @@ from urllib.parse import unquote, urlparse
 SCRIPT_DIR = Path(__file__).resolve().parent
 ROOT = SCRIPT_DIR.parent
 CHARACTERS_JSON = ROOT / "assets" / "data" / "characters.json"
+SITE_ROUTES_JSON = ROOT / "assets" / "data" / "site_routes.json"
 
 WIKI_HOST = "ninjago.fandom.com"
 
 # Opening <a ... href="..."> — href value in group "url".
 A_HREF_RE = re.compile(
     r'(?P<before><a\s[^>]*\bhref\s*=\s*)(?P<quote>["\'])(?P<url>[^"\']*)(?P=quote)',
+    re.IGNORECASE | re.DOTALL,
+)
+
+# /characters#cole → /characters/cole (trending list on index.html)
+CHARACTERS_HASH_HREF_RE = re.compile(
+    r'(?P<before><a\s[^>]*\bhref\s*=\s*)(?P<q>["\'])/characters#(?P<slug>[a-z0-9-]+)(?P=q)',
     re.IGNORECASE | re.DOTALL,
 )
 
@@ -185,6 +197,17 @@ def rewrite_html_a_hrefs(html: str, path_to_local: dict[str, str]) -> tuple[str,
     return new_html, n
 
 
+def rewrite_characters_hash_hrefs(html: str) -> tuple[str, int]:
+    """href="/characters#slug" → href="/characters/slug"."""
+
+    def repl(m: re.Match[str]) -> str:
+        return (
+            f'{m.group("before")}{m.group("q")}/characters/{m.group("slug")}{m.group("q")}'
+        )
+
+    return CHARACTERS_HASH_HREF_RE.subn(repl, html)
+
+
 def iter_html_files(root: Path, extra_ignore: list[str]) -> list[Path]:
     ignore_parts = {".git", *extra_ignore}
     out: list[Path] = []
@@ -235,40 +258,53 @@ def main() -> None:
 
     characters = load_characters(root)
     path_to_local = build_wiki_path_to_local(root, characters)
+    if SITE_ROUTES_JSON.is_file():
+        with open(SITE_ROUTES_JSON, encoding="utf-8") as f:
+            sr = json.load(f)
+        for k, v in (sr.get("wikiPathToHref") or {}).items():
+            path_to_local.setdefault(k, v)
     print(
-        f"Loaded {len(characters)} manifest rows; "
-        f"{len(path_to_local)} distinct wiki paths map to local character pages.",
+        f"Loaded {len(characters)} character manifest rows; "
+        f"{len(path_to_local)} wiki paths map to local pages (characters + site_routes).",
         file=sys.stderr,
     )
 
     html_files = iter_html_files(root, args.ignore_dir)
-    total_repls = 0
+    total_fandom = 0
+    total_hash = 0
     files_changed = 0
 
     for path in html_files:
         text = path.read_text(encoding="utf-8")
-        new_text, n = rewrite_html_a_hrefs(text, path_to_local)
+        new_text, n1 = rewrite_html_a_hrefs(text, path_to_local)
+        new_text, n2 = rewrite_characters_hash_hrefs(new_text)
+        n = n1 + n2
         if n == 0:
             continue
-        total_repls += n
+        total_fandom += n1
+        total_hash += n2
         files_changed += 1
         if args.verbose:
-            # Show diffs of href lines only (approximate)
             for m in A_HREF_RE.finditer(text):
                 old_u = m.group("url")
                 new_u = local_href_for_url(old_u, path_to_local)
                 if new_u and new_u != old_u:
                     print(f"{path.relative_to(root)}: {old_u!r} -> {new_u!r}")
+            for m in CHARACTERS_HASH_HREF_RE.finditer(text):
+                print(
+                    f"{path.relative_to(root)}: '/characters#{m.group('slug')}' -> '/characters/{m.group('slug')}'"
+                )
         if args.apply:
             path.write_text(new_text, encoding="utf-8")
 
     mode = "WROTE" if args.apply else "DRY-RUN"
     print(
-        f"{mode}: {total_repls} href(s) rewritten in {files_changed} file(s) "
-        f"(scanned {len(html_files)} html files).",
+        f"{mode}: fandom→local {total_fandom}, /characters#→/characters/ {total_hash} "
+        f"({total_fandom + total_hash} total) in {files_changed} file(s); "
+        f"scanned {len(html_files)} html.",
         file=sys.stderr,
     )
-    if not args.apply and total_repls:
+    if not args.apply and (total_fandom + total_hash):
         print("Re-run with --apply to save changes.", file=sys.stderr)
 
 

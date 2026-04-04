@@ -447,7 +447,11 @@ def build_overview_panel_html(prose: str) -> str:
 
 
 def build_hero_card_html(infobox: str) -> str:
-    """Floated character card (PC: right rail, scrolls with page). Empty if no infobox."""
+    """Floated character card (PC: right rail, scrolls with page). Empty if no infobox.
+
+    Fandom's portable infobox keeps `pi-theme-*` classes on `<aside>`; styles.css maps those
+    to title / header / tab accents for the hero rail only.
+    """
     if not (infobox or "").strip():
         return ""
     box = infobox.strip()
@@ -712,47 +716,27 @@ def import_character(
     extra_tabs = [k for k in SECTION_TAB_KEYS if section_has_visible_content(parts[k])]
     visible_tab_keys: tuple[str, ...] = ("overview",) + tuple(extra_tabs)
     multi_tab = len(extra_tabs) > 0
-    has_any_toc = any((toc_map.get(k) or "").strip() for k in visible_tab_keys)
-
-    if has_any_toc:
-        panel_rows_side = build_toc_panel_rows(toc_map, 18, visible_tab_keys)
-        toc_sidebar = (
-            '        <aside class="wiki-char-toc-sidebar" aria-label="Article contents">\n'
-            '          <div class="wiki-char-toc-sidebar-viewport" id="wiki-char-toc-sidebar-viewport">\n'
-            '            <div class="wiki-char-toc-sidebar-slide" id="wiki-char-toc-sidebar-slide">\n'
-            '              <div class="wiki-char-toc-sidebar-main" id="wiki-char-toc-sidebar-main">\n'
-            '                <button type="button" class="wiki-char-toc-sidebar-hide" id="wiki-char-toc-sidebar-hide" aria-expanded="true" aria-controls="wiki-char-toc-sidebar-slide" title="Hide contents column">\n'
-            '                  <svg class="wiki-char-toc-chevron" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M15.41 16.59 10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/></svg>\n'
-            "                </button>\n"
-            '                <div class="wiki-char-toc-panels">\n'
-            + panel_rows_side
-            + "                </div>\n"
-            + "              </div>\n"
-            + '              <button type="button" class="wiki-char-toc-sidebar-reveal" id="wiki-char-toc-sidebar-reveal" aria-expanded="false" aria-controls="wiki-char-toc-sidebar-slide" hidden title="Show contents column">\n'
-            + '                <svg class="wiki-char-toc-chevron" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>\n'
-            + "              </button>\n"
-            + "            </div>\n"
-            + "          </div>\n"
-            + "        </aside>\n"
-        )
-        toc_bar = ""
-    else:
-        toc_sidebar = ""
-        toc_bar = ""
-
-    split_cls = (
-        "wiki-char-content-split wiki-char-content-split--with-toc"
-        if has_any_toc
-        else "wiki-char-content-split"
-    )
+    toc_sidebar, split_cls = build_toc_sidebar_and_split_class(toc_map, visible_tab_keys)
+    toc_bar = ""
 
     wiki_char_tabs = build_wiki_char_tabs_html(visible_tab_keys)
     wiki_char_panels = build_wiki_char_panels_html(parts, visible_tab_keys, multi_tab)
+
+    wiki_breadcrumb_block = (
+        '          <nav class="wiki-char-breadcrumb" aria-label="Breadcrumb">\n'
+        '            <a href="/characters">Characters</a>\n'
+        '            <span aria-hidden="true">/</span>\n'
+        f'            <span>{display_label}</span>\n'
+        '          </nav>\n'
+        f'          <h1 class="visually-hidden">{display_label}</h1>'
+    )
 
     out_path = root / "characters" / slug / "index.html"
     out_path.parent.mkdir(parents=True, exist_ok=True)
     body = TEMPLATE.format(
         display=display_label,
+        extra_head="",
+        wiki_breadcrumb_block=wiki_breadcrumb_block,
         hero_card=hero_card,
         wiki_char_split_cls=split_cls,
         toc_sidebar=toc_sidebar,
@@ -778,7 +762,7 @@ TEMPLATE = """<!doctype html>
     <title>{display} • Ninjago Wiki Project</title>
     <link rel="stylesheet" href="/styles.css" />
     <meta name="theme-color" content="#06070a" />
-  </head>
+{extra_head}  </head>
   <body>
     <a class="skip-link" href="#content">Skip to content</a>
 
@@ -799,11 +783,10 @@ TEMPLATE = """<!doctype html>
           <a href="/characters">Characters</a>
           <a href="/episodes">Episodes</a>
           <a href="/timeline">Timeline</a>
-          <a href="/locations">Locations</a>
-          <a href="/vehicles">Vehicles</a>
           <a href="/weapons">Weapons</a>
           <a href="/sets">Sets</a>
           <a href="/media">Media</a>
+          <a href="/all-pages">All Pages</a>
         </nav>
       </div>
     </header>
@@ -811,12 +794,7 @@ TEMPLATE = """<!doctype html>
     <main id="content" class="page wiki-char-page" data-wiki-char-tab="overview">
       <div class="wiki-char-hero wiki-char-hero--crumb-only">
         <div class="container wiki-char-hero-inner">
-          <nav class="wiki-char-breadcrumb" aria-label="Breadcrumb">
-            <a href="/characters">Characters</a>
-            <span aria-hidden="true">/</span>
-            <span>{display}</span>
-          </nav>
-          <h1 class="visually-hidden">{display}</h1>
+{wiki_breadcrumb_block}
         </div>
       </div>
 
@@ -1401,6 +1379,36 @@ def build_toc_panel_rows(toc_map: dict[str, str], indent_mount: int, tab_keys: t
             f'                </div>\n'
         )
     return "".join(chunks)
+
+
+def build_toc_sidebar_and_split_class(
+    toc_map: dict[str, str], visible_tab_keys: tuple[str, ...]
+) -> tuple[str, str]:
+    """TOC sidebar markup + `wiki-char-content-split` class when any tab has a Contents block."""
+    has_any_toc = any((toc_map.get(k) or "").strip() for k in visible_tab_keys)
+    if not has_any_toc:
+        return "", "wiki-char-content-split"
+    panel_rows_side = build_toc_panel_rows(toc_map, 18, visible_tab_keys)
+    toc_sidebar = (
+        '        <aside class="wiki-char-toc-sidebar" aria-label="Article contents">\n'
+        '          <div class="wiki-char-toc-sidebar-viewport" id="wiki-char-toc-sidebar-viewport">\n'
+        '            <div class="wiki-char-toc-sidebar-slide" id="wiki-char-toc-sidebar-slide">\n'
+        '              <div class="wiki-char-toc-sidebar-main" id="wiki-char-toc-sidebar-main">\n'
+        '                <button type="button" class="wiki-char-toc-sidebar-hide" id="wiki-char-toc-sidebar-hide" aria-expanded="true" aria-controls="wiki-char-toc-sidebar-slide" title="Hide contents column">\n'
+        '                  <svg class="wiki-char-toc-chevron" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M15.41 16.59 10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"/></svg>\n'
+        "                </button>\n"
+        '                <div class="wiki-char-toc-panels">\n'
+        + panel_rows_side
+        + "                </div>\n"
+        + "              </div>\n"
+        + '              <button type="button" class="wiki-char-toc-sidebar-reveal" id="wiki-char-toc-sidebar-reveal" aria-expanded="false" aria-controls="wiki-char-toc-sidebar-slide" hidden title="Show contents column">\n'
+        + '                <svg class="wiki-char-toc-chevron" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M8.59 16.59 13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>\n'
+        + "              </button>\n"
+        + "            </div>\n"
+        + "          </div>\n"
+        + "        </aside>\n"
+    )
+    return toc_sidebar, "wiki-char-content-split wiki-char-content-split--with-toc"
 
 
 def build_wiki_char_tabs_html(visible_tab_keys: tuple[str, ...]) -> str:
