@@ -47,9 +47,6 @@
     };
 
     const wikiExcludedFromSearch = (p) => {
-      const href = String(p.href || "").toLowerCase();
-      if (href.includes("/pages/_unsorted/")) return true;
-      if (String(p.categoryPath || "").toLowerCase() === "_unsorted") return true;
       const t = String(p.wikiTitle || p.display || "").toLowerCase();
       if (t.includes("disambiguation")) return true;
       const s = String(p.slug || "").toLowerCase();
@@ -1064,6 +1061,21 @@
       return 0;
     };
 
+    const dedupeSetRows = (rows) => {
+      const seen = new Set();
+      const out = [];
+      for (const row of rows) {
+        const key =
+          String(row.href || "").trim().toLowerCase() ||
+          String(row.slug || "").trim().toLowerCase() ||
+          foldSearch(String(row.display || ""));
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+        out.push(row);
+      }
+      return out;
+    };
+
     const applySetImgSrc = (img) => {
       const fixed = (img.getAttribute("data-card-image") || "").trim();
       const media = window.matchMedia("(max-width: 859px)");
@@ -1119,7 +1131,7 @@
         setsSearchNote.textContent = "";
       }
       removeSetSearchCards();
-      const matches = setManifest.filter((row) => setMatchRank(row, qFold) > 0);
+      const matches = dedupeSetRows(setManifest.filter((row) => setMatchRank(row, qFold) > 0));
       matches.sort((a, b) => {
         const ra = setMatchRank(a, qFold);
         const rb = setMatchRank(b, qFold);

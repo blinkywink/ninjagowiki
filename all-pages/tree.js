@@ -7,6 +7,8 @@
   let rootNode = null;
   /** @type {Record<string, unknown> | null} */
   let siteRoutes = null;
+  /** @type {{ pages?: { wikiTitle?: string, display?: string, categoryPath?: string }[] } | null} */
+  let wikiPages = null;
 
   const wikiTitleUrl = (title) => {
     const t = String(title || "").trim();
@@ -141,13 +143,20 @@
     const h2 = document.createElement("h2");
     h2.className = "category-tree-title";
 
-    const wikiA = document.createElement("a");
-    wikiA.className = "category-tree-wiki-link";
-    wikiA.href = node.wikiUrl || wikiTitleUrl(node.title);
-    wikiA.target = "_blank";
-    wikiA.rel = "noopener noreferrer";
-    wikiA.textContent = node.displayName || node.title || "Category";
-    h2.appendChild(wikiA);
+    if (node.localOnly) {
+      const sp = document.createElement("span");
+      sp.className = "category-tree-wiki-link";
+      sp.textContent = node.displayName || node.title || "Category";
+      h2.appendChild(sp);
+    } else {
+      const wikiA = document.createElement("a");
+      wikiA.className = "category-tree-wiki-link";
+      wikiA.href = node.wikiUrl || wikiTitleUrl(node.title);
+      wikiA.target = "_blank";
+      wikiA.rel = "noopener noreferrer";
+      wikiA.textContent = node.displayName || node.title || "Category";
+      h2.appendChild(wikiA);
+    }
 
     if (node.duplicate) {
       const sp = document.createElement("span");
@@ -269,14 +278,48 @@
       return r.json();
     }),
     fetch("/assets/data/site_routes.json").then((r) => (r.ok ? r.json() : null)),
+    fetch("/assets/data/wiki_pages.json").then((r) => (r.ok ? r.json() : null)),
   ])
-    .then(([data, routes]) => {
+    .then(([data, routes, wiki]) => {
       const tree = data && data.tree;
       const stats = data && data.stats;
       if (!tree) throw new Error("Missing tree in JSON");
 
       rootNode = tree;
       siteRoutes = routes;
+      wikiPages = wiki;
+
+      // Local-only bucket for pages that aren't mapped into the Fandom category tree export.
+      const unsortedTitles = Array.isArray(wikiPages && wikiPages.pages)
+        ? wikiPages.pages
+            .filter((p) => String(p.categoryPath || "").toLowerCase() === "_unsorted")
+            .map((p) => String(p.wikiTitle || p.display || "").trim())
+            .filter(Boolean)
+        : [];
+      if (unsortedTitles.length) {
+        const seen = new Set();
+        const unique = [];
+        for (const t of unsortedTitles) {
+          const k = t.toLowerCase().replace(/\s+/g, " ");
+          if (seen.has(k)) continue;
+          seen.add(k);
+          unique.push(t);
+        }
+        unique.sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+        const unsortedNode = {
+          title: "Unsorted",
+          displayName: "Unsorted",
+          slug: "_unsorted",
+          wikiUrl: "",
+          depth: 1,
+          children: [],
+          directPages: unique,
+          localOnly: true,
+        };
+        rootNode.children = Array.isArray(rootNode.children) ? rootNode.children : [];
+        const already = rootNode.children.some((c) => (c && c.slug) === "_unsorted");
+        if (!already) rootNode.children = rootNode.children.concat([unsortedNode]);
+      }
 
       const parts = [];
       if (stats && typeof stats.uniqueCategoriesVisited === "number") {
