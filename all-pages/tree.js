@@ -177,12 +177,7 @@
       h2.appendChild(sp);
     }
 
-    const sub = document.createElement("p");
-    sub.className = "category-tree-wiki-hint";
-    sub.textContent = "Opens this category on Ninjago Fandom in a new tab.";
-
     head.appendChild(h2);
-    head.appendChild(sub);
     rootEl.appendChild(head);
 
     const children = Array.isArray(node.children) ? node.children : [];

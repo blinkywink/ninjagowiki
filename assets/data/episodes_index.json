@@ -1350,10 +1350,10 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/f1/Screenshot_2018-03-30_at_6.11.20_PM.png/revision/latest/scale-to-width-down/450?cb=20200623144644"
         },
         {
-          "display": "Dead Man's Squall",
-          "href": "/pages/content/episodes/episodes-of-sons-of-garmadon/dead-mans-squall",
-          "slug": "dead-mans-squall",
-          "filter": "dead mans squall Dead Man's Squall Dead Man's Squall s08e05 s08e5 s8e05 s8e5 s08ep05 s08ep5 s8ep05 Season 8: Sons of Garmadon episodes of sons of garmadon Season 8: Sons of Garmadon sons of garmadon season8 season 8 s8 s08",
+          "display": "Dead Man's Squall (episode)",
+          "href": "/pages/content/episodes/episodes-of-sons-of-garmadon/dead-mans-squall-episode",
+          "slug": "dead-mans-squall-episode",
+          "filter": "dead man's squall (episode) Dead Man's Squall (episode) Dead Man's Squall (episode) s08e05 s08e5 s8e05 s8e5 s08ep05 s08ep5 s8ep05 Season 8: Sons of Garmadon episodes of sons of garmadon Season 8: Sons of Garmadon sons of garmadon season8 season 8 s8 s08",
           "codes": [
             "s08e05",
             "s08e5",
@@ -1441,6 +1441,14 @@
             "s8ep10"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/09/Ninjago_Sons_of_Garmadon_Episode_84.png/revision/latest/scale-to-width-down/450?cb=20200706030915"
+        },
+        {
+          "display": "Dead Man's Squall",
+          "href": "/pages/content/episodes/episodes-of-sons-of-garmadon/dead-mans-squall",
+          "slug": "dead-mans-squall",
+          "filter": "dead mans squall Dead Man's Squall Dead Man's Squall  Season 8: Sons of Garmadon episodes of sons of garmadon Season 8: Sons of Garmadon sons of garmadon season8 season 8 s8 s08",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cc/Screen_Shot_2020-09-29_at_9.04.28_PM.png/revision/latest/scale-to-width-down/450?cb=20200930040630"
         }
       ]
     },
