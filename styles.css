@@ -1055,22 +1055,25 @@ body::before{
   margin-bottom: 14px;
 }
 .daily-block-title{
-  margin: 0 0 6px;
-}
-.daily-block-sub{
   margin: 0;
-  color: var(--muted2);
-  font-size: 14px;
-  font-weight: 650;
-  line-height: 1.4;
 }
 .daily-spin-grid{
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
 }
+.daily-card .simple-card-img,
+.daily-spin-grid .simple-card-img,
+.daily-block .simple-grid .simple-card-img{
+  height: 160px;
+  object-fit: contain;
+  object-position: center;
+  background: rgba(0,0,0,.22);
+  padding: 10px;
+  box-sizing: border-box;
+}
 .daily-spin-grid .simple-card-img{
-  height: 130px;
+  height: 140px;
 }
 .daily-card-label{
   font-size: 11px;
@@ -1085,7 +1088,10 @@ body::before{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
   .daily-spin-grid .simple-card-img{
-    height: 150px;
+    height: 170px;
+  }
+  .daily-block .simple-grid .simple-card-img{
+    height: 200px;
   }
 }
 

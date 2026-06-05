@@ -145,12 +145,7 @@
       const weapon = pickOne(weapons, 44);
       const spotlight = pickN(sets, 3, 55);
 
-      const spinGrid = addBlock(
-        root,
-        "Today's Spin",
-        "Fresh random picks — same all day, new tomorrow.",
-        "daily-spin-grid",
-      );
+      const spinGrid = addBlock(root, "Today's Spin", "", "daily-spin-grid");
 
       if (char) spinGrid.appendChild(makeCard(char, "Character of the day"));
       if (set) spinGrid.appendChild(makeCard(set, "Set of the day"));
@@ -158,12 +153,7 @@
       if (weapon) spinGrid.appendChild(makeCard(weapon, "Weapon of the day"));
 
       if (spotlight.length) {
-        const spotGrid = addBlock(
-          root,
-          "Daily Set Spotlight",
-          "Random sets from across every year — rotated daily.",
-          "simple-grid",
-        );
+        const spotGrid = addBlock(root, "Daily Set Spotlight", "", "simple-grid");
         for (const row of spotlight) {
           spotGrid.appendChild(makeCard(row, "Spotlight"));
         }
