@@ -1044,6 +1044,51 @@ body::before{
   }
 }
 
+/* Homepage daily picks */
+.daily-block{
+  margin-bottom: 36px;
+}
+.daily-block:last-child{
+  margin-bottom: 0;
+}
+.daily-block-head{
+  margin-bottom: 14px;
+}
+.daily-block-title{
+  margin: 0 0 6px;
+}
+.daily-block-sub{
+  margin: 0;
+  color: var(--muted2);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.4;
+}
+.daily-spin-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+.daily-spin-grid .simple-card-img{
+  height: 130px;
+}
+.daily-card-label{
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted2);
+  line-height: 1.2;
+}
+@media (min-width: 860px){
+  .daily-spin-grid{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .daily-spin-grid .simple-card-img{
+    height: 150px;
+  }
+}
+
 /* —— Character article (e.g. /characters/kai) —— */
 .wiki-char-page{
   padding-bottom: 48px;

@@ -83,58 +83,9 @@
         </div>
       </section>
 
-      <section id="trending" class="section section--tight">
-        <div class="container section-head">
-          <h2 class="section-title">Trending Right Now</h2>
-        </div>
-
-        <div class="container simple-grid" aria-label="Trending cards" id="trending-list">
-          <a class="simple-card" href="/pages/content/locations/realms/whispering-wood/whispering-wood" data-search="whispering wood whispering woods realm merged lands merge">
-            <img
-              class="simple-card-img"
-              src="https://static.wikia.nocookie.net/ninjago/images/e/ef/Whispering_Wood_info_box.png/revision/latest/scale-to-width-down/400?cb=20260402194947"
-              data-card-image="https://static.wikia.nocookie.net/ninjago/images/e/ef/Whispering_Wood_info_box.png/revision/latest/scale-to-width-down/400?cb=20260402194947"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-            <div class="simple-card-body">
-              <div class="article-name">Whispering Wood</div>
-              <div class="simple-card-subtitle">Realm of ancient forest and Life energy, also called the Whispering Woods—one of the realms before the Merge, now part of the merged lands.</div>
-            </div>
-          </a>
-
-          <a class="simple-card" href="/pages/content/seasons/season-4-dragons-rising/season-4-dragons-rising" data-search="season 4 dragons rising season four crossroads crosstalk lloyd arc dragons">
-            <img
-              class="simple-card-img"
-              src="https://static.wikia.nocookie.net/ninjago/images/d/d0/DRS4MainPoster.jpg/revision/latest/scale-to-width-down/400?cb=20260320101340"
-              data-card-image="https://static.wikia.nocookie.net/ninjago/images/d/d0/DRS4MainPoster.jpg/revision/latest/scale-to-width-down/400?cb=20260320101340"
-              alt=""
-              loading="lazy"
-              decoding="async"
-              referrerpolicy="no-referrer"
-            />
-            <div class="simple-card-body">
-              <div class="article-name">Season 4 (Dragons Rising)</div>
-              <div class="simple-card-subtitle">The fourth season of Ninjago: Dragons Rising, following Season 3 and Crossroads' Crosstalk—Lloyd and the Arc Dragons face new threats across the merged realms.</div>
-            </div>
-          </a>
-
-          <a class="simple-card" href="/characters/arc-dragon-of-life" data-search="arc dragon of life source dragon whispering wood protector mortal avatar green ninja">
-            <img
-              class="simple-card-img"
-              src="./assets/characters/arc-dragon-of-life.webp"
-              data-card-image="./assets/characters/arc-dragon-of-life.webp"
-              alt=""
-              loading="lazy"
-              decoding="async"
-            />
-            <div class="simple-card-body">
-              <div class="article-name">Arc Dragon of Life</div>
-              <div class="simple-card-subtitle">Arc Dragon and mortal avatar of the Source Dragon of Life—guardian of the Whispering Wood and a Season 4 mascot alongside Lloyd.</div>
-            </div>
-          </a>
+      <section id="daily-picks" class="section section--tight" aria-label="Daily picks">
+        <div class="container" id="daily-picks-root">
+          <p class="characters-load-status" aria-live="polite">Loading today&apos;s picks…</p>
         </div>
       </section>
       <!-- Hidden homepage search index for character-name matches -->
@@ -1397,6 +1348,7 @@
     </footer>
 
     <script src="./app.js" defer></script>
+    <script src="./homepage-daily.js" defer></script>
   </body>
 </html>
 

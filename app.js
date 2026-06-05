@@ -2,6 +2,18 @@
   /** Collapse punctuation/spaces so "pixal" matches "P.I.X.A.L." / "p i x a l". */
   const foldSearch = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 
+  /** Fandom wiki placeholder — same as mirrored article infoboxes when no image exists. */
+  const NO_IMAGE_PLACEHOLDER =
+    "https://static.wikia.nocookie.net/ninjago/images/8/84/Noimage.jpg/revision/latest/scale-to-width-down/450?cb=20260319010138";
+  const SITE_HERO_THUMBS = new Set(["/assets/hero.png", "/assets/hero-mobile.png"]);
+
+  /** Browse-card image: never fall back to site hero art. */
+  const cardImageSrc = (raw) => {
+    const s = String(raw || "").trim();
+    if (!s || SITE_HERO_THUMBS.has(s)) return NO_IMAGE_PLACEHOLDER;
+    return s;
+  };
+
   const searchInput = document.getElementById("search-input");
   const searchClear = document.getElementById("search-clear");
   const resultsEl = document.getElementById("search-results");
@@ -392,10 +404,7 @@
     };
 
     const applyCharImgSrc = (img) => {
-      const fixed = (img.getAttribute("data-card-image") || "").trim();
-      const media = window.matchMedia("(max-width: 859px)");
-      const fallback = media.matches ? "/assets/hero-mobile.png" : "/assets/hero.png";
-      img.src = fixed || fallback;
+      img.src = cardImageSrc(img.getAttribute("data-card-image"));
     };
 
     const makeCharCard = (c) => {
@@ -632,10 +641,7 @@
     };
 
     const applyEpisodeImgSrc = (img) => {
-      const fixed = (img.getAttribute("data-card-image") || "").trim();
-      const media = window.matchMedia("(max-width: 859px)");
-      const fallback = media.matches ? "/assets/hero-mobile.png" : "/assets/hero.png";
-      img.src = fixed || fallback;
+      img.src = cardImageSrc(img.getAttribute("data-card-image"));
     };
 
     const makeEpisodeCard = (ep) => {
@@ -850,10 +856,7 @@
     };
 
     const applyWeaponImgSrc = (img) => {
-      const fixed = (img.getAttribute("data-card-image") || "").trim();
-      const media = window.matchMedia("(max-width: 859px)");
-      const fallback = media.matches ? "/assets/hero-mobile.png" : "/assets/hero.png";
-      img.src = fixed || fallback;
+      img.src = cardImageSrc(img.getAttribute("data-card-image"));
     };
 
     const makeWeaponCard = (row) => {
@@ -1077,10 +1080,7 @@
     };
 
     const applySetImgSrc = (img) => {
-      const fixed = (img.getAttribute("data-card-image") || "").trim();
-      const media = window.matchMedia("(max-width: 859px)");
-      const fallback = media.matches ? "/assets/hero-mobile.png" : "/assets/hero.png";
-      img.src = fixed || fallback;
+      img.src = cardImageSrc(img.getAttribute("data-card-image"));
     };
 
     const makeSetCard = (row) => {
@@ -1289,10 +1289,7 @@
     };
 
     const applyMediaImgSrc = (img) => {
-      const fixed = (img.getAttribute("data-card-image") || "").trim();
-      const mq = window.matchMedia("(max-width: 859px)");
-      const fallback = mq.matches ? "/assets/hero-mobile.png" : "/assets/hero.png";
-      img.src = fixed || fallback;
+      img.src = cardImageSrc(img.getAttribute("data-card-image"));
     };
 
     const makeMediaCard = (row) => {
@@ -1460,19 +1457,12 @@
       });
   }
 
-  // Homepage simple cards: root-absolute fallbacks (narrow = mobile hero art).
+  // Homepage simple cards: use wiki no-image placeholder instead of hero art.
   const simpleCardImages = Array.from(document.querySelectorAll(".simple-card-img"));
   if (simpleCardImages.length) {
-    const media = window.matchMedia("(max-width: 859px)");
-    const applySimpleCardImages = () => {
-      const fallback = media.matches ? "/assets/hero-mobile.png" : "/assets/hero.png";
-      for (const img of simpleCardImages) {
-        const fixed = (img.getAttribute("data-card-image") || "").trim();
-        img.src = fixed || fallback;
-      }
-    };
-    applySimpleCardImages();
-    media.addEventListener?.("change", applySimpleCardImages);
+    for (const img of simpleCardImages) {
+      img.src = cardImageSrc(img.getAttribute("data-card-image"));
+    }
   }
 
   // If mobile menu is open and user taps a nav link, close it.
