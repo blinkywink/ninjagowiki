@@ -730,6 +730,112 @@ body::before{
   padding: 22px 0;
   background: rgba(7,9,22,.35);
 }
+.footer-contact{
+  padding: 28px 0 32px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  margin-bottom: 4px;
+}
+.footer-contact-title{
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: 950;
+  letter-spacing: -.02em;
+  color: var(--text);
+}
+.footer-contact-intro{
+  margin: 0 0 20px;
+  max-width: 52ch;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 650;
+  line-height: 1.55;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 640px;
+}
+.contact-form-honeypot{
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+}
+.contact-form-row{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+@media (min-width: 560px){
+  .contact-form-row{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.contact-form-field{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.contact-form-label{
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted2);
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea{
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,.14);
+  background: rgba(255,255,255,.06);
+  color: var(--text);
+  font: inherit;
+  font-size: 16px;
+  font-weight: 650;
+  padding: 12px 14px;
+  outline: none;
+  transition: border-color .15s ease, box-shadow .15s ease;
+}
+.contact-form textarea{
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.45;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+  color: var(--muted2);
+  opacity: .85;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+  border-color: rgba(233,184,46,.55);
+  box-shadow: 0 0 0 3px rgba(233,184,46,.12);
+}
+.contact-form-submit{
+  align-self: flex-start;
+  margin-top: 4px;
+  padding: 12px 22px;
+  border-radius: 999px;
+  border: 1px solid rgba(233,184,46,.45);
+  background: rgba(233,184,46,.14);
+  color: var(--text);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 850;
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease, transform .1s ease;
+}
+.contact-form-submit:hover{
+  background: rgba(233,184,46,.22);
+  border-color: rgba(233,184,46,.65);
+}
+.contact-form-submit:active{
+  transform: scale(0.98);
+}
 .footer-inner{
   display:flex;
   align-items:flex-start;

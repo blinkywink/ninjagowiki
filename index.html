@@ -1335,6 +1335,39 @@
     </main>
 
     <footer class="site-footer">
+      <div class="container footer-contact">
+        <h2 class="footer-contact-title">Contact</h2>
+        <p class="footer-contact-intro">
+          As the content of this site is built off other people&apos;s work, if you would like something to be taken down from the site, or anything else, contact me here.
+        </p>
+        <form
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          aria-label="Contact form"
+        >
+          <input type="hidden" name="access_key" value="b85d0fa9-867d-48e5-bc3c-2de4546d1b52" />
+          <input type="hidden" name="subject" value="Ninjago Wiki — contact form" />
+          <input type="checkbox" name="botcheck" class="contact-form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+          <div class="contact-form-row">
+            <label class="contact-form-field">
+              <span class="contact-form-label">Name</span>
+              <input type="text" name="name" required autocomplete="name" placeholder="Your name" />
+            </label>
+            <label class="contact-form-field">
+              <span class="contact-form-label">Email</span>
+              <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
+            </label>
+          </div>
+          <label class="contact-form-field">
+            <span class="contact-form-label">Message</span>
+            <textarea name="message" required rows="5" placeholder="What would you like to say?"></textarea>
+          </label>
+          <button type="submit" class="contact-form-submit">Send message</button>
+        </form>
+      </div>
+
       <div class="container footer-inner footer-inner--min">
         <div class="footer-left">
           <div class="footer-meta">
