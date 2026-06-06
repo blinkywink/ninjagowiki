@@ -166,6 +166,7 @@
   };
 
   let carouselScrollTimer = null;
+  let carouselScrollCleanup = null;
 
   const getCarouselActiveIndex = (track) => {
     const slides = Array.from(track?.querySelectorAll(".trivia-image-wrap") || []);
@@ -205,71 +206,68 @@
     if (nextBtn) nextBtn.disabled = active >= slides.length - 1;
   };
 
-  const teardownCarouselControls = (shell) => {
+  const teardownCarouselControls = (shell, track) => {
+    if (carouselScrollCleanup) {
+      carouselScrollCleanup();
+      carouselScrollCleanup = null;
+    }
     if (!shell) return;
     shell.querySelector(".trivia-carousel-dots")?.remove();
     shell.querySelector(".trivia-carousel-prev")?.remove();
     shell.querySelector(".trivia-carousel-next")?.remove();
+    if (track) track.scrollLeft = 0;
   };
 
   const mountCarouselControls = (track, count) => {
     const shell = track.parentElement;
     if (!shell || count < 2) return;
 
-    let dotsEl = shell.querySelector(".trivia-carousel-dots");
-    if (!dotsEl) {
-      dotsEl = document.createElement("div");
-      dotsEl.className = "trivia-carousel-dots";
-      dotsEl.setAttribute("aria-hidden", "true");
-      shell.appendChild(dotsEl);
-    }
-    dotsEl.innerHTML = "";
+    teardownCarouselControls(shell, track);
+
+    const dotsEl = document.createElement("div");
+    dotsEl.className = "trivia-carousel-dots";
+    dotsEl.setAttribute("aria-hidden", "true");
     for (let i = 0; i < count; i++) {
       const dot = document.createElement("span");
       dot.className = `trivia-carousel-dot${i === 0 ? " is-active" : ""}`;
       dotsEl.appendChild(dot);
     }
 
-    let prevBtn = shell.querySelector(".trivia-carousel-prev");
-    if (!prevBtn) {
-      prevBtn = document.createElement("button");
-      prevBtn.type = "button";
-      prevBtn.className = "trivia-carousel-nav trivia-carousel-prev";
-      prevBtn.setAttribute("aria-label", "Previous image");
-      prevBtn.textContent = "‹";
-      shell.appendChild(prevBtn);
-    }
-    let nextBtn = shell.querySelector(".trivia-carousel-next");
-    if (!nextBtn) {
-      nextBtn = document.createElement("button");
-      nextBtn.type = "button";
-      nextBtn.className = "trivia-carousel-nav trivia-carousel-next";
-      nextBtn.setAttribute("aria-label", "Next image");
-      nextBtn.textContent = "›";
-      shell.appendChild(nextBtn);
-    }
+    const prevBtn = document.createElement("button");
+    prevBtn.type = "button";
+    prevBtn.className = "trivia-carousel-nav trivia-carousel-prev";
+    prevBtn.setAttribute("aria-label", "Previous image");
+    prevBtn.textContent = "‹";
+    prevBtn.disabled = true;
 
-    prevBtn.onclick = (e) => {
+    const nextBtn = document.createElement("button");
+    nextBtn.type = "button";
+    nextBtn.className = "trivia-carousel-nav trivia-carousel-next";
+    nextBtn.setAttribute("aria-label", "Next image");
+    nextBtn.textContent = "›";
+
+    prevBtn.addEventListener("click", (e) => {
       e.preventDefault();
       scrollCarouselTo(track, getCarouselActiveIndex(track) - 1);
-    };
-    nextBtn.onclick = (e) => {
+    });
+    nextBtn.addEventListener("click", (e) => {
       e.preventDefault();
       scrollCarouselTo(track, getCarouselActiveIndex(track) + 1);
-    };
+    });
 
-    track.onscroll = null;
-    track.addEventListener(
-      "scroll",
-      () => {
-        clearTimeout(carouselScrollTimer);
-        carouselScrollTimer = setTimeout(
-          () => syncCarouselControls(track, dotsEl, prevBtn, nextBtn),
-          60,
-        );
-      },
-      { passive: true },
-    );
+    shell.append(dotsEl, prevBtn, nextBtn);
+
+    const onScroll = () => {
+      clearTimeout(carouselScrollTimer);
+      carouselScrollTimer = setTimeout(
+        () => syncCarouselControls(track, dotsEl, prevBtn, nextBtn),
+        60,
+      );
+    };
+    track.addEventListener("scroll", onScroll, { passive: true });
+    carouselScrollCleanup = () => track.removeEventListener("scroll", onScroll);
+
+    track.scrollLeft = 0;
     syncCarouselControls(track, dotsEl, prevBtn, nextBtn);
   };
 
@@ -418,6 +416,7 @@
     questionEl.textContent = q.prompt;
 
     imagesEl.innerHTML = "";
+    imagesEl.scrollLeft = 0;
     imagesEl.hidden = q.images.length === 0;
     imagesEl.className = "trivia-images";
     const isMobile = MOBILE_MQ.matches;
@@ -439,7 +438,7 @@
     if (isMobile && q.images.length > 1) {
       mountCarouselControls(imagesEl, q.images.length);
     } else if (imagesShell) {
-      teardownCarouselControls(imagesShell);
+      teardownCarouselControls(imagesShell, imagesEl);
     }
 
     const nextQ = questions[qIndex + 1];
