@@ -3276,6 +3276,7 @@ a.char-group-title-link:hover{
   box-sizing: border-box;
 }
 .wiki-lightbox-viewport{
+  position: relative;
   min-width: 0;
   min-height: 0;
   height: 100%;
@@ -3284,6 +3285,29 @@ a.char-group-title-link:hover{
   align-items: center;
   justify-content: center;
   overflow: hidden;
+}
+.wiki-lightbox-loader{
+  position: absolute;
+  inset: 0;
+  display: none;
+  place-items: center;
+  pointer-events: none;
+  z-index: 1;
+}
+.wiki-lightbox-loader::after{
+  content: "";
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-top-color: var(--cyan);
+  animation: trivia-image-spin 0.75s linear infinite;
+}
+.wiki-lightbox-viewport.is-loading .wiki-lightbox-loader{
+  display: grid;
+}
+.wiki-lightbox-viewport.is-loading .wiki-lightbox-img{
+  opacity: 0.45;
 }
 .wiki-lightbox-img{
   display: block;
@@ -3297,6 +3321,7 @@ a.char-group-title-link:hover{
   box-shadow: 0 16px 48px rgba(0, 0, 0, 0.55);
   background: rgba(0, 0, 0, 0.25);
   box-sizing: border-box;
+  transition: opacity 0.2s ease;
 }
 .wiki-lightbox-video{
   width: 100%;

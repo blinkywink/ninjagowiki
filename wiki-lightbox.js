@@ -73,11 +73,21 @@
     const lbImg = root.querySelector(".wiki-lightbox-img");
     const lbVideo = root.querySelector(".wiki-lightbox-video");
     const lbIframe = root.querySelector(".wiki-lightbox-iframe");
+    const lbViewport = root.querySelector(".wiki-lightbox-viewport");
     const thumbsEl = root.querySelector(".wiki-lightbox-thumbs");
-    if (!lbImg || !lbVideo || !lbIframe || !thumbsEl) return null;
+    if (!lbImg || !lbVideo || !lbIframe || !thumbsEl || !lbViewport) return null;
+
+    let lbLoader = lbViewport.querySelector(".wiki-lightbox-loader");
+    if (!lbLoader) {
+      lbLoader = document.createElement("div");
+      lbLoader.className = "wiki-lightbox-loader";
+      lbLoader.setAttribute("aria-hidden", "true");
+      lbViewport.appendChild(lbLoader);
+    }
 
     let list = [];
     let idx = 0;
+    let lbLoadId = 0;
     let lbScrollY = 0;
     let lbHtmlOverflow = "";
     let lbHtmlMaxWidth = "";
@@ -150,21 +160,59 @@
       });
     };
 
+    const setLoading = (on) => {
+      lbViewport.classList.toggle("is-loading", on);
+    };
+
     const setLbImage = (el) => {
+      lbLoadId += 1;
+      const currentLoad = lbLoadId;
+      const raw = (el.dataset?.fullSrc || el.currentSrc || el.src || "").trim();
       const primary = lightboxSrc(el);
-      const fallback = scaledUrl(
-        (el.dataset?.fullSrc || el.currentSrc || el.src || "").trim(),
-        1200,
-      );
-      lbImg.onerror = () => {
-        if (fallback && lbImg.src !== fallback) {
-          lbImg.onerror = null;
-          lbImg.src = fallback;
-        }
-      };
-      lbImg.src = primary || fallback;
-      if (lbImg.src.startsWith("http")) lbImg.referrerPolicy = "no-referrer";
+      const fallback = scaledUrl(raw, 1200);
+      const preview = (el.currentSrc || el.src || scaledUrl(raw, 480)).trim();
+      const candidates = [primary, fallback].filter((u, i, a) => u && a.indexOf(u) === i);
+
       lbImg.alt = el.getAttribute("alt") || "";
+      lbImg.referrerPolicy = "no-referrer";
+      lbImg.onload = null;
+      lbImg.onerror = null;
+
+      if (preview) {
+        lbImg.src = preview;
+        lbImg.style.opacity = "";
+      } else {
+        lbImg.removeAttribute("src");
+      }
+      setLoading(true);
+
+      let attempt = 0;
+      const finish = () => {
+        if (currentLoad !== lbLoadId) return;
+        setLoading(false);
+        lbImg.style.opacity = "";
+      };
+
+      const loadFull = () => {
+        if (currentLoad !== lbLoadId) return;
+        if (attempt >= candidates.length) {
+          finish();
+          return;
+        }
+        const url = candidates[attempt++];
+        const full = new Image();
+        full.referrerPolicy = "no-referrer";
+        full.onload = () => {
+          if (currentLoad !== lbLoadId) return;
+          lbImg.src = url;
+          finish();
+        };
+        full.onerror = loadFull;
+        full.src = url;
+      };
+
+      if (candidates.length) loadFull();
+      else finish();
     };
 
     const render = () => {
@@ -173,12 +221,15 @@
       const item = list[idx];
       const el = item.img;
       if (item.yt) {
+        lbLoadId += 1;
+        setLoading(false);
         lbImg.removeAttribute("src");
         lbImg.style.display = "none";
         lbImg.alt = "";
         lbVideo.hidden = false;
         lbIframe.src = `https://www.youtube-nocookie.com/embed/${encodeURIComponent(item.yt)}?autoplay=1&rel=0`;
       } else {
+        lbLoadId += 1;
         lbIframe.removeAttribute("src");
         lbVideo.hidden = true;
         lbImg.style.display = "block";
@@ -216,9 +267,12 @@
 
     const closeLb = () => {
       root.hidden = true;
+      lbLoadId += 1;
+      setLoading(false);
       lbImg.removeAttribute("src");
       lbImg.alt = "";
       lbImg.style.display = "";
+      lbImg.style.opacity = "";
       lbIframe.removeAttribute("src");
       lbVideo.hidden = true;
       thumbsEl.innerHTML = "";
