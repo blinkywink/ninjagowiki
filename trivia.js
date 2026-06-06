@@ -154,10 +154,13 @@
 
   const mountQuizImage = (wrap, src, alternates = [], width = QUIZ_IMAGE_WIDTH) => {
     wrap.classList.add("is-loading");
-    wrap.classList.add("trivia-image-wrap--zoomable");
-    wrap.setAttribute("role", "button");
-    wrap.setAttribute("tabindex", "-1");
-    wrap.setAttribute("aria-label", "View larger image");
+    const canZoom = !MOBILE_MQ.matches;
+    if (canZoom) {
+      wrap.classList.add("trivia-image-wrap--zoomable");
+      wrap.setAttribute("role", "button");
+      wrap.setAttribute("tabindex", "-1");
+      wrap.setAttribute("aria-label", "View larger image");
+    }
 
     const loader = document.createElement("span");
     loader.className = "trivia-image-loader";
@@ -180,7 +183,7 @@
       if (finished) return;
       finished = true;
       wrap.classList.remove("is-loading");
-      wrap.setAttribute("tabindex", "0");
+      if (canZoom) wrap.setAttribute("tabindex", "0");
       loader.remove();
     };
 
@@ -614,10 +617,13 @@
       const thumbs = document.createElement("div");
       thumbs.className = "trivia-result-thumbs";
       (a.images || []).slice(0, 1).forEach((src) => {
+        const canZoom = !MOBILE_MQ.matches;
         const slot = document.createElement("button");
         slot.type = "button";
-        slot.className = "trivia-result-thumb trivia-result-thumb--zoomable";
-        slot.setAttribute("aria-label", "View larger image");
+        slot.className = canZoom
+          ? "trivia-result-thumb trivia-result-thumb--zoomable"
+          : "trivia-result-thumb";
+        if (canZoom) slot.setAttribute("aria-label", "View larger image");
         const img = document.createElement("img");
         img.alt = "";
         img.loading = "lazy";
@@ -751,6 +757,7 @@
           .map((im) => ({ img: im, yt: null }));
       },
       resolveImage(e, pageRoot) {
+        if (MOBILE_MQ.matches) return null;
         const wrap = e.target.closest(".trivia-image-wrap:not(.is-loading)");
         if (wrap && pageRoot.contains(wrap)) {
           const im = wrap.querySelector(".trivia-image[src]");
@@ -766,6 +773,7 @@
     });
 
     triviaPage.addEventListener("keydown", (e) => {
+      if (MOBILE_MQ.matches) return;
       if (e.key !== "Enter" && e.key !== " ") return;
       const wrap = e.target.closest(".trivia-image-wrap:not(.is-loading), .trivia-result-thumb--zoomable");
       if (!wrap) return;

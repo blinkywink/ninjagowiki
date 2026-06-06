@@ -164,6 +164,11 @@
       lbViewport.classList.toggle("is-loading", on);
     };
 
+    const urlKey = (u) =>
+      String(u || "")
+        .replace(/\/scale-to-width-down\/\d+/gi, "")
+        .replace(/\/scale-to-width\/\d+/gi, "");
+
     const setLbImage = (el) => {
       lbLoadId += 1;
       const currentLoad = lbLoadId;
@@ -172,11 +177,13 @@
       const fallback = scaledUrl(raw, 1200);
       const preview = (el.currentSrc || el.src || scaledUrl(raw, 480)).trim();
       const candidates = [primary, fallback].filter((u, i, a) => u && a.indexOf(u) === i);
+      const upgradeUrls = candidates.filter((u) => urlKey(u) !== urlKey(preview) && u !== preview);
 
       lbImg.alt = el.getAttribute("alt") || "";
       lbImg.referrerPolicy = "no-referrer";
       lbImg.onload = null;
       lbImg.onerror = null;
+      setLoading(false);
 
       if (preview) {
         lbImg.src = preview;
@@ -184,35 +191,34 @@
       } else {
         lbImg.removeAttribute("src");
       }
-      setLoading(true);
+
+      if (!upgradeUrls.length) return;
 
       let attempt = 0;
-      const finish = () => {
-        if (currentLoad !== lbLoadId) return;
-        setLoading(false);
-        lbImg.style.opacity = "";
-      };
-
       const loadFull = () => {
         if (currentLoad !== lbLoadId) return;
-        if (attempt >= candidates.length) {
-          finish();
+        if (attempt >= upgradeUrls.length) {
+          setLoading(false);
           return;
         }
-        const url = candidates[attempt++];
+        const url = upgradeUrls[attempt++];
         const full = new Image();
         full.referrerPolicy = "no-referrer";
-        full.onload = () => {
+
+        const apply = () => {
           if (currentLoad !== lbLoadId) return;
           lbImg.src = url;
-          finish();
+          setLoading(false);
         };
+
+        full.onload = apply;
         full.onerror = loadFull;
+        if (!preview) setLoading(true);
         full.src = url;
+        if (full.complete && full.naturalWidth > 0) apply();
       };
 
-      if (candidates.length) loadFull();
-      else finish();
+      loadFull();
     };
 
     const render = () => {
