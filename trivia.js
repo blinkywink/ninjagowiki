@@ -1,7 +1,6 @@
 (() => {
   const QUIZ_LENGTH = 10;
-  const QUIZ_IMAGE_WIDTH = 480;
-  const QUIZ_IMAGE_WIDTH_MOBILE = 960;
+  const QUIZ_IMAGE_WIDTH = 800;
   const MOBILE_MQ = window.matchMedia("(max-width: 860px)");
 
   const NO_IMAGE =
@@ -116,24 +115,44 @@
 
   const sample = (arr, n) => shuffle(arr).slice(0, Math.min(n, arr.length));
 
-  const imgUrl = (raw, width = QUIZ_IMAGE_WIDTH) => {
+  const normalizeQuizImageUrl = (raw, width = QUIZ_IMAGE_WIDTH) => {
     const s = String(raw || "").trim();
-    if (!s) return NO_IMAGE;
+    if (!s) return "";
     if (!s.startsWith("http")) return s;
-    return s
-      .replace(/\/scale-to-width-down\/\d+/gi, `/scale-to-width-down/${width}`)
-      .replace(/\/scale-to-width\/\d+/gi, `/scale-to-width/${width}`);
+    if (/\/scale-to-width-down\/\d+/i.test(s)) {
+      return s.replace(/\/scale-to-width-down\/\d+/gi, `/scale-to-width-down/${width}`);
+    }
+    if (/\/scale-to-width\/\d+/i.test(s)) {
+      return s.replace(/\/scale-to-width\/\d+/gi, `/scale-to-width/${width}`);
+    }
+    const q = s.indexOf("?");
+    if (q === -1) return `${s}/scale-to-width-down/${width}`;
+    return `${s.slice(0, q)}/scale-to-width-down/${width}${s.slice(q)}`;
+  };
+
+  const quizImageCandidates = (raw, alternates = [], width = QUIZ_IMAGE_WIDTH) => {
+    const urls = [];
+    const add = (value) => {
+      const primary = normalizeQuizImageUrl(value, width);
+      if (primary && !urls.includes(primary)) urls.push(primary);
+      const rawUrl = String(value || "").trim();
+      if (rawUrl.startsWith("http") && !urls.includes(rawUrl)) urls.push(rawUrl);
+    };
+    add(raw);
+    alternates.forEach(add);
+    if (!urls.includes(NO_IMAGE)) urls.push(NO_IMAGE);
+    return urls;
   };
 
   const prefetchImages = (urls) => {
     (urls || []).forEach((raw) => {
       const img = new Image();
-      if (String(raw).startsWith("http")) img.referrerPolicy = "no-referrer";
-      img.src = imgUrl(raw);
+      img.referrerPolicy = "no-referrer";
+      img.src = normalizeQuizImageUrl(raw);
     });
   };
 
-  const mountQuizImage = (wrap, src, width = QUIZ_IMAGE_WIDTH) => {
+  const mountQuizImage = (wrap, src, alternates = [], width = QUIZ_IMAGE_WIDTH) => {
     wrap.classList.add("is-loading");
     wrap.classList.add("trivia-image-wrap--zoomable");
     wrap.setAttribute("role", "button");
@@ -148,21 +167,66 @@
     img.className = "trivia-image";
     img.alt = "";
     img.decoding = "async";
+    img.loading = "eager";
+    img.referrerPolicy = "no-referrer";
     img.dataset.fullSrc = String(src || "").trim();
 
+    const candidates = quizImageCandidates(src, alternates, width);
+    let finished = false;
+    let attempt = 0;
+    let loadId = 0;
+
     const finish = () => {
+      if (finished) return;
+      finished = true;
       wrap.classList.remove("is-loading");
       wrap.setAttribute("tabindex", "0");
       loader.remove();
     };
 
-    img.addEventListener("load", finish, { once: true });
-    img.addEventListener("error", finish, { once: true });
+    const tryNext = () => {
+      if (finished) return;
+      if (attempt >= candidates.length) {
+        finish();
+        return;
+      }
+      loadId += 1;
+      const currentLoad = loadId;
+      const url = candidates[attempt++];
+
+      const onLoad = () => {
+        if (finished || currentLoad !== loadId) return;
+        img.removeEventListener("error", onError);
+        if (img.naturalWidth > 0) finish();
+        else tryNext();
+      };
+      const onError = () => {
+        if (finished || currentLoad !== loadId) return;
+        img.removeEventListener("load", onLoad);
+        tryNext();
+      };
+
+      img.addEventListener("load", onLoad);
+      img.addEventListener("error", onError);
+      img.src = url;
+
+      requestAnimationFrame(() => {
+        if (finished || currentLoad !== loadId) return;
+        if (img.complete && img.naturalWidth > 0) {
+          img.removeEventListener("load", onLoad);
+          img.removeEventListener("error", onError);
+          finish();
+        } else if (img.complete) {
+          img.removeEventListener("load", onLoad);
+          img.removeEventListener("error", onError);
+          tryNext();
+        }
+      });
+    };
 
     wrap.appendChild(loader);
     wrap.appendChild(img);
-    img.src = imgUrl(src, width);
-    setImgAttrs(img);
+    tryNext();
   };
 
   let carouselScrollTimer = null;
@@ -271,11 +335,6 @@
     syncCarouselControls(track, dotsEl, prevBtn, nextBtn);
   };
 
-  const setImgAttrs = (img) => {
-    const s = img.getAttribute("src") || img.src || "";
-    if (String(s).startsWith("http")) img.referrerPolicy = "no-referrer";
-  };
-
   const poolKey = (type) => {
     if (type === "episode") return "episodes";
     if (type === "character") return "characters";
@@ -307,6 +366,7 @@
         label: row.display,
         href: row.href || "",
         images: imgs,
+        imagePool: row.images || [],
         options,
         prompt: QUIZ_META[type].prompt,
       };
@@ -322,6 +382,7 @@
       label: row.display,
       href: row.href || "",
       images: imgs,
+      imagePool: row.images || [],
       options,
       prompt: QUIZ_META[type].prompt,
     };
@@ -420,7 +481,6 @@
     imagesEl.hidden = q.images.length === 0;
     imagesEl.className = "trivia-images";
     const isMobile = MOBILE_MQ.matches;
-    const imageWidth = isMobile ? QUIZ_IMAGE_WIDTH_MOBILE : QUIZ_IMAGE_WIDTH;
     const imagesShell = questionShell.querySelector(".trivia-images-shell");
     if (imagesShell) imagesShell.hidden = q.images.length === 0;
     if (q.images.length > 0) {
@@ -428,10 +488,11 @@
       if (isMobile) imagesEl.classList.add("trivia-images--carousel");
     }
 
+    const alternates = (q.imagePool || []).filter((url) => !q.images.includes(url));
     q.images.forEach((src) => {
       const wrap = document.createElement("div");
       wrap.className = "trivia-image-wrap";
-      mountQuizImage(wrap, src, imageWidth);
+      mountQuizImage(wrap, src, alternates);
       imagesEl.appendChild(wrap);
     });
 
@@ -531,9 +592,9 @@
         img.alt = "";
         img.loading = "lazy";
         img.decoding = "async";
+        img.referrerPolicy = "no-referrer";
         img.dataset.fullSrc = String(src || "").trim();
-        img.src = imgUrl(src, THUMB_IMAGE_WIDTH);
-        setImgAttrs(img);
+        img.src = normalizeQuizImageUrl(src, THUMB_IMAGE_WIDTH);
         slot.appendChild(img);
         thumbs.appendChild(slot);
       });
