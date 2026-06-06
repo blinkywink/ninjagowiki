@@ -34,6 +34,7 @@
           <a href="/weapons">Weapons</a>
           <a href="/sets">Sets</a>
           <a href="/media">Media</a>
+          <a href="/trivia" class="nav-link--featured">Trivia <span class="nav-badge">New</span></a>
           <a href="/all-pages">All Pages</a>
         </nav>
       </div>
@@ -93,34 +94,50 @@
         <div class="container">
           <h2 class="contact-section-title">Contact</h2>
           <p class="contact-section-intro">
-            As the content of this site is built off other people&apos;s work, if you would like something to be taken down from the site, or anything else, contact me here.
+            Most of the content here comes from the Ninjago fan community. If you&apos;d like something removed or have anything else to say, send me a message below.
           </p>
-          <form
-            class="contact-form"
-            action="https://api.web3forms.com/submit"
-            method="POST"
-            aria-label="Contact form"
-          >
-            <input type="hidden" name="access_key" value="b85d0fa9-867d-48e5-bc3c-2de4546d1b52" />
-            <input type="hidden" name="subject" value="Ninjago Wiki — contact form" />
-            <input type="checkbox" name="botcheck" class="contact-form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <div class="contact-form-shell" id="contact-form-shell">
+            <form
+              id="contact-form"
+              class="contact-form"
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              aria-label="Contact form"
+            >
+              <input type="hidden" name="access_key" value="b85d0fa9-867d-48e5-bc3c-2de4546d1b52" />
+              <input type="hidden" name="subject" value="Ninjago Wiki — contact form" />
+              <input type="checkbox" name="botcheck" class="contact-form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
 
-            <div class="contact-form-row">
+              <div class="contact-form-row">
+                <label class="contact-form-field">
+                  <span class="contact-form-label">Name</span>
+                  <input type="text" name="name" required autocomplete="name" placeholder="Your name" />
+                </label>
+                <label class="contact-form-field">
+                  <span class="contact-form-label">Email</span>
+                  <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
+                </label>
+              </div>
               <label class="contact-form-field">
-                <span class="contact-form-label">Name</span>
-                <input type="text" name="name" required autocomplete="name" placeholder="Your name" />
+                <span class="contact-form-label">Message</span>
+                <textarea name="message" required rows="5" placeholder="What would you like to say?"></textarea>
               </label>
-              <label class="contact-form-field">
-                <span class="contact-form-label">Email</span>
-                <input type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
-              </label>
+              <p class="contact-form-error" id="contact-form-error" role="alert" hidden></p>
+              <button type="submit" class="contact-form-submit" id="contact-form-submit">Send message</button>
+            </form>
+
+            <div class="contact-form-success" id="contact-form-success" hidden aria-live="polite">
+              <div class="contact-form-success-burst" aria-hidden="true"></div>
+              <div class="contact-form-success-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.75"/>
+                  <path d="M8 12.5 10.8 15.2 16 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <p class="contact-form-success-title">Sent!</p>
+              <p class="contact-form-success-text">Thanks — I&apos;ll get back to you soon.</p>
             </div>
-            <label class="contact-form-field">
-              <span class="contact-form-label">Message</span>
-              <textarea name="message" required rows="5" placeholder="What would you like to say?"></textarea>
-            </label>
-            <button type="submit" class="contact-form-submit">Send message</button>
-          </form>
+          </div>
         </div>
       </section>
       <!-- Hidden homepage search index for character-name matches -->
@@ -1384,6 +1401,7 @@
 
     <script src="./app.js" defer></script>
     <script src="./homepage-daily.js" defer></script>
+    <script src="./contact-form.js" defer></script>
   </body>
 </html>
 

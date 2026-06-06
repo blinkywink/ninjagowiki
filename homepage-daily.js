@@ -2,6 +2,24 @@
   const root = document.getElementById("daily-picks-root");
   if (!root) return;
 
+  const realignHashScroll = () => {
+    const id = decodeURIComponent((location.hash || "").slice(1));
+    if (!id) return;
+    const target = document.getElementById(id);
+    if (!target) return;
+    requestAnimationFrame(() => {
+      target.scrollIntoView({ block: "start" });
+    });
+  };
+
+  let hashRealignTimer = null;
+  const scheduleHashRealign = () => {
+    if (!location.hash) return;
+    realignHashScroll();
+    clearTimeout(hashRealignTimer);
+    hashRealignTimer = setTimeout(realignHashScroll, 350);
+  };
+
   const NO_IMAGE =
     "https://static.wikia.nocookie.net/ninjago/images/8/84/Noimage.jpg/revision/latest/scale-to-width-down/450?cb=20260319010138";
   const HERO = new Set(["/assets/hero.png", "/assets/hero-mobile.png"]);
@@ -158,9 +176,23 @@
           spotGrid.appendChild(makeCard(row, "Spotlight"));
         }
       }
+
+      scheduleHashRealign();
     })
     .catch(() => {
       root.innerHTML =
         '<p class="characters-browse-empty">Could not load daily picks. Try refreshing.</p>';
+      scheduleHashRealign();
     });
+
+  const dailySection = document.getElementById("daily-picks");
+  if (dailySection && location.hash && "ResizeObserver" in window) {
+    let resizeTimer = null;
+    const ro = new ResizeObserver(() => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(scheduleHashRealign, 80);
+    });
+    ro.observe(dailySection);
+    setTimeout(() => ro.disconnect(), 4000);
+  }
 })();

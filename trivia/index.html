@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ninjago trivia quizzes — episodes, characters, and sets." />
+    <title>Trivia • Ninjago Wiki Project</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="theme-color" content="#06070a" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <img class="brand-img" src="/assets/logo.png" alt="" loading="eager" decoding="async" />
+          </span>
+        </a>
+
+        <input class="menu-toggle" type="checkbox" id="menu-toggle" />
+        <label class="menu-button" for="menu-toggle" aria-label="Open navigation" role="button">
+          <span class="menu-button-lines" aria-hidden="true"><span></span></span>
+        </label>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="/characters">Characters</a>
+          <a href="/episodes">Episodes</a>
+          <a href="/pages/content/year/2011/pilot-episodes/timeline">Timeline</a>
+          <a href="/weapons">Weapons</a>
+          <a href="/sets">Sets</a>
+          <a href="/media">Media</a>
+          <a href="/trivia" aria-current="page" class="nav-link--featured">Trivia <span class="nav-badge">New</span></a>
+          <a href="/all-pages">All Pages</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="page trivia-page">
+      <section class="section section--tight">
+        <div class="container">
+          <div id="trivia-hub" class="trivia-hub">
+            <div class="trivia-hub-head">
+              <h1 class="trivia-title">Trivia</h1>
+              <p class="trivia-subtitle">10 questions each. Test your Ninjago knowledge.</p>
+            </div>
+            <div class="trivia-cards" id="trivia-cards">
+              <button type="button" class="trivia-card" data-quiz="episode">
+                <span class="trivia-card-body">
+                  <span class="trivia-card-label">Episode quiz</span>
+                  <span class="trivia-card-desc">Guess the episode from scene screenshots.</span>
+                </span>
+                <span class="trivia-card-mock" aria-hidden="true">
+                  <span class="trivia-card-images trivia-card-images--2">
+                    <span class="trivia-card-image-slot"><img src="https://static.wikia.nocookie.net/ninjago/images/f/fa/Rots012.png/revision/latest/scale-to-width-down/720?cb=20201205041706" alt="" width="400" height="300" loading="eager" decoding="async" referrerpolicy="no-referrer" /></span>
+                    <span class="trivia-card-image-slot"><img src="https://static.wikia.nocookie.net/ninjago/images/5/5e/MoS1LloydArrives.png/revision/latest/scale-to-width-down/720?cb=20160206135827" alt="" width="400" height="300" loading="eager" decoding="async" referrerpolicy="no-referrer" /></span>
+                  </span>
+                  <span class="trivia-card-prompt">Which episode is this?</span>
+                  <span class="trivia-card-faux-options">
+                    <span>Home</span>
+                    <span>Rise of the Snakes</span>
+                    <span>Snakebit</span>
+                    <span>Never Trust a Snake</span>
+                  </span>
+                </span>
+              </button>
+              <button type="button" class="trivia-card" data-quiz="character">
+                <span class="trivia-card-body">
+                  <span class="trivia-card-label">Character quiz</span>
+                  <span class="trivia-card-desc">Name the character from the images.</span>
+                </span>
+                <span class="trivia-card-mock" aria-hidden="true">
+                  <span class="trivia-card-images">
+                    <span class="trivia-card-image-slot"><img src="https://static.wikia.nocookie.net/ninjago/images/5/5d/DRS3Part2KaiIB.png/revision/latest/scale-to-width-down/720?cb=20250502195904" alt="" width="400" height="300" loading="eager" decoding="async" referrerpolicy="no-referrer" /></span>
+                    <span class="trivia-card-image-slot"><img src="https://static.wikia.nocookie.net/ninjago/images/8/8e/Kai_S9.png/revision/latest/scale-to-width-down/720?cb=20180702203734" alt="" width="400" height="300" loading="eager" decoding="async" referrerpolicy="no-referrer" /></span>
+                    <span class="trivia-card-image-slot"><img src="https://static.wikia.nocookie.net/ninjago/images/f/f2/AvataKai.jpeg/revision/latest/scale-to-width-down/720?cb=20200429064936" alt="" width="400" height="300" loading="eager" decoding="async" referrerpolicy="no-referrer" /></span>
+                  </span>
+                  <span class="trivia-card-prompt">Who is this character?</span>
+                  <span class="trivia-card-faux-options">
+                    <span>Jay</span>
+                    <span>Kai</span>
+                    <span>Cole</span>
+                    <span>Zane</span>
+                  </span>
+                </span>
+              </button>
+              <button type="button" class="trivia-card" data-quiz="set">
+                <span class="trivia-card-body">
+                  <span class="trivia-card-label">Set quiz</span>
+                  <span class="trivia-card-desc">Guess the release year from set photos.</span>
+                </span>
+                <span class="trivia-card-mock" aria-hidden="true">
+                  <span class="trivia-card-images trivia-card-images--2">
+                    <span class="trivia-card-image-slot"><img src="https://static.wikia.nocookie.net/ninjago/images/5/5a/71851.jpg/revision/latest/scale-to-width-down/720?cb=20251202043624" alt="" width="400" height="300" loading="eager" decoding="async" referrerpolicy="no-referrer" /></span>
+                    <span class="trivia-card-image-slot"><img src="https://static.wikia.nocookie.net/ninjago/images/1/16/71851_2.jpg/revision/latest/scale-to-width-down/720?cb=20251202043745" alt="" width="400" height="300" loading="eager" decoding="async" referrerpolicy="no-referrer" /></span>
+                  </span>
+                  <span class="trivia-card-prompt">What year was this set released?</span>
+                  <span class="trivia-card-faux-options">
+                    <span>2024</span>
+                    <span>2025</span>
+                    <span>2026</span>
+                    <span>2022</span>
+                  </span>
+                </span>
+              </button>
+            </div>
+            <p class="trivia-load-status" id="trivia-load-status" aria-live="polite">Loading quiz data…</p>
+          </div>
+
+          <div id="trivia-quiz" class="trivia-quiz" hidden>
+            <div class="trivia-quiz-top">
+              <button type="button" class="trivia-back" id="trivia-back">← Back</button>
+              <div class="trivia-progress-wrap">
+                <div class="trivia-progress-bar" id="trivia-progress-bar"></div>
+              </div>
+              <div class="trivia-progress-text" id="trivia-progress-text">1 / 10</div>
+            </div>
+
+            <div class="trivia-question-shell" id="trivia-question-shell">
+              <div class="trivia-images" id="trivia-images"></div>
+              <h2 class="trivia-question" id="trivia-question"></h2>
+              <div class="trivia-options" id="trivia-options" role="group"></div>
+              <p class="trivia-feedback" id="trivia-feedback" aria-live="polite"></p>
+              <button type="button" class="trivia-next trivia-btn trivia-btn--primary" id="trivia-next" hidden>Next</button>
+            </div>
+          </div>
+
+          <div id="trivia-results" class="trivia-results" hidden>
+            <div class="trivia-results-card" id="trivia-results-card">
+              <p class="trivia-results-score" id="trivia-results-score"></p>
+              <h2 class="trivia-results-title" id="trivia-results-title"></h2>
+              <ul class="trivia-results-list" id="trivia-results-list"></ul>
+              <div class="trivia-results-actions">
+                <button type="button" class="trivia-btn trivia-btn--primary" id="trivia-retry">Try again</button>
+                <button type="button" class="trivia-btn" id="trivia-home">All quizzes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="wiki-lightbox" class="wiki-lightbox" hidden>
+      <div class="wiki-lightbox-backdrop" tabindex="-1" aria-hidden="true"></div>
+      <div class="wiki-lightbox-layout" role="dialog" aria-modal="true" aria-label="Media viewer">
+        <header class="wiki-lightbox-top">
+          <button type="button" class="wiki-lightbox-close" aria-label="Close">&times;</button>
+        </header>
+        <div class="wiki-lightbox-main">
+          <button type="button" class="wiki-lightbox-nav wiki-lightbox-prev" aria-label="Previous">&#8249;</button>
+          <div class="wiki-lightbox-viewport">
+            <img class="wiki-lightbox-img" alt="" decoding="async" />
+            <div class="wiki-lightbox-video" hidden>
+              <iframe class="wiki-lightbox-iframe" title="YouTube video" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
+            </div>
+          </div>
+          <button type="button" class="wiki-lightbox-nav wiki-lightbox-next" aria-label="Next">&#8250;</button>
+        </div>
+        <footer class="wiki-lightbox-bottom">
+          <div class="wiki-lightbox-thumbs" role="tablist" aria-label="All images in this quiz"></div>
+        </footer>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container footer-inner footer-inner--min">
+        <div class="footer-left">
+          <div class="footer-meta">
+            <div class="footer-line footer-line--muted">Fan-made Ninjago wiki. Not affiliated with LEGO or the official show.</div>
+          </div>
+        </div>
+        <div class="footer-links" aria-label="Footer links">
+          <a class="footer-link" href="/about">About</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/wiki-lightbox.js" defer></script>
+    <script src="/trivia.js" defer></script>
+  </body>
+</html>

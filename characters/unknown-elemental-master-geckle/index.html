@@ -29,10 +29,11 @@
         <nav class="nav" aria-label="Primary">
           <a href="/characters">Characters</a>
           <a href="/episodes">Episodes</a>
-          <a href="/timeline">Timeline</a>
+          <a href="/pages/content/year/2011/pilot-episodes/timeline">Timeline</a>
           <a href="/weapons">Weapons</a>
           <a href="/sets">Sets</a>
           <a href="/media">Media</a>
+          <a href="/trivia" class="nav-link--featured">Trivia <span class="nav-badge">New</span></a>
           <a href="/all-pages">All Pages</a>
         </nav>
       </div>
@@ -717,16 +718,33 @@
             window.scrollTo(0, lbScrollY);
           }
 
-          pageRoot.addEventListener("click", function (e) {
-            var a = e.target.closest("a.image.lightbox");
-            if (!a && e.target.closest("aside.portable-infobox")) {
-              a = e.target.closest("aside.portable-infobox figure.pi-image a.image");
+          function resolveLightboxImage(e) {
+            if (e.target.closest("a.info-icon")) return null;
+            var t = e.target;
+            var a = t.closest("a.image.lightbox");
+            if (!a && t.closest("aside.portable-infobox")) {
+              a = t.closest("aside.portable-infobox figure.pi-image a.image");
             }
-            if (!a || !pageRoot.contains(a)) return;
-            var im = a.querySelector("img[src]");
-            if (!im) return;
+            if (!a) a = t.closest(".wiki-import a.image");
+            if (!a) a = t.closest(".wiki-import a.mw-file-description");
+            var im = null;
+            if (a && pageRoot.contains(a)) {
+              im = a.querySelector("img[src]");
+            } else {
+              im = t.closest(".wiki-import img[src]");
+            }
+            if (!im || !pageRoot.contains(im)) return null;
+            if (im.closest(".wiki-lightbox") || im.closest(".wiki-lightbox-thumbs") || im.closest("noscript")) {
+              return null;
+            }
             var s = im.getAttribute("src") || "";
-            if (!s || s.indexOf("data:") === 0) return;
+            if (!s || s.indexOf("data:") === 0) return null;
+            return im;
+          }
+
+          pageRoot.addEventListener("click", function (e) {
+            var im = resolveLightboxImage(e);
+            if (!im) return;
             e.preventDefault();
             e.stopPropagation();
             openAt(im);

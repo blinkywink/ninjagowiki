@@ -3,9 +3,9 @@
 Normalize <nav class="nav" aria-label="Primary"> across all HTML files.
 
 Default links (order):
-  Characters, Episodes, Timeline, Weapons, Sets, Media, All Pages
+  Characters, Episodes, Timeline, Weapons, Sets, Media, Trivia, All Pages
 
-all-pages/index.html gets aria-current="page" on the All Pages link.
+trivia/index.html gets aria-current on Trivia; all-pages/index.html on All Pages.
 """
 
 from __future__ import annotations
@@ -23,24 +23,47 @@ NAV_RE = re.compile(
     re.DOTALL | re.IGNORECASE | re.MULTILINE,
 )
 
-STANDARD_NAV = """        <nav class="nav" aria-label="Primary">
+TIMELINE_HREF = "/pages/content/year/2011/pilot-episodes/timeline"
+TRIVIA_LINK = (
+    '<a href="/trivia" class="nav-link--featured">Trivia '
+    '<span class="nav-badge">New</span></a>'
+)
+TRIVIA_CURRENT = (
+    '<a href="/trivia" aria-current="page" class="nav-link--featured">Trivia '
+    '<span class="nav-badge">New</span></a>'
+)
+
+STANDARD_NAV = f"""        <nav class="nav" aria-label="Primary">
           <a href="/characters">Characters</a>
           <a href="/episodes">Episodes</a>
-          <a href="/timeline">Timeline</a>
+          <a href="{TIMELINE_HREF}">Timeline</a>
           <a href="/weapons">Weapons</a>
           <a href="/sets">Sets</a>
           <a href="/media">Media</a>
+          {TRIVIA_LINK}
           <a href="/all-pages">All Pages</a>
         </nav>"""
 
-ALL_PAGES_NAV = """        <nav class="nav" aria-label="Primary">
+ALL_PAGES_NAV = f"""        <nav class="nav" aria-label="Primary">
           <a href="/characters">Characters</a>
           <a href="/episodes">Episodes</a>
-          <a href="/timeline">Timeline</a>
+          <a href="{TIMELINE_HREF}">Timeline</a>
           <a href="/weapons">Weapons</a>
           <a href="/sets">Sets</a>
           <a href="/media">Media</a>
+          {TRIVIA_LINK}
           <a href="/all-pages" aria-current="page">All Pages</a>
+        </nav>"""
+
+TRIVIA_NAV = f"""        <nav class="nav" aria-label="Primary">
+          <a href="/characters">Characters</a>
+          <a href="/episodes">Episodes</a>
+          <a href="{TIMELINE_HREF}">Timeline</a>
+          <a href="/weapons">Weapons</a>
+          <a href="/sets">Sets</a>
+          <a href="/media">Media</a>
+          {TRIVIA_CURRENT}
+          <a href="/all-pages">All Pages</a>
         </nav>"""
 
 
@@ -55,8 +78,11 @@ def iter_html(root: Path) -> list[Path]:
 
 
 def nav_for_path(rel: Path) -> str:
-    if rel.as_posix() == "all-pages/index.html":
+    posix = rel.as_posix()
+    if posix == "all-pages/index.html":
         return ALL_PAGES_NAV
+    if posix == "trivia/index.html":
+        return TRIVIA_NAV
     return STANDARD_NAV
 
 
