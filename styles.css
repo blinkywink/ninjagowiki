@@ -4548,6 +4548,10 @@ a.char-group-title-link:hover{
   color: var(--muted2);
   font-size: 1.05rem;
 }
+.trivia-subtitle--note{
+  margin-top: 8px;
+  font-size: 0.98rem;
+}
 .trivia-cards{
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
