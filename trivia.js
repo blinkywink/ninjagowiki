@@ -1,6 +1,8 @@
 (() => {
   const QUIZ_LENGTH = 10;
   const QUIZ_IMAGE_WIDTH = 480;
+  const QUIZ_IMAGE_WIDTH_MOBILE = 960;
+  const MOBILE_MQ = window.matchMedia("(max-width: 860px)");
 
   const NO_IMAGE =
     "https://static.wikia.nocookie.net/ninjago/images/8/84/Noimage.jpg/revision/latest/scale-to-width-down/450?cb=20260319010138";
@@ -131,7 +133,7 @@
     });
   };
 
-  const mountQuizImage = (wrap, src) => {
+  const mountQuizImage = (wrap, src, width = QUIZ_IMAGE_WIDTH) => {
     wrap.classList.add("is-loading");
     wrap.classList.add("trivia-image-wrap--zoomable");
     wrap.setAttribute("role", "button");
@@ -146,7 +148,7 @@
     img.className = "trivia-image";
     img.alt = "";
     img.decoding = "async";
-    setImgAttrs(img);
+    img.dataset.fullSrc = String(src || "").trim();
 
     const finish = () => {
       wrap.classList.remove("is-loading");
@@ -159,11 +161,117 @@
 
     wrap.appendChild(loader);
     wrap.appendChild(img);
-    img.src = imgUrl(src);
+    img.src = imgUrl(src, width);
+    setImgAttrs(img);
+  };
+
+  let carouselScrollTimer = null;
+
+  const getCarouselActiveIndex = (track) => {
+    const slides = Array.from(track?.querySelectorAll(".trivia-image-wrap") || []);
+    if (slides.length < 2) return 0;
+    const mid = track.scrollLeft + track.clientWidth / 2;
+    let active = 0;
+    let best = Infinity;
+    slides.forEach((slide, i) => {
+      const center = slide.offsetLeft + slide.offsetWidth / 2;
+      const dist = Math.abs(center - mid);
+      if (dist < best) {
+        best = dist;
+        active = i;
+      }
+    });
+    return active;
+  };
+
+  const scrollCarouselTo = (track, index) => {
+    const slide = track?.querySelectorAll(".trivia-image-wrap")[index];
+    if (!slide) return;
+    slide.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+  };
+
+  const syncCarouselControls = (track, dotsEl, prevBtn, nextBtn) => {
+    if (!track) return;
+    const slides = track.querySelectorAll(".trivia-image-wrap");
+    if (slides.length < 2) return;
+    const active = getCarouselActiveIndex(track);
+    dotsEl?.querySelectorAll(".trivia-carousel-dot").forEach((dot, i) => {
+      dot.classList.toggle("is-active", i === active);
+      dot.setAttribute("aria-current", i === active ? "true" : "false");
+    });
+    if (prevBtn) prevBtn.disabled = active <= 0;
+    if (nextBtn) nextBtn.disabled = active >= slides.length - 1;
+  };
+
+  const teardownCarouselControls = (shell) => {
+    if (!shell) return;
+    shell.querySelector(".trivia-carousel-dots")?.remove();
+    shell.querySelector(".trivia-carousel-prev")?.remove();
+    shell.querySelector(".trivia-carousel-next")?.remove();
+  };
+
+  const mountCarouselControls = (track, count) => {
+    const shell = track.parentElement;
+    if (!shell || count < 2) return;
+
+    let dotsEl = shell.querySelector(".trivia-carousel-dots");
+    if (!dotsEl) {
+      dotsEl = document.createElement("div");
+      dotsEl.className = "trivia-carousel-dots";
+      dotsEl.setAttribute("aria-hidden", "true");
+      shell.appendChild(dotsEl);
+    }
+    dotsEl.innerHTML = "";
+    for (let i = 0; i < count; i++) {
+      const dot = document.createElement("span");
+      dot.className = `trivia-carousel-dot${i === 0 ? " is-active" : ""}`;
+      dotsEl.appendChild(dot);
+    }
+
+    let prevBtn = shell.querySelector(".trivia-carousel-prev");
+    if (!prevBtn) {
+      prevBtn = document.createElement("button");
+      prevBtn.type = "button";
+      prevBtn.className = "trivia-carousel-nav trivia-carousel-prev";
+      prevBtn.setAttribute("aria-label", "Previous image");
+      prevBtn.textContent = "‹";
+      shell.appendChild(prevBtn);
+    }
+    let nextBtn = shell.querySelector(".trivia-carousel-next");
+    if (!nextBtn) {
+      nextBtn = document.createElement("button");
+      nextBtn.type = "button";
+      nextBtn.className = "trivia-carousel-nav trivia-carousel-next";
+      nextBtn.setAttribute("aria-label", "Next image");
+      nextBtn.textContent = "›";
+      shell.appendChild(nextBtn);
+    }
+
+    prevBtn.onclick = () => {
+      scrollCarouselTo(track, getCarouselActiveIndex(track) - 1);
+    };
+    nextBtn.onclick = () => {
+      scrollCarouselTo(track, getCarouselActiveIndex(track) + 1);
+    };
+
+    track.onscroll = null;
+    track.addEventListener(
+      "scroll",
+      () => {
+        clearTimeout(carouselScrollTimer);
+        carouselScrollTimer = setTimeout(
+          () => syncCarouselControls(track, dotsEl, prevBtn, nextBtn),
+          60,
+        );
+      },
+      { passive: true },
+    );
+    syncCarouselControls(track, dotsEl, prevBtn, nextBtn);
   };
 
   const setImgAttrs = (img) => {
-    if (img.src.startsWith("http")) img.referrerPolicy = "no-referrer";
+    const s = img.getAttribute("src") || img.src || "";
+    if (String(s).startsWith("http")) img.referrerPolicy = "no-referrer";
   };
 
   const poolKey = (type) => {
@@ -308,15 +416,27 @@
     imagesEl.innerHTML = "";
     imagesEl.hidden = q.images.length === 0;
     imagesEl.className = "trivia-images";
+    const isMobile = MOBILE_MQ.matches;
+    const imageWidth = isMobile ? QUIZ_IMAGE_WIDTH_MOBILE : QUIZ_IMAGE_WIDTH;
+    const imagesShell = questionShell.querySelector(".trivia-images-shell");
+    if (imagesShell) imagesShell.hidden = q.images.length === 0;
     if (q.images.length > 0) {
       imagesEl.classList.add(`trivia-images--${Math.min(q.images.length, 3)}`);
+      if (isMobile) imagesEl.classList.add("trivia-images--carousel");
     }
+
     q.images.forEach((src) => {
       const wrap = document.createElement("div");
       wrap.className = "trivia-image-wrap";
-      mountQuizImage(wrap, src);
+      mountQuizImage(wrap, src, imageWidth);
       imagesEl.appendChild(wrap);
     });
+
+    if (isMobile && q.images.length > 1) {
+      mountCarouselControls(imagesEl, q.images.length);
+    } else if (imagesShell) {
+      teardownCarouselControls(imagesShell);
+    }
 
     const nextQ = questions[qIndex + 1];
     if (nextQ) prefetchImages(nextQ.images);
@@ -412,6 +532,7 @@
         img.alt = "";
         img.loading = "lazy";
         img.decoding = "async";
+        img.dataset.fullSrc = String(src || "").trim();
         img.src = imgUrl(src, THUMB_IMAGE_WIDTH);
         setImgAttrs(img);
         slot.appendChild(img);

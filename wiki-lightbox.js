@@ -4,6 +4,27 @@
     return url.replace(/\/scale-to-width-down\/\d+/gi, "").replace(/\/scale-to-width\/\d+/gi, "");
   };
 
+  const scaledUrl = (url, width = 2000) => {
+    const raw = String(url || "").trim();
+    if (!raw) return raw;
+    if (!raw.startsWith("http")) return raw;
+    if (/\/scale-to-width-down\/\d+/i.test(raw)) {
+      return raw.replace(/\/scale-to-width-down\/\d+/gi, `/scale-to-width-down/${width}`);
+    }
+    if (/\/scale-to-width\/\d+/i.test(raw)) {
+      return raw.replace(/\/scale-to-width\/\d+/gi, `/scale-to-width/${width}`);
+    }
+    const q = raw.indexOf("?");
+    if (q === -1) return `${raw}/scale-to-width-down/${width}`;
+    return `${raw.slice(0, q)}/scale-to-width-down/${width}${raw.slice(q)}`;
+  };
+
+  const lightboxSrc = (el) => {
+    const raw = (el?.dataset?.fullSrc || el?.getAttribute("src") || el?.currentSrc || "").trim();
+    if (!raw) return "";
+    return scaledUrl(raw, 2000);
+  };
+
   const thumbUrl = (url) => {
     if (!url) return url;
     if (/\/scale-to-width-down\/\d+/i.test(url)) {
@@ -96,8 +117,13 @@
         ti.alt = "";
         ti.decoding = "async";
         ti.loading = "lazy";
-        const u = (item.img.currentSrc || item.img.src || "").trim();
-        ti.src = thumbUrl(u);
+        const u = (
+          item.img.dataset?.fullSrc ||
+          item.img.currentSrc ||
+          item.img.src ||
+          ""
+        ).trim();
+        ti.src = thumbUrl(scaledUrl(u, 96));
         if (u.startsWith("http")) ti.referrerPolicy = "no-referrer";
         b.appendChild(ti);
         b.addEventListener("click", () => {
@@ -124,12 +150,28 @@
       });
     };
 
+    const setLbImage = (el) => {
+      const primary = lightboxSrc(el);
+      const fallback = scaledUrl(
+        (el.dataset?.fullSrc || el.currentSrc || el.src || "").trim(),
+        1200,
+      );
+      lbImg.onerror = () => {
+        if (fallback && lbImg.src !== fallback) {
+          lbImg.onerror = null;
+          lbImg.src = fallback;
+        }
+      };
+      lbImg.src = primary || fallback;
+      if (lbImg.src.startsWith("http")) lbImg.referrerPolicy = "no-referrer";
+      lbImg.alt = el.getAttribute("alt") || "";
+    };
+
     const render = () => {
       if (!list.length) return;
       idx = (idx + list.length) % list.length;
       const item = list[idx];
       const el = item.img;
-      const url = (el.currentSrc || el.src || "").trim();
       if (item.yt) {
         lbImg.removeAttribute("src");
         lbImg.style.display = "none";
@@ -139,10 +181,8 @@
       } else {
         lbIframe.removeAttribute("src");
         lbVideo.hidden = true;
-        lbImg.style.display = "";
-        lbImg.src = largerUrl(url);
-        if (url.startsWith("http")) lbImg.referrerPolicy = "no-referrer";
-        lbImg.alt = el.getAttribute("alt") || "";
+        lbImg.style.display = "block";
+        setLbImage(el);
       }
       const multi = list.length > 1;
       btnPrev.disabled = !multi;
@@ -230,5 +270,5 @@
     return { openAt, close: closeLb };
   };
 
-  window.WikiLightbox = { init, largerUrl };
+  window.WikiLightbox = { init, largerUrl, scaledUrl, lightboxSrc };
 })();

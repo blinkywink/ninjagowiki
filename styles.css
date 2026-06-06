@@ -4730,6 +4730,9 @@ a.char-group-title-link:hover{
   gap: 14px;
   margin-bottom: 24px;
 }
+.trivia-images-shell{
+  margin-bottom: 0;
+}
 .trivia-images--1{
   grid-template-columns: 1fr;
   max-width: min(100%, 640px);
@@ -5251,26 +5254,111 @@ a.char-group-title-link:hover{
     font-size: 0.88rem;
     padding: 10px 12px;
   }
-  .trivia-images{
+  .trivia-images-shell{
+    margin: 0 -16px 14px;
+  }
+  .trivia-images-shell:has(.trivia-images--carousel){
+    position: relative;
+  }
+  .trivia-carousel-nav{
+    position: absolute;
+    top: calc(min(62vw, 320px) / 2);
+    transform: translateY(-50%);
+    z-index: 2;
+    width: 44px;
+    height: 44px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    border-radius: 14px;
+    background: rgba(22, 24, 32, 0.92);
+    color: var(--text);
+    font-size: 26px;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 2px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  }
+  .trivia-carousel-nav:hover,
+  .trivia-carousel-nav:active{
+    background: rgba(45, 48, 62, 0.98);
+    border-color: rgba(255, 255, 255, 0.4);
+  }
+  .trivia-carousel-nav:disabled{
+    opacity: 0;
+    pointer-events: none;
+  }
+  .trivia-carousel-prev{
+    left: max(8px, env(safe-area-inset-left, 0px));
+  }
+  .trivia-carousel-next{
+    right: max(8px, env(safe-area-inset-right, 0px));
+  }
+  .trivia-images--carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 12px;
+    margin-bottom: 0;
+    padding: 0 calc((100% - min(88vw, 440px)) / 2) 4px;
+    max-width: none;
+  }
+  .trivia-images--carousel::-webkit-scrollbar{
+    display: none;
+  }
+  .trivia-images--carousel .trivia-image-wrap{
+    flex: 0 0 min(88vw, 440px);
+    width: min(88vw, 440px);
+    min-height: min(62vw, 320px);
+    aspect-ratio: 4 / 3;
+    scroll-snap-align: center;
+  }
+  .trivia-images--carousel.trivia-images--1 .trivia-image-wrap{
+    flex-basis: min(88vw, 440px);
+  }
+  .trivia-carousel-dots{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin: 10px 16px 0;
+  }
+  .trivia-carousel-dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.22);
+    transition: transform 0.2s ease, background 0.2s ease;
+  }
+  .trivia-carousel-dot.is-active{
+    background: var(--cyan);
+    transform: scale(1.15);
+  }
+  .trivia-images:not(.trivia-images--carousel){
     gap: 8px;
     margin-bottom: 18px;
   }
-  .trivia-images--3{
+  .trivia-images--3:not(.trivia-images--carousel){
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  .trivia-images--2{
+  .trivia-images--2:not(.trivia-images--carousel){
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .trivia-images--1{
+  .trivia-images--1:not(.trivia-images--carousel){
     max-width: 100%;
   }
-  .trivia-images--1 .trivia-image-wrap{
+  .trivia-images--1:not(.trivia-images--carousel) .trivia-image-wrap{
     min-height: 200px;
   }
-  .trivia-images--2 .trivia-image-wrap{
+  .trivia-images--2:not(.trivia-images--carousel) .trivia-image-wrap{
     min-height: 140px;
   }
-  .trivia-images--3 .trivia-image-wrap{
+  .trivia-images--3:not(.trivia-images--carousel) .trivia-image-wrap{
     min-height: 108px;
     aspect-ratio: auto;
   }
