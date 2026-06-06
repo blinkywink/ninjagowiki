@@ -50,6 +50,25 @@
   let score = 0;
   let answers = [];
   let locked = false;
+  let feedbackTimer = null;
+
+  const hideFeedback = () => {
+    clearTimeout(feedbackTimer);
+    feedbackTimer = null;
+    if (!feedbackEl) return;
+    feedbackEl.textContent = "";
+    feedbackEl.className = "trivia-feedback-toast";
+    feedbackEl.hidden = true;
+  };
+
+  const showFeedback = (correct) => {
+    if (!feedbackEl) return;
+    hideFeedback();
+    feedbackEl.textContent = correct ? "Correct!" : "Incorrect";
+    feedbackEl.className = `trivia-feedback-toast is-visible ${correct ? "is-correct" : "is-wrong"}`;
+    feedbackEl.hidden = false;
+    feedbackTimer = window.setTimeout(hideFeedback, 1050);
+  };
 
   const shuffle = (arr) => {
     const list = arr.slice();
@@ -238,8 +257,7 @@
 
     locked = false;
     hideNext();
-    feedbackEl.textContent = "";
-    feedbackEl.className = "trivia-feedback";
+    hideFeedback();
     questionShell.classList.remove("is-correct", "is-wrong");
     questionEl.textContent = q.prompt;
 
@@ -301,14 +319,7 @@
     });
 
     questionShell.classList.add(correct ? "is-correct" : "is-wrong");
-    if (correct) {
-      feedbackEl.textContent = "Correct!";
-    } else if (q.type === "set" && q.label) {
-      feedbackEl.textContent = `Wrong — ${q.label} (${q.correct})`;
-    } else {
-      feedbackEl.textContent = `Wrong — ${q.correct}`;
-    }
-    feedbackEl.className = `trivia-feedback ${correct ? "is-correct" : "is-wrong"}`;
+    showFeedback(correct);
 
     window.setTimeout(showNext, 420);
   };

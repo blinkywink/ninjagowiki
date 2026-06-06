@@ -4694,6 +4694,7 @@ a.char-group-title-link:hover{
 }
 
 .trivia-question-shell{
+  position: relative;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-xl);
   background: rgba(21, 23, 32, 0.92);
@@ -4868,29 +4869,66 @@ a.char-group-title-link:hover{
   75%{ transform: translateX(4px); }
 }
 
-.trivia-feedback{
-  min-height: 1.4em;
-  margin: 16px 0 0;
-  text-align: center;
-  font-weight: 800;
-  font-size: 1.05rem;
-  color: var(--muted2);
+.trivia-feedback-toast{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 3;
+  pointer-events: none;
   opacity: 0;
-  transform: translateY(6px);
+  visibility: hidden;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-weight: 850;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transform: translate(-50%, -50%) scale(0.88);
 }
-.trivia-feedback.is-correct,
-.trivia-feedback.is-wrong{
-  opacity: 1;
-  transform: translateY(0);
-  animation: trivia-feedback-pop 0.45s ease;
+.trivia-feedback-toast.is-visible{
+  visibility: visible;
+  animation: trivia-feedback-toast 1.05s ease forwards;
 }
-@keyframes trivia-feedback-pop{
-  0%{ opacity: 0; transform: scale(0.92) translateY(10px); }
-  60%{ transform: scale(1.03) translateY(0); }
-  100%{ opacity: 1; transform: scale(1) translateY(0); }
+.trivia-feedback-toast.is-correct{
+  color: #bbf7d0;
+  background: rgba(22, 101, 52, 0.88);
+  border: 1px solid rgba(134, 239, 172, 0.45);
 }
-.trivia-feedback.is-correct{ color: #86efac; }
-.trivia-feedback.is-wrong{ color: #fca5a5; }
+.trivia-feedback-toast.is-wrong{
+  color: #fecaca;
+  background: rgba(127, 29, 29, 0.88);
+  border: 1px solid rgba(252, 165, 165, 0.45);
+}
+@keyframes trivia-feedback-toast{
+  0%{
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.88);
+  }
+  14%{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.04);
+  }
+  24%{
+    transform: translate(-50%, -50%) scale(1);
+  }
+  72%{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100%{
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.96);
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .trivia-feedback-toast.is-visible{
+    animation-duration: 0.55s;
+  }
+}
 .trivia-next{
   width: 100%;
   margin-top: 14px;
