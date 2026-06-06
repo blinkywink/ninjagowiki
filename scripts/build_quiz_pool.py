@@ -23,6 +23,20 @@ _VIDEO_URL = re.compile(
     re.I,
 )
 CHARACTER_MIN_IMAGES = 6
+# Main-line boxed Ninjago sets (705xx–707xx, 717xx–718xx, etc.) — not polybags, magazines, merch.
+_TRADITIONAL_SET = re.compile(r"^(70[5-9]\d{2}|71[0-9]\d{2})$")
+
+
+def _set_code(row: dict) -> str:
+    codes = row.get("codes") or []
+    if codes:
+        return str(codes[0])
+    m = re.match(r"^(\d+)", row.get("display") or "")
+    return m.group(1) if m else ""
+
+
+def _is_traditional_retail_set(row: dict) -> bool:
+    return bool(_TRADITIONAL_SET.match(_set_code(row)))
 
 
 def _norm(url: str) -> str:
@@ -225,6 +239,8 @@ def build_sets() -> list[dict]:
             display = row.get("display") or ""
             if not href or not display:
                 continue
+            if not _is_traditional_retail_set(row):
+                continue
             html = _read_html(href)
             if not html:
                 continue
@@ -240,6 +256,7 @@ def build_sets() -> list[dict]:
                     "display": display,
                     "href": href,
                     "year": year,
+                    "setNumber": _set_code(row),
                     "images": imgs[:24],
                 }
             )

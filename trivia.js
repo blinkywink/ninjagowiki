@@ -30,7 +30,7 @@
   const progressBar = document.getElementById("trivia-progress-bar");
   const progressText = document.getElementById("trivia-progress-text");
   const questionShell = document.getElementById("trivia-question-shell");
-  const imagesEl = document.getElementById("trivia-images");
+  let imagesEl = document.getElementById("trivia-images");
   const questionEl = document.getElementById("trivia-question");
   const optionsEl = document.getElementById("trivia-options");
   const feedbackEl = document.getElementById("trivia-feedback");
@@ -254,7 +254,7 @@
     const slide = slides?.[index];
     if (!slide || !track) return;
     const left = slide.offsetLeft - (track.clientWidth - slide.offsetWidth) / 2;
-    track.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
+    track.scrollTo({ left: Math.max(0, left), behavior: "auto" });
   };
 
   const syncCarouselControls = (track, dotsEl, prevBtn, nextBtn) => {
@@ -271,6 +271,8 @@
   };
 
   const teardownCarouselControls = (shell, track) => {
+    clearTimeout(carouselScrollTimer);
+    carouselScrollTimer = null;
     if (carouselScrollCleanup) {
       carouselScrollCleanup();
       carouselScrollCleanup = null;
@@ -280,6 +282,24 @@
     shell.querySelector(".trivia-carousel-prev")?.remove();
     shell.querySelector(".trivia-carousel-next")?.remove();
     if (track) track.scrollLeft = 0;
+  };
+
+  const resetImagesTrack = () => {
+    const shell = questionShell?.querySelector(".trivia-images-shell");
+    if (!shell) return imagesEl;
+
+    teardownCarouselControls(shell, imagesEl);
+
+    const next = document.createElement("div");
+    next.id = "trivia-images";
+    next.className = "trivia-images";
+    if (imagesEl?.parentElement === shell) {
+      imagesEl.replaceWith(next);
+    } else {
+      shell.replaceChildren(next);
+    }
+    imagesEl = next;
+    return imagesEl;
   };
 
   const mountCarouselControls = (track, count) => {
@@ -341,6 +361,15 @@
     return "sets";
   };
 
+  const TRADITIONAL_SET_RE = /^(70[5-9]\d{2}|71[0-9]\d{2})$/;
+
+  const isTraditionalRetailSet = (row) => {
+    const code = String(row?.setNumber || "").trim()
+      || (row?.display || "").match(/^(\d{5})\b/)?.[1]
+      || "";
+    return TRADITIONAL_SET_RE.test(code);
+  };
+
   const eligiblePool = (type) => {
     const key = poolKey(type);
     const rows = pool?.[key] || [];
@@ -348,7 +377,9 @@
       return rows.filter((r) => (r.images || []).length >= 6);
     }
     if (type === "set") {
-      return rows.filter((r) => r.year && (r.images || []).length >= 1);
+      return rows.filter(
+        (r) => r.year && (r.images || []).length >= 1 && isTraditionalRetailSet(r),
+      );
     }
     return rows.filter((r) => (r.images || []).length >= 1);
   };
@@ -476,8 +507,7 @@
     questionShell.classList.remove("is-correct", "is-wrong");
     questionEl.textContent = q.prompt;
 
-    imagesEl.innerHTML = "";
-    imagesEl.scrollLeft = 0;
+    resetImagesTrack();
     imagesEl.hidden = q.images.length === 0;
     imagesEl.className = "trivia-images";
     const isMobile = MOBILE_MQ.matches;
