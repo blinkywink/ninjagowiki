@@ -33,6 +33,7 @@
   const questionEl = document.getElementById("trivia-question");
   const optionsEl = document.getElementById("trivia-options");
   const feedbackEl = document.getElementById("trivia-feedback");
+  const feedbackScrim = document.getElementById("trivia-feedback-scrim");
   const resultsScore = document.getElementById("trivia-results-score");
   const resultsTitle = document.getElementById("trivia-results-title");
   const resultsList = document.getElementById("trivia-results-list");
@@ -51,23 +52,55 @@
   let answers = [];
   let locked = false;
   let feedbackTimer = null;
+  let scrimFadeTimer = null;
+  let nextGlowTimer = null;
+  const FEEDBACK_MS = 1800;
+  const SCRIM_FADE_MS = 400;
 
-  const hideFeedback = () => {
+  const hideFeedback = (afterHide) => {
     clearTimeout(feedbackTimer);
+    clearTimeout(scrimFadeTimer);
     feedbackTimer = null;
-    if (!feedbackEl) return;
-    feedbackEl.textContent = "";
-    feedbackEl.className = "trivia-feedback-toast";
-    feedbackEl.hidden = true;
+    scrimFadeTimer = null;
+    questionShell?.classList.remove("is-feedback-active");
+    if (feedbackEl) {
+      feedbackEl.classList.remove("is-visible", "is-correct", "is-wrong");
+      feedbackEl.textContent = "";
+      feedbackEl.className = "trivia-feedback-toast";
+      feedbackEl.hidden = true;
+    }
+    if (feedbackScrim) {
+      feedbackScrim.classList.remove("is-visible");
+      feedbackScrim.setAttribute("aria-hidden", "true");
+      scrimFadeTimer = window.setTimeout(() => {
+        scrimFadeTimer = null;
+        feedbackScrim.hidden = true;
+        if (afterHide) afterHide();
+      }, SCRIM_FADE_MS);
+      return;
+    }
+    if (afterHide) afterHide();
   };
 
-  const showFeedback = (correct) => {
+  const showFeedback = (correct, afterFeedback) => {
     if (!feedbackEl) return;
-    hideFeedback();
+    clearTimeout(feedbackTimer);
+    clearTimeout(scrimFadeTimer);
+    feedbackTimer = null;
+    scrimFadeTimer = null;
     feedbackEl.textContent = correct ? "Correct!" : "Incorrect";
-    feedbackEl.className = `trivia-feedback-toast is-visible ${correct ? "is-correct" : "is-wrong"}`;
+    feedbackEl.className = `trivia-feedback-toast ${correct ? "is-correct" : "is-wrong"}`;
     feedbackEl.hidden = false;
-    feedbackTimer = window.setTimeout(hideFeedback, 1050);
+    if (feedbackScrim) {
+      feedbackScrim.hidden = false;
+      feedbackScrim.setAttribute("aria-hidden", "false");
+    }
+    questionShell?.classList.add("is-feedback-active");
+    requestAnimationFrame(() => {
+      feedbackEl.classList.add("is-visible");
+      feedbackScrim?.classList.add("is-visible");
+    });
+    feedbackTimer = window.setTimeout(() => hideFeedback(afterFeedback), FEEDBACK_MS);
   };
 
   const shuffle = (arr) => {
@@ -198,15 +231,26 @@
 
   const hideNext = () => {
     if (!nextBtn) return;
+    clearTimeout(nextGlowTimer);
+    nextGlowTimer = null;
     nextBtn.hidden = true;
-    nextBtn.classList.remove("is-visible");
+    nextBtn.classList.remove("is-visible", "is-glowing");
   };
 
   const showNext = () => {
     if (!nextBtn) return;
     nextBtn.textContent = qIndex >= QUIZ_LENGTH - 1 ? "See results" : "Next";
     nextBtn.hidden = false;
-    requestAnimationFrame(() => nextBtn.classList.add("is-visible"));
+    nextBtn.classList.remove("is-glowing");
+    requestAnimationFrame(() => {
+      nextBtn.classList.add("is-visible");
+      requestAnimationFrame(() => nextBtn.classList.add("is-glowing"));
+    });
+    clearTimeout(nextGlowTimer);
+    nextGlowTimer = window.setTimeout(() => {
+      nextBtn?.classList.remove("is-glowing");
+      nextGlowTimer = null;
+    }, 2000);
   };
 
   const advanceQuestion = () => {
@@ -319,9 +363,7 @@
     });
 
     questionShell.classList.add(correct ? "is-correct" : "is-wrong");
-    showFeedback(correct);
-
-    window.setTimeout(showNext, 420);
+    showFeedback(correct, showNext);
   };
 
   const THUMB_IMAGE_WIDTH = 120;

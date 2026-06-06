@@ -119,10 +119,13 @@
 
             <div class="trivia-question-shell" id="trivia-question-shell">
               <div class="trivia-images" id="trivia-images"></div>
-              <h2 class="trivia-question" id="trivia-question"></h2>
+              <div class="trivia-question-row">
+                <h2 class="trivia-question" id="trivia-question"></h2>
+                <button type="button" class="trivia-next trivia-btn trivia-btn--primary" id="trivia-next" hidden>Next</button>
+              </div>
               <div class="trivia-options" id="trivia-options" role="group"></div>
+              <div class="trivia-feedback-scrim" id="trivia-feedback-scrim" hidden aria-hidden="true"></div>
               <div class="trivia-feedback-toast" id="trivia-feedback" hidden aria-live="polite"></div>
-              <button type="button" class="trivia-next trivia-btn trivia-btn--primary" id="trivia-next" hidden>Next</button>
             </div>
           </div>
 
