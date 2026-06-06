@@ -185,9 +185,11 @@
   };
 
   const scrollCarouselTo = (track, index) => {
-    const slide = track?.querySelectorAll(".trivia-image-wrap")[index];
-    if (!slide) return;
-    slide.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    const slides = track?.querySelectorAll(".trivia-image-wrap");
+    const slide = slides?.[index];
+    if (!slide || !track) return;
+    const left = slide.offsetLeft - (track.clientWidth - slide.offsetWidth) / 2;
+    track.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
   };
 
   const syncCarouselControls = (track, dotsEl, prevBtn, nextBtn) => {
@@ -247,10 +249,12 @@
       shell.appendChild(nextBtn);
     }
 
-    prevBtn.onclick = () => {
+    prevBtn.onclick = (e) => {
+      e.preventDefault();
       scrollCarouselTo(track, getCarouselActiveIndex(track) - 1);
     };
-    nextBtn.onclick = () => {
+    nextBtn.onclick = (e) => {
+      e.preventDefault();
       scrollCarouselTo(track, getCarouselActiveIndex(track) + 1);
     };
 
@@ -452,10 +456,6 @@
     });
 
     renderProgress();
-
-    if (window.matchMedia("(max-width: 860px)").matches) {
-      questionShell.scrollIntoView({ behavior: "smooth", block: "start" });
-    }
   };
 
   const pickOption = (label, btn) => {
