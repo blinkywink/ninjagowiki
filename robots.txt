@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blinkywink.co/ninjagowiki/sitemap.xml

@@ -1,0 +1,41 @@
+{
+  "baseUrl": "https://blinkywink.co/ninjagowiki",
+  "excludePathPrefixes": [
+    "/assets/",
+    "/server-files/"
+  ],
+  "groups": {
+    "core": {
+      "file": "sitemap-core.xml",
+      "match": [
+        "^/$",
+        "^/about$",
+        "^/all-pages$",
+        "^/characters$",
+        "^/episodes$",
+        "^/sets$",
+        "^/weapons$",
+        "^/media$",
+        "^/trivia$"
+      ],
+      "changefreq": "weekly",
+      "priority": 0.9
+    },
+    "characters": {
+      "file": "sitemap-characters.xml",
+      "match": ["^/characters/"],
+      "changefreq": "monthly",
+      "priority": 0.8
+    },
+    "wiki": {
+      "file": "sitemap-wiki.xml",
+      "match": ["^/pages/"],
+      "changefreq": "monthly",
+      "priority": 0.6
+    }
+  },
+  "defaults": {
+    "changefreq": "monthly",
+    "priority": 0.5
+  }
+}

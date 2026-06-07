@@ -13,7 +13,8 @@ Also writes assets/data/wiki_search_index.json (v2): mirrored wiki pages + every
 with optional searchExcerpt / thumb filled from HTML (default). Use --no-enrich-search for a fast
 routes-only pass (subtitles fall back to keywords).
 
-Run after adding characters, wiki page imports, or editing wiki_pages.json:
+Run after adding characters, wiki page imports, or editing wiki_pages.json.
+Also rebuilds browse indexes (episodes, sets, weapons, media) and sitemap.xml.
 
   python3 scripts/build_site_routes.py
   python3 scripts/build_site_routes.py --no-enrich-search
@@ -344,6 +345,13 @@ def main() -> None:
         build_media_index.main()
     except Exception as exc:
         print(f"Warning: media index not rebuilt ({exc}).", file=sys.stderr)
+
+    try:
+        import build_sitemap  # noqa: E402
+
+        build_sitemap.build_sitemap_files(root)
+    except Exception as exc:
+        print(f"Warning: sitemap not rebuilt ({exc}).", file=sys.stderr)
 
 
 if __name__ == "__main__":

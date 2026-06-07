@@ -28,16 +28,10 @@ python3 scripts/refresh_wiki_pages_from_manifest.py --delay 0.08
 # 5) Re-fetch every character article.
 python3 scripts/import_all_characters.py --force --delay 0.25
 
-# 6) Rebuild routes + homepage search index.
+# 6) Rebuild routes, homepage search index, browse indexes, and sitemap.xml.
 python3 scripts/build_site_routes.py
 
-# 7) Rebuild browse indexes.
-python3 scripts/build_episodes_index.py
-python3 scripts/build_sets_index.py
-python3 scripts/build_weapons_index.py
-python3 scripts/build_media_index.py
-
-# 8) Point internal Fandom links to local mirrors.
+# 7) Point internal Fandom links to local mirrors.
 python3 scripts/rewrite_fandom_character_links.py --apply
 
 echo "=== Full wiki sync finished $(date) ==="
