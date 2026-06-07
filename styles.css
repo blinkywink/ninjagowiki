@@ -4556,8 +4556,48 @@ a.char-group-title-link:hover{
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 20px;
-  max-width: 1120px;
+  max-width: 1160px;
   margin: 0 auto;
+}
+.trivia-card--combo{
+  border-color: rgba(167, 139, 250, 0.22);
+  background: linear-gradient(180deg, rgba(28, 24, 42, 0.96), rgba(15, 17, 24, 0.98));
+}
+.trivia-card--combo:hover:not(:disabled){
+  border-color: rgba(167, 139, 250, 0.5);
+}
+.trivia-card-mix-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+.trivia-card-mix-tags span{
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(167, 139, 250, 0.28);
+  background: rgba(167, 139, 250, 0.1);
+  color: rgba(220, 210, 255, 0.92);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.trivia-card-faux-options--mix span{
+  font-size: 0.78rem;
+}
+.trivia-result-kind{
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(167, 139, 250, 0.28);
+  background: rgba(167, 139, 250, 0.1);
+  color: rgba(220, 210, 255, 0.92);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .trivia-card{
   appearance: none;

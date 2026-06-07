@@ -10,16 +10,32 @@
     episode: {
       title: "Episode Quiz",
       prompt: "Which episode is this?",
+      kindLabel: "Episode",
     },
     character: {
       title: "Character Quiz",
       prompt: "Who is this character?",
+      kindLabel: "Character",
     },
     set: {
       title: "Set Quiz",
       prompt: "What year was this set released?",
+      kindLabel: "Set",
+    },
+    weapon: {
+      title: "Weapon Quiz",
+      prompt: "What weapon is this?",
+      kindLabel: "Weapon",
+    },
+    combo: {
+      title: "Mixed Quiz",
+      prompt: "",
+      kindLabel: "Mixed",
     },
   };
+
+  const BASE_QUIZ_TYPES = ["episode", "character", "set", "weapon"];
+  const WEAPON_MIN_IMAGES = 15;
 
   const hub = document.getElementById("trivia-hub");
   const quizEl = document.getElementById("trivia-quiz");
@@ -361,6 +377,7 @@
   const poolKey = (type) => {
     if (type === "episode") return "episodes";
     if (type === "character") return "characters";
+    if (type === "weapon") return "weapons";
     return "sets";
   };
 
@@ -374,10 +391,16 @@
   };
 
   const eligiblePool = (type) => {
+    if (type === "combo") {
+      return comboPoolsReady() ? [{ combo: true }] : [];
+    }
     const key = poolKey(type);
     const rows = pool?.[key] || [];
     if (type === "character") {
       return rows.filter((r) => (r.images || []).length >= 6);
+    }
+    if (type === "weapon") {
+      return rows.filter((r) => (r.images || []).length >= WEAPON_MIN_IMAGES);
     }
     if (type === "set") {
       return rows.filter(
@@ -386,6 +409,17 @@
     }
     return rows.filter((r) => (r.images || []).length >= 1);
   };
+
+  const setQuizYears = (rows) => [...new Set(rows.map((r) => r.year).filter(Boolean))];
+
+  const comboPoolsReady = () =>
+    BASE_QUIZ_TYPES.every((type) => {
+      const rows = eligiblePool(type);
+      if (type === "set") {
+        return rows.length >= 4 && setQuizYears(rows).length >= 4;
+      }
+      return rows.length >= 4;
+    });
 
   const buildQuestion = (type, row, allRows, allYears) => {
     const imgs = sample(row.images || [], 3);
@@ -423,15 +457,35 @@
   };
 
   const buildQuiz = (type) => {
+    if (type === "combo") {
+      return buildComboQuiz();
+    }
     const rows = eligiblePool(type);
     if (rows.length < 4) return [];
-    const allYears =
-      type === "set"
-        ? [...new Set(rows.map((r) => r.year).filter(Boolean))]
-        : [];
+    const allYears = type === "set" ? setQuizYears(rows) : [];
     if (type === "set" && allYears.length < 4) return [];
     const picked = sample(rows, QUIZ_LENGTH);
     return picked.map((row) => buildQuestion(type, row, rows, allYears));
+  };
+
+  const buildComboQuiz = () => {
+    if (!comboPoolsReady()) return [];
+
+    const pools = Object.fromEntries(
+      BASE_QUIZ_TYPES.map((type) => [type, eligiblePool(type)]),
+    );
+    const yearsByType = {
+      set: setQuizYears(pools.set),
+    };
+
+    const questions = [];
+    for (let i = 0; i < QUIZ_LENGTH; i += 1) {
+      const type = sample(BASE_QUIZ_TYPES, 1)[0];
+      const rows = pools[type];
+      const row = sample(rows, 1)[0];
+      questions.push(buildQuestion(type, row, rows, yearsByType.set));
+    }
+    return questions;
   };
 
   const hideNext = () => {
@@ -638,6 +692,13 @@
       const main = document.createElement("div");
       main.className = "trivia-result-main";
 
+      if (quizType === "combo" && a.type) {
+        const kind = document.createElement("span");
+        kind.className = "trivia-result-kind";
+        kind.textContent = QUIZ_META[a.type]?.kindLabel || a.type;
+        main.appendChild(kind);
+      }
+
       const answer = document.createElement("div");
       answer.className = "trivia-result-answer";
       if (a.type === "set" && a.label) {
@@ -725,9 +786,10 @@
 
       cardsRoot.querySelectorAll("[data-quiz]").forEach((card) => {
         const type = card.getAttribute("data-quiz");
-        const n = eligiblePool(type).length;
-        card.disabled = n < 4;
-        if (n < 4) card.classList.add("is-disabled");
+        const available =
+          type === "combo" ? comboPoolsReady() : eligiblePool(type).length >= 4;
+        card.disabled = !available;
+        if (!available) card.classList.add("is-disabled");
       });
     })
     .catch(() => {

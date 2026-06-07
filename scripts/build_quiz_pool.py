@@ -23,6 +23,7 @@ _VIDEO_URL = re.compile(
     re.I,
 )
 CHARACTER_MIN_IMAGES = 6
+WEAPON_MIN_IMAGES = 15
 # Main-line boxed Ninjago sets (705xx–707xx, 717xx–718xx, etc.) — not polybags, magazines, merch.
 _TRADITIONAL_SET = re.compile(r"^(70[5-9]\d{2}|71[0-9]\d{2})$")
 
@@ -263,19 +264,49 @@ def build_sets() -> list[dict]:
     return out
 
 
+def build_weapons() -> list[dict]:
+    data = json.loads((DATA / "weapons_index.json").read_text(encoding="utf-8"))
+    seen_hrefs: set[str] = set()
+    out: list[dict] = []
+    for group in data.get("groups") or []:
+        for row in group.get("sets") or []:
+            href = row.get("href") or ""
+            display = row.get("display") or ""
+            if not href or not display or href in seen_hrefs:
+                continue
+            seen_hrefs.add(href)
+            html = _read_html(href)
+            if not html:
+                continue
+            exclude = {_norm(row.get("img") or "")}
+            imgs = extract_quiz_images(html, exclude=exclude)
+            if len(imgs) < WEAPON_MIN_IMAGES:
+                continue
+            out.append(
+                {
+                    "display": display,
+                    "href": href,
+                    "images": imgs[:24],
+                }
+            )
+    return out
+
+
 def main() -> None:
     payload = {
         "v": 1,
         "episodes": build_episodes(),
         "characters": build_characters(),
         "sets": build_sets(),
+        "weapons": build_weapons(),
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(
         f"Wrote {OUT.name}: "
         f"{len(payload['episodes'])} episodes, "
         f"{len(payload['characters'])} characters, "
-        f"{len(payload['sets'])} sets"
+        f"{len(payload['sets'])} sets, "
+        f"{len(payload['weapons'])} weapons"
     )
 
 
