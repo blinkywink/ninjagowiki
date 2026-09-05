@@ -321,6 +321,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/b/be/Theicicle.jpg/revision/latest/scale-to-width-down/450?cb=20211013000453"
         },
         {
+          "display": "Vengdualize",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/vengdualize",
+          "slug": "vengdualize",
+          "filter": "vengdualize Vengdualize Vengdualize  Spears weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/91/Vengdualize.png/revision/latest?cb=20260815180208"
+        },
+        {
           "display": "Vengestone spears",
           "href": "/pages/content/abilities/elements/balance-elements/golden-power/elemental-essences/darkness/vengestone-spears",
           "slug": "vengestone-spears",
@@ -457,6 +465,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/8/8f/AStaff2.png/revision/latest/scale-to-width-down/450?cb=20150412030111"
         },
         {
+          "display": "Slashersekt",
+          "href": "/pages/content/characters/animal-tribes/raven-tribe/slashersekt",
+          "slug": "slashersekt",
+          "filter": "slashersekt Slashersekt Slashersekt  Staffs weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4b/ChimaArticle.png/revision/latest/scale-to-width-down/450?cb=20260729221032"
+        },
+        {
           "display": "Staff of Control",
           "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/serpentine-weapons/staff-of-control",
           "slug": "staff-of-control",
@@ -503,6 +519,22 @@
           "filter": "venomari staff Venomari Staff Venomari Staff  Staffs weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/f6/Venomstaff.png/revision/latest/scale-to-width-down/450?cb=20211106204930"
+        },
+        {
+          "display": "Webstafa",
+          "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/spider-tribe/webstafa",
+          "slug": "webstafa",
+          "filter": "webstafa Webstafa Webstafa  Staffs weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4b/ChimaArticle.png/revision/latest/scale-to-width-down/450?cb=20260729221032"
+        },
+        {
+          "display": "Wingferno",
+          "href": "/pages/content/characters/animal-tribes/fire-tribes/wingferno",
+          "slug": "wingferno",
+          "filter": "wingferno Wingferno Wingferno  Staffs weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/bd/Wingferno1.png/revision/latest?cb=20260815180348"
         }
       ]
     },
@@ -543,6 +575,14 @@
           "filter": "anacondrai blades Anacondrai Blades Anacondrai Blades  Swords weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/2/26/Anablade.png/revision/latest/scale-to-width-down/450?cb=20260209145227"
+        },
+        {
+          "display": "Black Valious",
+          "href": "/pages/content/characters/animal-tribes/lion-tribe/lion-tribe-weapons/black-valious",
+          "slug": "black-valious",
+          "filter": "black valious Black Valious Black Valious  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4c/Shado_Valious.png/revision/latest?cb=20260815191646"
         },
         {
           "display": "Blade of Ruin",
@@ -609,6 +649,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/e/e6/Departed_Blades.png/revision/latest/scale-to-width-down/450?cb=20161118195348"
         },
         {
+          "display": "Dirimous",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/dirimous",
+          "slug": "dirimous",
+          "filter": "dirimous Dirimous Dirimous  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d0/Roby_statue_all_white.png/revision/latest/scale-to-width-down/450?cb=20250428010737"
+        },
+        {
           "display": "Djinn Blade",
           "href": "/pages/content/abilities/elements/balance-elements/golden-power/elemental-essences/creation/djinn-blade",
           "slug": "djinn-blade",
@@ -649,6 +697,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/2/20/MorroSwords.png/revision/latest/scale-to-width-down/450?cb=20150701153225"
         },
         {
+          "display": "Glacior",
+          "href": "/pages/content/characters/animal-tribes/hunters/saber-tooth-tiger-tribe/glacior",
+          "slug": "glacior",
+          "filter": "glacior Glacior Glacior  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/28/Glacior_fang.jpg.jpg/revision/latest/scale-to-width-down/450?cb=20260815173022"
+        },
+        {
           "display": "Golden Cutlass",
           "href": "/pages/content/objects/weapons/2015-weapons/golden-cutlass",
           "slug": "golden-cutlass",
@@ -662,7 +718,7 @@
           "slug": "golden-dark-blade",
           "filter": "golden dark blade Golden Dark Blade Golden Dark Blade  Swords weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9f/Pic7E8748FFCC55E7541A2E40047F855676.png/revision/latest?cb=20120817000711"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4a/Golden_Dark_Blade_SotS.png/revision/latest/scale-to-width-down/450?cb=20260711102200"
         },
         {
           "display": "Golden Double-Bladed Sword",
@@ -671,6 +727,14 @@
           "filter": "golden double-bladed sword Golden Double-Bladed Sword Golden Double-Bladed Sword  Swords weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/b/b3/Golden_Double-Bladed_Sword.png/revision/latest/scale-to-width-down/450?cb=20211013050411"
+        },
+        {
+          "display": "Golden Dragon Sword",
+          "href": "/pages/content/locations/realms/whispering-wood/golden-dragon-sword",
+          "slug": "golden-dragon-sword",
+          "filter": "golden dragon sword Golden Dragon Sword Golden Dragon Sword  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a8/Golden_Dragon_Sword.jpg/revision/latest/scale-to-width-down/450?cb=20260711141447"
         },
         {
           "display": "Golden katana",
@@ -774,7 +838,7 @@
           "slug": "nokts-sword",
           "filter": "nokts sword Nokt's sword Nokt's sword  Swords weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/5/5f/Nokt_sword_%283%29.jpeg/revision/latest/scale-to-width-down/450?cb=20250722112524"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/92/Nokt_sword_%282%29.jpeg/revision/latest/scale-to-width-down/450?cb=20260613160955"
         },
         {
           "display": "Obsidian Sword",
@@ -847,6 +911,30 @@
           "filter": "reveal blades Reveal Blades Reveal Blades  Swords weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/a/ad/Screenshot_2025-05-04_at_22.59.12.png/revision/latest/scale-to-width-down/450?cb=20250504205943"
+        },
+        {
+          "display": "Royal Valious",
+          "href": "/pages/content/characters/animal-tribes/lion-tribe/royal-valious",
+          "slug": "royal-valious",
+          "filter": "royal valious Royal Valious Royal Valious  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/12/Royal_Valious.png/revision/latest?cb=20260815174837"
+        },
+        {
+          "display": "Royal Valious of Unity",
+          "href": "/pages/content/characters/animal-tribes/eagle-tribe/royal-valious-of-unity",
+          "slug": "royal-valious-of-unity",
+          "filter": "royal valious of unity Royal Valious of Unity Royal Valious of Unity  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e6/Royal_Valious_of_Unity.png/revision/latest?cb=20260815234249"
+        },
+        {
+          "display": "Royal Vengious",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/royal-vengious",
+          "slug": "royal-vengious",
+          "filter": "royal vengious Royal Vengious Royal Vengious  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/79/Royal_Vengious.png/revision/latest?cb=20260815174837"
         },
         {
           "display": "Scythe Blade",
@@ -927,6 +1015,22 @@
           "filter": "sword of sanctuary Sword of Sanctuary Sword of Sanctuary  Swords weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/05/MoS50SwordRevveal.png/revision/latest/scale-to-width-down/450?cb=20160121232314"
+        },
+        {
+          "display": "Valious",
+          "href": "/pages/content/characters/animal-tribes/lion-tribe/valious",
+          "slug": "valious",
+          "filter": "valious Valious Valious  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a1/Valious.png/revision/latest?cb=20260815180144"
+        },
+        {
+          "display": "Vengblaze",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/vengblaze",
+          "slug": "vengblaze",
+          "filter": "vengblaze Vengblaze Vengblaze  Swords weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6d/Vengblaze.png/revision/latest?cb=20260815180208"
         },
         {
           "display": "Vermillion sword",
@@ -1138,7 +1242,7 @@
           "slug": "mega-weapon",
           "filter": "mega weapon Mega Weapon Mega Weapon  Golden Weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/c/c9/MegaTable.png/revision/latest/scale-to-width-down/450?cb=20150511221422"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/2a/MegaWeaponCropped.png/revision/latest/scale-to-width-down/450?cb=20260726042521"
         },
         {
           "display": "Nunchucks of Lightning",
@@ -1258,7 +1362,7 @@
           "slug": "coles-hammer",
           "filter": "coles hammer Cole's hammer Cole's hammer  Ninja's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ec/Cole_and_his_hammer_during_sparring.jpg/revision/latest/scale-to-width-down/450?cb=20190808085613"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ec/Cole_and_his_hammer_during_sparring.jpg/revision/latest/scale-to-width-down/450?cb=20260607090936"
         },
         {
           "display": "Dagger of the Dragon's Breath",
@@ -1386,7 +1490,7 @@
           "slug": "golden-dark-blade",
           "filter": "golden dark blade Golden Dark Blade Golden Dark Blade  Ninja's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9f/Pic7E8748FFCC55E7541A2E40047F855676.png/revision/latest?cb=20120817000711"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4a/Golden_Dark_Blade_SotS.png/revision/latest/scale-to-width-down/450?cb=20260711102200"
         },
         {
           "display": "Golden Double Scythe",
@@ -1403,6 +1507,14 @@
           "filter": "golden double-bladed sword Golden Double-Bladed Sword Golden Double-Bladed Sword  Ninja's weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/b/b3/Golden_Double-Bladed_Sword.png/revision/latest/scale-to-width-down/450?cb=20211013050411"
+        },
+        {
+          "display": "Golden Dragon Sword",
+          "href": "/pages/content/locations/realms/whispering-wood/golden-dragon-sword",
+          "slug": "golden-dragon-sword",
+          "filter": "golden dragon sword Golden Dragon Sword Golden Dragon Sword  Ninja's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a8/Golden_Dragon_Sword.jpg/revision/latest/scale-to-width-down/450?cb=20260711141447"
         },
         {
           "display": "Golden katana",
@@ -1458,7 +1570,7 @@
           "slug": "grappling-hooks",
           "filter": "grappling hooks Grappling hooks Grappling hooks  Ninja's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3d/Grappling_Hook.png/revision/latest/scale-to-width-down/450?cb=20250502214523"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3d/Grappling_Hook.png/revision/latest?cb=20260815173110"
         },
         {
           "display": "Hammer",
@@ -1523,6 +1635,14 @@
           "filter": "katana Katana Katana  Ninja's weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/05/Screenshotter--NEW125-10%E2%80%9949%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20221222144322"
+        },
+        {
+          "display": "Large sword",
+          "href": "/pages/content/objects/weapons/2026-weapons/large-sword",
+          "slug": "large-sword",
+          "filter": "large sword Large sword Large sword  Ninja's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f3/Riyu%27s_Sword.png/revision/latest/scale-to-width-down/450?cb=20260716023148"
         },
         {
           "display": "Lava Spike",
@@ -1658,7 +1778,7 @@
           "slug": "sai",
           "filter": "sai Sai Sai  Ninja's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/Game_of_Masks_162.png/revision/latest/scale-to-width-down/450?cb=20210603123310"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/89/Sai_S8.jpg/revision/latest/scale-to-width-down/450?cb=20260611200820"
         },
         {
           "display": "Scythe",
@@ -1946,7 +2066,423 @@
           "slug": "weapon-of-desolation",
           "filter": "weapon of desolation Weapon of Desolation Weapon of Desolation  Arin's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/2/23/Weapon_of_Desolation.png/revision/latest/scale-to-width-down/450?cb=20260427174622"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/84/The_Weapon_of_Desolation.png/revision/latest/scale-to-width-down/450?cb=20260726180352"
+        }
+      ]
+    },
+    {
+      "id": "coles-weapons",
+      "title": "Cole's weapons",
+      "groupKey": "coles-weapons",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "Aeroblades",
+          "href": "/pages/content/abilities/magic/collectible-items/aeroblades",
+          "slug": "aeroblades",
+          "filter": "aeroblades Aeroblades Aeroblades  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/ab/Airblades.png/revision/latest/scale-to-width-down/450?cb=20150704171854"
+        },
+        {
+          "display": "Blacksmith's Hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/blacksmiths-hammer",
+          "slug": "blacksmiths-hammer",
+          "filter": "blacksmiths hammer Blacksmith's Hammer Blacksmith's Hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/7d/Blacksmiths_Hammer.png..png/revision/latest?cb=20120822023551"
+        },
+        {
+          "display": "Blades of Deliverance",
+          "href": "/pages/content/abilities/magic/collectible-items/blades-of-deliverance",
+          "slug": "blades-of-deliverance",
+          "filter": "blades of deliverance Blades of Deliverance Blades of Deliverance  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/c8/MoS159Blades.png/revision/latest/scale-to-width-down/450?cb=20211020103145"
+        },
+        {
+          "display": "Bo staff",
+          "href": "/pages/content/characters/groups/pirates/sky-pirates/bo-staff",
+          "slug": "bo-staff",
+          "filter": "bo staff Bo staff Bo staff  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/86/DR_Bo_staf.jpeg/revision/latest/scale-to-width-down/450?cb=20250630171731"
+        },
+        {
+          "display": "Bone Scythe",
+          "href": "/pages/content/characters/animals/species/keepers/bone-scythe",
+          "slug": "bone-scythe",
+          "filter": "bone scythe Bone Scythe Bone Scythe  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/57/Bonescythe.png/revision/latest?cb=20130105075935"
+        },
+        {
+          "display": "Cole's golden hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/coles-golden-hammer",
+          "slug": "coles-golden-hammer",
+          "filter": "coles golden hammer Cole's golden hammer Cole's golden hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9e/Cole%27s_golden_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20250323215938"
+        },
+        {
+          "display": "Cole's hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/coles-hammer",
+          "slug": "coles-hammer",
+          "filter": "coles hammer Cole's hammer Cole's hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ec/Cole_and_his_hammer_during_sparring.jpg/revision/latest/scale-to-width-down/450?cb=20260607090936"
+        },
+        {
+          "display": "Cole's mace",
+          "href": "/pages/content/objects/weapons/2020-weapons/coles-mace",
+          "slug": "coles-mace",
+          "filter": "coles mace Cole's mace Cole's mace  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/04/Cole_Mace_HQ.png/revision/latest/scale-to-width-down/450?cb=20211014055258"
+        },
+        {
+          "display": "Cole's magic hammer",
+          "href": "/pages/content/abilities/elements/combination-elements/earth/coles-magic-hammer",
+          "slug": "coles-magic-hammer",
+          "filter": "coles magic hammer Cole's magic hammer Cole's magic hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/b7/Cole%27s_Magic_Hammer.jpg/revision/latest/scale-to-width-down/450?cb=20250917063437"
+        },
+        {
+          "display": "Cole's NRG Golden Blade",
+          "href": "/pages/content/characters/elemental-masters/ninja/coles-nrg-golden-blade",
+          "slug": "coles-nrg-golden-blade",
+          "filter": "coles nrg golden blade Cole's NRG Golden Blade Cole's NRG Golden Blade  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/12/PicC9A7AFA473BDC1200C1AE4E6B2AC87E7.png/revision/latest?cb=20120925063457"
+        },
+        {
+          "display": "Cyber Hammer",
+          "href": "/pages/content/objects/technology/prime-empire-video-game/cyber-hammer",
+          "slug": "cyber-hammer",
+          "filter": "cyber hammer Cyber Hammer Cyber Hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/40/Cyber_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260617081254"
+        },
+        {
+          "display": "Dagger of the Dragon's Breath",
+          "href": "/pages/content/abilities/elements/combination-elements/earth/main-elements/fire/dagger-of-the-dragons-breath",
+          "slug": "dagger-of-the-dragons-breath",
+          "filter": "dagger of the dragons breath Dagger of the Dragon's Breath Dagger of the Dragon's Breath  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ef/Firedagger.png/revision/latest?cb=20120407184348"
+        },
+        {
+          "display": "Diamond twin hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/diamond-twin-hammer",
+          "slug": "diamond-twin-hammer",
+          "filter": "diamond twin hammer Diamond twin hammer Diamond twin hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a3/Diamond_twin_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260615072749"
+        },
+        {
+          "display": "Dragon Hook",
+          "href": "/pages/content/abilities/elements/amber/secondary-elements/post-merge-elements/technology-element/dragon-hook",
+          "slug": "dragon-hook",
+          "filter": "dragon hook Dragon Hook Dragon Hook  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8b/Dragon_hook_show.png/revision/latest/scale-to-width-down/450?cb=20240307025011"
+        },
+        {
+          "display": "Elemental Blades",
+          "href": "/pages/content/abilities/elements/combination-elements/earth/main-elements/fire/elemental-blades",
+          "slug": "elemental-blades",
+          "filter": "elemental blades Elemental Blades Elemental Blades  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4f/Redo.jpg/revision/latest/scale-to-width-down/450?cb=20130228231002"
+        },
+        {
+          "display": "Fang Dagger",
+          "href": "/pages/content/characters/elemental-masters/ninja/fang-dagger",
+          "slug": "fang-dagger",
+          "filter": "fang dagger Fang Dagger Fang Dagger  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/40/FangDagger.png/revision/latest/scale-to-width-down/450?cb=20250601092717"
+        },
+        {
+          "display": "Gold-Bladed Saw Staff",
+          "href": "/pages/content/characters/elemental-masters/ninja/gold-bladed-saw-staff",
+          "slug": "gold-bladed-saw-staff",
+          "filter": "gold-bladed saw staff Gold-Bladed Saw Staff Gold-Bladed Saw Staff  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9c/Golden_Saw_staff.png/revision/latest?cb=20120421165124"
+        },
+        {
+          "display": "Golden Hypno Fang",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/serpentine-weapons/golden-hypno-fang",
+          "slug": "golden-hypno-fang",
+          "filter": "golden hypno fang Golden Hypno Fang Golden Hypno Fang  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/39/Goldenhypnofang.png/revision/latest?cb=20121121012815"
+        },
+        {
+          "display": "Golden katana",
+          "href": "/pages/content/characters/elemental-masters/ninja/golden-katana",
+          "slug": "golden-katana",
+          "filter": "golden katana Golden katana Golden katana  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/96/MoS64Swords.png/revision/latest/scale-to-width-down/450?cb=20161211212948"
+        },
+        {
+          "display": "Golden Tri Scythe",
+          "href": "/pages/content/characters/elemental-masters/ninja/golden-tri-scythe",
+          "slug": "golden-tri-scythe",
+          "filter": "golden tri scythe Golden Tri Scythe Golden Tri Scythe  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9c/Golden_tri_scythe.png/revision/latest?cb=20120417201131"
+        },
+        {
+          "display": "Grim Pick Axe",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/serpentine-weapons/grim-pick-axe",
+          "slug": "grim-pick-axe",
+          "filter": "grim pick axe Grim Pick Axe Grim Pick Axe  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3b/Pic5977EA01DE9E7AC382EAADAB25201A91.png/revision/latest?cb=20120816094114"
+        },
+        {
+          "display": "Hammer",
+          "href": "/pages/content/locations/realms/wyldness/hammer",
+          "slug": "hammer",
+          "filter": "hammer Hammer Hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/Screenshotter---5%E2%80%9951%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20200517123403"
+        },
+        {
+          "display": "Ivory Blade of Deliverance",
+          "href": "/pages/content/characters/animals/species/geckles/ivory-blade-of-deliverance",
+          "slug": "ivory-blade-of-deliverance",
+          "filter": "ivory blade of deliverance Ivory Blade of Deliverance Ivory Blade of Deliverance  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/b2/MoS159IvoryBlade.png/revision/latest/scale-to-width-down/450?cb=20210203003937"
+        },
+        {
+          "display": "Jadeblade Scythe",
+          "href": "/pages/content/abilities/magic/collectible-items/jadeblade-scythe",
+          "slug": "jadeblade-scythe",
+          "filter": "jadeblade scythe Jadeblade Scythe Jadeblade Scythe  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/Jade_Blade_Scythe.png/revision/latest/scale-to-width-down/450?cb=20210728063503"
+        },
+        {
+          "display": "Katana",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/serpentine-weapons/katana",
+          "slug": "katana",
+          "filter": "katana Katana Katana  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/05/Screenshotter--NEW125-10%E2%80%9949%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20221222144322"
+        },
+        {
+          "display": "Mega-hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/mega-hammer",
+          "slug": "mega-hammer",
+          "filter": "mega-hammer Mega-hammer Mega-hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/2f/Mega-hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260615073542"
+        },
+        {
+          "display": "Ninja Bow",
+          "href": "/pages/content/characters/elemental-masters/ninja/ninja-bow",
+          "slug": "ninja-bow",
+          "filter": "ninja bow Ninja Bow Ninja Bow  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f0/ZaneBowCropped.png/revision/latest/scale-to-width-down/450?cb=20211115210559"
+        },
+        {
+          "display": "Nuckal's hammer",
+          "href": "/pages/content/characters/former-humans/skulkin/skulkin-weapons/nuckals-hammer",
+          "slug": "nuckals-hammer",
+          "filter": "nuckal's hammer Nuckal's hammer Nuckal's hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/87/Nuckal%27s_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260619193003"
+        },
+        {
+          "display": "Obsidian Weapons",
+          "href": "/pages/content/abilities/elements/combination-elements/earth/main-elements/fire/obsidian-weapons",
+          "slug": "obsidian-weapons",
+          "filter": "obsidian weapons Obsidian Weapons Obsidian Weapons  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/84/Obsidian_Weapons.png/revision/latest/scale-to-width-down/450?cb=20200629115042"
+        },
+        {
+          "display": "Prime controllers",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/whack-rats/prime-controllers",
+          "slug": "prime-controllers",
+          "filter": "prime controllers Prime controllers Prime controllers  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/64/Ninjago129-4%E2%80%9915%E2%80%9D.png/revision/latest/scale-to-width-down/450?cb=20240415073821"
+        },
+        {
+          "display": "Prismatic Blades",
+          "href": "/pages/content/abilities/magic/collectible-items/prismatic-blades",
+          "slug": "prismatic-blades",
+          "filter": "prismatic blades Prismatic Blades Prismatic Blades  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ee/Arin_and_the_blades.png/revision/latest/scale-to-width-down/450?cb=20250830191349"
+        },
+        {
+          "display": "Reveal Blades",
+          "href": "/pages/content/abilities/magic/collectible-items/reveal-blades",
+          "slug": "reveal-blades",
+          "filter": "reveal blades Reveal Blades Reveal Blades  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/ad/Screenshot_2025-05-04_at_22.59.12.png/revision/latest/scale-to-width-down/450?cb=20250504205943"
+        },
+        {
+          "display": "Scythe",
+          "href": "/pages/content/characters/elemental-masters/ninja/scythe",
+          "slug": "scythe",
+          "filter": "scythe Scythe Scythe  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/09/Scythe.jpeg/revision/latest/scale-to-width-down/450?cb=20260404183451"
+        },
+        {
+          "display": "Scythe hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/scythe-hammer",
+          "slug": "scythe-hammer",
+          "filter": "scythe hammer Scythe hammer Scythe hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f8/Scythe_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260615200126"
+        },
+        {
+          "display": "Scythe of Quakes",
+          "href": "/pages/content/abilities/elements/balance-elements/golden-power/elemental-essences/darkness/scythe-of-quakes",
+          "slug": "scythe-of-quakes",
+          "filter": "scythe of quakes Scythe of Quakes Scythe of Quakes  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/03/Scythe_S15.png/revision/latest/scale-to-width-down/450?cb=20221121065954"
+        },
+        {
+          "display": "Shadow Blade of Deliverance",
+          "href": "/pages/content/characters/animals/species/munce/shadow-blade-of-deliverance",
+          "slug": "shadow-blade-of-deliverance",
+          "filter": "shadow blade of deliverance Shadow Blade of Deliverance Shadow Blade of Deliverance  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cf/ShadowBladeCropped.png/revision/latest/scale-to-width-down/450?cb=20201121194538"
+        },
+        {
+          "display": "Silver katana",
+          "href": "/pages/content/characters/elemental-masters/ninja/silver-katana",
+          "slug": "silver-katana",
+          "filter": "silver katana Silver katana Silver katana  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ee/MoS46Ready.png/revision/latest/scale-to-width-down/450?cb=20161026223122"
+        },
+        {
+          "display": "Spear",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/serpentine-weapons/spear",
+          "slug": "spear",
+          "filter": "spear Spear Spear  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a0/Nya%27s_spear_rack.png/revision/latest/scale-to-width-down/450?cb=20210717022431"
+        },
+        {
+          "display": "Staff of the Dragons",
+          "href": "/pages/content/characters/elemental-masters/ninja/staff-of-the-dragons",
+          "slug": "staff-of-the-dragons",
+          "filter": "staff of the dragons Staff of the Dragons Staff of the Dragons  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a1/Staff_of_the_Dragons.png/revision/latest?cb=20111215195449"
+        },
+        {
+          "display": "Techno Blades",
+          "href": "/pages/content/abilities/elements/combination-elements/earth/main-elements/fire/techno-blades",
+          "slug": "techno-blades",
+          "filter": "techno blades Techno Blades Techno Blades  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d8/28TechnoBlades.jpg/revision/latest/scale-to-width-down/450?cb=20140131011613"
+        },
+        {
+          "display": "Throwing stars",
+          "href": "/pages/content/objects/weapons/2019-weapons/throwing-stars",
+          "slug": "throwing-stars",
+          "filter": "throwing stars Throwing stars Throwing stars  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/MoS101Dartboard.png/revision/latest/scale-to-width-down/450?cb=20210222015605"
+        },
+        {
+          "display": "Trusty Axe",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/serpentine-tribes/venomari/trusty-axe",
+          "slug": "trusty-axe",
+          "filter": "trusty axe Trusty Axe Trusty Axe  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/79/TRUSTY_AXE.png/revision/latest?cb=20120407204702"
+        },
+        {
+          "display": "Ultra-Hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/ultra-hammer",
+          "slug": "ultra-hammer",
+          "filter": "ultra-hammer Ultra-Hammer Ultra-Hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/19/Ultra-Hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260619185502"
+        },
+        {
+          "display": "Warlord's Cutlass",
+          "href": "/pages/content/characters/former-humans/skulkin/skulkin-weapons/warlords-cutlass",
+          "slug": "warlords-cutlass",
+          "filter": "warlord's cutlass Warlord's Cutlass Warlord's Cutlass  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9f/Pic7E8748FFCC55E7541A2E40047F855676.png/revision/latest?cb=20120817000711"
+        },
+        {
+          "display": "Weapon of Desolation",
+          "href": "/pages/content/characters/groups/imperians/loyalists/weapon-of-desolation",
+          "slug": "weapon-of-desolation",
+          "filter": "weapon of desolation Weapon of Desolation Weapon of Desolation  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/84/The_Weapon_of_Desolation.png/revision/latest/scale-to-width-down/450?cb=20260726180352"
+        },
+        {
+          "display": "Zigzag hammer",
+          "href": "/pages/content/objects/weapons/2017-weapons/zigzag-hammer",
+          "slug": "zigzag-hammer",
+          "filter": "zigzag hammer Zigzag hammer Zigzag hammer  Cole's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9b/Zigzag_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260616110329"
+        }
+      ]
+    },
+    {
+      "id": "craggers-weapons",
+      "title": "Cragger's weapons",
+      "groupKey": "craggers-weapons",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "Royal Vengious",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/royal-vengious",
+          "slug": "royal-vengious",
+          "filter": "royal vengious Royal Vengious Royal Vengious  Cragger's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/79/Royal_Vengious.png/revision/latest?cb=20260815174837"
+        },
+        {
+          "display": "Scale Ripper",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/scale-ripper",
+          "slug": "scale-ripper",
+          "filter": "scale ripper Scale Ripper Scale Ripper  Cragger's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cf/Scale_Ripper.png/revision/latest?cb=20260815191439"
+        },
+        {
+          "display": "Vengblaze",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/vengblaze",
+          "slug": "vengblaze",
+          "filter": "vengblaze Vengblaze Vengblaze  Cragger's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6d/Vengblaze.png/revision/latest?cb=20260815180208"
+        },
+        {
+          "display": "Vengdualize",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/vengdualize",
+          "slug": "vengdualize",
+          "filter": "vengdualize Vengdualize Vengdualize  Cragger's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/91/Vengdualize.png/revision/latest?cb=20260815180208"
         }
       ]
     },
@@ -2021,6 +2557,22 @@
       "groupHref": null,
       "sets": [
         {
+          "display": "Grapple Gun",
+          "href": "/pages/content/characters/elemental-masters/ninja/grapple-gun",
+          "slug": "grapple-gun",
+          "filter": "grapple gun Grapple Gun Grapple Gun  Frak's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fd/Arin%27s_grappling_hook.jpeg/revision/latest/scale-to-width-down/450?cb=20230610141709"
+        },
+        {
+          "display": "Hammer",
+          "href": "/pages/content/locations/realms/wyldness/hammer",
+          "slug": "hammer",
+          "filter": "hammer Hammer Hammer  Frak's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/Screenshotter---5%E2%80%9951%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20200517123403"
+        },
+        {
           "display": "Prismatic Blades",
           "href": "/pages/content/abilities/magic/collectible-items/prismatic-blades",
           "slug": "prismatic-blades",
@@ -2074,7 +2626,7 @@
           "slug": "bowie-knives",
           "filter": "bowie knives Bowie Knives Bowie Knives  Garmadon's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/44658a.png/revision/latest/scale-to-width-down/450?cb=20241120211248"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/59/Serpentine_dagger.jpeg/revision/latest/scale-to-width-down/450?cb=20250710104534"
         },
         {
           "display": "Crystal katana",
@@ -2130,7 +2682,7 @@
           "slug": "mega-weapon",
           "filter": "mega weapon Mega Weapon Mega Weapon  Garmadon's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/c/c9/MegaTable.png/revision/latest/scale-to-width-down/450?cb=20150511221422"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/2a/MegaWeaponCropped.png/revision/latest/scale-to-width-down/450?cb=20260726042521"
         },
         {
           "display": "Silver Battle Mace",
@@ -2394,7 +2946,7 @@
           "slug": "sai",
           "filter": "sai Sai Sai  Jay's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/Game_of_Masks_162.png/revision/latest/scale-to-width-down/450?cb=20210603123310"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/89/Sai_S8.jpg/revision/latest/scale-to-width-down/450?cb=20260611200820"
         },
         {
           "display": "Silver Dark Blade",
@@ -2546,7 +3098,7 @@
           "slug": "golden-dark-blade",
           "filter": "golden dark blade Golden Dark Blade Golden Dark Blade  Kai's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9f/Pic7E8748FFCC55E7541A2E40047F855676.png/revision/latest?cb=20120817000711"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4a/Golden_Dark_Blade_SotS.png/revision/latest/scale-to-width-down/450?cb=20260711102200"
         },
         {
           "display": "Golden katana",
@@ -2666,7 +3218,7 @@
           "slug": "sai",
           "filter": "sai Sai Sai  Kai's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/Game_of_Masks_162.png/revision/latest/scale-to-width-down/450?cb=20210603123310"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/89/Sai_S8.jpg/revision/latest/scale-to-width-down/450?cb=20260611200820"
         },
         {
           "display": "Scythe Blade",
@@ -2813,6 +3365,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/06/Dragon_Sword.png/revision/latest/scale-to-width-down/450?cb=20240510211118"
         },
         {
+          "display": "Golden Dragon Sword",
+          "href": "/pages/content/locations/realms/whispering-wood/golden-dragon-sword",
+          "slug": "golden-dragon-sword",
+          "filter": "golden dragon sword Golden Dragon Sword Golden Dragon Sword  Lloyd's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a8/Golden_Dragon_Sword.jpg/revision/latest/scale-to-width-down/450?cb=20260711141447"
+        },
+        {
           "display": "Golden katana",
           "href": "/pages/content/characters/elemental-masters/ninja/golden-katana",
           "slug": "golden-katana",
@@ -2827,6 +3387,14 @@
           "filter": "hammer Hammer Hammer  Lloyd's weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/Screenshotter---5%E2%80%9951%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20200517123403"
+        },
+        {
+          "display": "Icon of the Source Dragon of Motion",
+          "href": "/pages/content/abilities/sources/motion/icon-of-the-source-dragon-of-motion",
+          "slug": "icon-of-the-source-dragon-of-motion",
+          "filter": "icon of the source dragon of motion Icon of the Source Dragon of Motion Icon of the Source Dragon of Motion  Lloyd's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/50/Dragon_Icon.png/revision/latest/scale-to-width-down/450?cb=20241005040347"
         },
         {
           "display": "Imperium Sword",
@@ -2987,6 +3555,14 @@
           "filter": "ultimate weapon Ultimate Weapon Ultimate Weapon  Lloyd's weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/09/LNMLloydFiringUltima.png/revision/latest/scale-to-width-down/450?cb=20171202012545"
+        },
+        {
+          "display": "Weapon of Desolation",
+          "href": "/pages/content/characters/groups/imperians/loyalists/weapon-of-desolation",
+          "slug": "weapon-of-desolation",
+          "filter": "weapon of desolation Weapon of Desolation Weapon of Desolation  Lloyd's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/84/The_Weapon_of_Desolation.png/revision/latest/scale-to-width-down/450?cb=20260726180352"
         }
       ]
     },
@@ -3019,6 +3595,22 @@
           "filter": "crystal mace Crystal mace Crystal mace  Magazine exclusive weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/0b/Crystal_Mace.png/revision/latest/scale-to-width-down/450?cb=20240511184249"
+        },
+        {
+          "display": "Cyber Hammer",
+          "href": "/pages/content/objects/technology/prime-empire-video-game/cyber-hammer",
+          "slug": "cyber-hammer",
+          "filter": "cyber hammer Cyber Hammer Cyber Hammer  Magazine exclusive weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/40/Cyber_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260617081254"
+        },
+        {
+          "display": "Diamond twin hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/diamond-twin-hammer",
+          "slug": "diamond-twin-hammer",
+          "filter": "diamond twin hammer Diamond twin hammer Diamond twin hammer  Magazine exclusive weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a3/Diamond_twin_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260615072749"
         },
         {
           "display": "Dragon Sword",
@@ -3085,12 +3677,52 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/e/e4/Longbow.png/revision/latest/scale-to-width-down/450?cb=20240511183416"
         },
         {
+          "display": "Mega-hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/mega-hammer",
+          "slug": "mega-hammer",
+          "filter": "mega-hammer Mega-hammer Mega-hammer  Magazine exclusive weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/2f/Mega-hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260615073542"
+        },
+        {
+          "display": "Nuckal's hammer",
+          "href": "/pages/content/characters/former-humans/skulkin/skulkin-weapons/nuckals-hammer",
+          "slug": "nuckals-hammer",
+          "filter": "nuckal's hammer Nuckal's hammer Nuckal's hammer  Magazine exclusive weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/87/Nuckal%27s_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260619193003"
+        },
+        {
+          "display": "Scythe hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/scythe-hammer",
+          "slug": "scythe-hammer",
+          "filter": "scythe hammer Scythe hammer Scythe hammer  Magazine exclusive weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f8/Scythe_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260615200126"
+        },
+        {
           "display": "Tech blade",
           "href": "/pages/content/abilities/elements/amber/secondary-elements/post-merge-elements/technology-element/tech-blade",
           "slug": "tech-blade",
           "filter": "tech blade Tech blade Tech blade  Magazine exclusive weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/1/1a/Tech_Blade.png/revision/latest/scale-to-width-down/450?cb=20240510212225"
+        },
+        {
+          "display": "Ultra-Hammer",
+          "href": "/pages/content/characters/elemental-masters/ninja/ultra-hammer",
+          "slug": "ultra-hammer",
+          "filter": "ultra-hammer Ultra-Hammer Ultra-Hammer  Magazine exclusive weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/19/Ultra-Hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260619185502"
+        },
+        {
+          "display": "Zigzag hammer",
+          "href": "/pages/content/objects/weapons/2017-weapons/zigzag-hammer",
+          "slug": "zigzag-hammer",
+          "filter": "zigzag hammer Zigzag hammer Zigzag hammer  Magazine exclusive weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9b/Zigzag_hammer.jpg/revision/latest/scale-to-width-down/450?cb=20260616110329"
         }
       ]
     },
@@ -3283,6 +3915,30 @@
           "filter": "dragontooth scythe Dragontooth Scythe Dragontooth Scythe  Ras' weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/5/5d/Dragontooth_scythe.png/revision/latest/scale-to-width-down/450?cb=20241115183436"
+        },
+        {
+          "display": "Hammer",
+          "href": "/pages/content/locations/realms/wyldness/hammer",
+          "slug": "hammer",
+          "filter": "hammer Hammer Hammer  Ras' weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/Screenshotter---5%E2%80%9951%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20200517123403"
+        },
+        {
+          "display": "Icon of the Source Dragon of Energy",
+          "href": "/pages/content/abilities/sources/energy-source/icon-of-the-source-dragon-of-energy",
+          "slug": "icon-of-the-source-dragon-of-energy",
+          "filter": "icon of the source dragon of energy Icon of the Source Dragon of Energy Icon of the Source Dragon of Energy  Ras' weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a0/Icon_of_the_Source_Dragon_of_Energy.jpg/revision/latest?cb=20260722164622"
+        },
+        {
+          "display": "Icon of the Source Dragon of Motion",
+          "href": "/pages/content/abilities/sources/motion/icon-of-the-source-dragon-of-motion",
+          "slug": "icon-of-the-source-dragon-of-motion",
+          "filter": "icon of the source dragon of motion Icon of the Source Dragon of Motion Icon of the Source Dragon of Motion  Ras' weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/50/Dragon_Icon.png/revision/latest/scale-to-width-down/450?cb=20241005040347"
         },
         {
           "display": "Icon of the Source Dragon of Strength",
@@ -3509,6 +4165,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/fd/Arin%27s_grappling_hook.jpeg/revision/latest/scale-to-width-down/450?cb=20230610141709"
         },
         {
+          "display": "Hammer",
+          "href": "/pages/content/locations/realms/wyldness/hammer",
+          "slug": "hammer",
+          "filter": "hammer Hammer Hammer  Sora's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/Screenshotter---5%E2%80%9951%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20200517123403"
+        },
+        {
           "display": "Imperium Sword",
           "href": "/pages/content/characters/groups/imperians/loyalists/imperium-sword",
           "slug": "imperium-sword",
@@ -3603,6 +4267,14 @@
           "filter": "dragon hook Dragon Hook Dragon Hook  Wyldfyre's weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/8/8b/Dragon_hook_show.png/revision/latest/scale-to-width-down/450?cb=20240307025011"
+        },
+        {
+          "display": "Hammer",
+          "href": "/pages/content/locations/realms/wyldness/hammer",
+          "slug": "hammer",
+          "filter": "hammer Hammer Hammer  Wyldfyre's weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fc/Screenshotter---5%E2%80%9951%E2%80%9D.jpg/revision/latest/scale-to-width-down/450?cb=20200517123403"
         },
         {
           "display": "Prismatic Blades",
@@ -3810,7 +4482,7 @@
           "slug": "sai",
           "filter": "sai Sai Sai  Zane's weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9d/Game_of_Masks_162.png/revision/latest/scale-to-width-down/450?cb=20210603123310"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/89/Sai_S8.jpg/revision/latest/scale-to-width-down/450?cb=20260611200820"
         },
         {
           "display": "Shurikens",
@@ -3961,12 +4633,28 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/f3/BattleWuTV.png/revision/latest/scale-to-width-down/450?cb=20150725233338"
         },
         {
+          "display": "Axcalion",
+          "href": "/pages/content/characters/animal-tribes/eagle-tribe/axcalion",
+          "slug": "axcalion",
+          "filter": "axcalion Axcalion Axcalion  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/50/Axcalion.png/revision/latest?cb=20260815185741"
+        },
+        {
           "display": "Axe",
           "href": "/pages/content/characters/animals/species/oni/axe",
           "slug": "axe",
           "filter": "axe Axe Axe  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/1/1e/Axe.jpeg/revision/latest/scale-to-width-down/450?cb=20250620122435"
+        },
+        {
+          "display": "Banana Buster",
+          "href": "/pages/content/characters/animal-tribes/gorilla-tribe/gorilla-tribe-weapons/banana-buster",
+          "slug": "banana-buster",
+          "filter": "banana buster Banana Buster Banana Buster  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8e/Banana_Buster_Ep25.jpeg/revision/latest/scale-to-width-down/450?cb=20260827040130"
         },
         {
           "display": "Benthomaar's arrows",
@@ -4033,6 +4721,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/1/16/Volcano_Adventure_12.jpg/revision/latest/scale-to-width-down/450?cb=20250118171827"
         },
         {
+          "display": "Boom Boom Double Boomer",
+          "href": "/pages/content/characters/animal-tribes/rhino-tribe/boom-boom-double-boomer",
+          "slug": "boom-boom-double-boomer",
+          "filter": "boom boom double boomer Boom Boom Double Boomer Boom Boom Double Boomer  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fd/Boulder_Boomer.png/revision/latest?cb=20260815233521"
+        },
+        {
           "display": "Bronzed Bone Axe",
           "href": "/pages/content/characters/former-humans/skulkin/skulkin-weapons/bronzed-bone-axe",
           "slug": "bronzed-bone-axe",
@@ -4078,7 +4774,7 @@
           "slug": "chainsaw",
           "filter": "chainsaw Chainsaw Chainsaw  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cc/6117.png/revision/latest/scale-to-width-down/450?cb=20210402210524"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f4/The_Summit_Loyalists.jpeg/revision/latest/scale-to-width-down/450?cb=20260806200900"
         },
         {
           "display": "Char's snake scepter",
@@ -4089,20 +4785,20 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/c/c1/Char%27s_Snake_Scepter.jpg/revision/latest?cb=20200904175616"
         },
         {
-          "display": "Cole's mace",
-          "href": "/pages/content/objects/weapons/2020-weapons/coles-mace",
-          "slug": "coles-mace",
-          "filter": "coles mace Cole's mace Cole's mace  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "display": "Chi Bangers",
+          "href": "/pages/content/characters/animal-tribes/lion-tribe/lion-tribe-weapons/chi-bangers",
+          "slug": "chi-bangers",
+          "filter": "chi bangers Chi Bangers Chi Bangers  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/0/04/Cole_Mace_HQ.png/revision/latest/scale-to-width-down/450?cb=20211014055258"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/5d/Chi_Banger_infobox.png/revision/latest/scale-to-width-down/450?cb=20260828112304"
         },
         {
-          "display": "Cole's NRG Golden Blade",
-          "href": "/pages/content/characters/elemental-masters/ninja/coles-nrg-golden-blade",
-          "slug": "coles-nrg-golden-blade",
-          "filter": "coles nrg golden blade Cole's NRG Golden Blade Cole's NRG Golden Blade  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "display": "Chi Cudgellor",
+          "href": "/pages/content/characters/animal-tribes/gorilla-tribe/gorilla-tribe-weapons/chi-cudgellor",
+          "slug": "chi-cudgellor",
+          "filter": "chi cudgellor Chi Cudgellor Chi Cudgellor  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/1/12/PicC9A7AFA473BDC1200C1AE4E6B2AC87E7.png/revision/latest?cb=20120925063457"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/03/Chi_Cudgellors_Ep9.jpeg/revision/latest/scale-to-width-down/450?cb=20260827042201"
         },
         {
           "display": "Constrictai Double-Headed Axe",
@@ -4225,6 +4921,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/04/Nindroid2014.png/revision/latest/scale-to-width-down/450?cb=20191207082207"
         },
         {
+          "display": "Eggola",
+          "href": "/pages/content/characters/animal-tribes/eagle-tribe/eggola",
+          "slug": "eggola",
+          "filter": "eggola Eggola Eggola  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4b/ChimaArticle.png/revision/latest/scale-to-width-down/450?cb=20260729221032"
+        },
+        {
           "display": "Fang claws",
           "href": "/pages/content/characters/groups/villainous-factions/wolf-clan/fang-claws",
           "slug": "fang-claws",
@@ -4249,6 +4953,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/8/8d/PicE98A6019CD7639771821A0F885ABDD0B.png/revision/latest?cb=20120925063006"
         },
         {
+          "display": "Firedent",
+          "href": "/pages/content/abilities/elements/combination-elements/earth/main-elements/fire/firedent",
+          "slug": "firedent",
+          "filter": "firedent Firedent Firedent  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/08/70231_alt2.jpg/revision/latest/scale-to-width-down/450?cb=20260815171058"
+        },
+        {
           "display": "Flintlock pistols",
           "href": "/pages/content/characters/groups/pirates/sky-pirates/flintlock-pistols",
           "slug": "flintlock-pistols",
@@ -4263,6 +4975,14 @@
           "filter": "forward time blade Forward Time Blade Forward Time Blade  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/03/MoS67Knew.jpg/revision/latest/scale-to-width-down/450?cb=20170911010530"
+        },
+        {
+          "display": "Gamorette Gauntlets",
+          "href": "/pages/content/characters/animal-tribes/gorilla-tribe/gorilla-tribe-weapons/gamorette-gauntlets",
+          "slug": "gamorette-gauntlets",
+          "filter": "gamorette gauntlets Gamorette Gauntlets Gamorette Gauntlets  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/2e/Gamorette_Gauntlets_Ep9.jpeg/revision/latest/scale-to-width-down/450?cb=20260827044449"
         },
         {
           "display": "Gilba Thorns",
@@ -4337,14 +5057,6 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/7/7e/Golden_Heli-Chains.png..png/revision/latest?cb=20120822005924"
         },
         {
-          "display": "Golden Hypno Fang",
-          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/serpentine-weapons/golden-hypno-fang",
-          "slug": "golden-hypno-fang",
-          "filter": "golden hypno fang Golden Hypno Fang Golden Hypno Fang  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
-          "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/3/39/Goldenhypnofang.png/revision/latest?cb=20121121012815"
-        },
-        {
           "display": "Golden Pick Axe",
           "href": "/pages/content/characters/former-humans/skulkin/skulkin-weapons/golden-pick-axe",
           "slug": "golden-pick-axe",
@@ -4409,6 +5121,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/5/5d/Korgran%27s_Axe.png/revision/latest/scale-to-width-down/450?cb=20211015171120"
         },
         {
+          "display": "Korrodor",
+          "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/scorpion-tribe/korrodor",
+          "slug": "korrodor",
+          "filter": "korrodor Korrodor Korrodor  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/7a/Korroders.png/revision/latest?cb=20260815173416"
+        },
+        {
           "display": "Kur's axe",
           "href": "/pages/content/objects/weapons/2025-weapons/kurs-axe",
           "slug": "kurs-axe",
@@ -4470,7 +5190,7 @@
           "slug": "nindroid-katana",
           "filter": "nindroid katana Nindroid Katana Nindroid Katana  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cd/MoS28Min-DroidWithASword.png/revision/latest/scale-to-width-down/450?cb=20201015232224"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/da/Nindroid_Katana_.jpeg/revision/latest/scale-to-width-down/450?cb=20250811140333"
         },
         {
           "display": "Nindroid Sai",
@@ -4495,6 +5215,14 @@
           "filter": "pause time blade Pause Time Blade Pause Time Blade  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/d/d9/MoS72PauseBlade.png/revision/latest/scale-to-width-down/450?cb=20200827160922"
+        },
+        {
+          "display": "Rammer Slammer",
+          "href": "/pages/content/characters/animal-tribes/rhino-tribe/rammer-slammer",
+          "slug": "rammer-slammer",
+          "filter": "rammer slammer Rammer Slammer Rammer Slammer  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4b/ChimaArticle.png/revision/latest/scale-to-width-down/450?cb=20260729221032"
         },
         {
           "display": "Rapton's bombs",
@@ -4535,6 +5263,14 @@
           "filter": "scimitar Scimitar Scimitar  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/d/d2/Scimitar_NEW_INFOBOX.jpeg/revision/latest/scale-to-width-down/450?cb=20250717193834"
+        },
+        {
+          "display": "Scythe Ghost Master Blade",
+          "href": "/pages/content/characters/animals/species/ghosts/ghost-warriors/scythe-ghost-master-blade",
+          "slug": "scythe-ghost-master-blade",
+          "filter": "scythe ghost master blade Scythe Ghost Master Blade Scythe Ghost Master Blade  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ea/Ghoultar%27s_scythe.png/revision/latest/scale-to-width-down/450?cb=20260610191030"
         },
         {
           "display": "Shield",
@@ -4585,6 +5321,22 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/e/e3/Snake_strangler.png/revision/latest/scale-to-width-down/450?cb=20211230194056"
         },
         {
+          "display": "Sonoranti",
+          "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/sonoranti",
+          "slug": "sonoranti",
+          "filter": "sonoranti Sonoranti Sonoranti  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/24/Sonoranti.png/revision/latest?cb=20260815191713"
+        },
+        {
+          "display": "Sonorr",
+          "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/sonorr",
+          "slug": "sonorr",
+          "filter": "sonorr Sonorr Sonorr  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/24/Sonorr_%28Show%29.png/revision/latest/scale-to-width-down/450?cb=20260904220438"
+        },
+        {
           "display": "Soul Archer's bow",
           "href": "/pages/content/characters/animals/species/ghosts/ghost-warriors/soul-archers-bow",
           "slug": "soul-archers-bow",
@@ -4617,6 +5369,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/6/6f/Staff_of_Light.png/revision/latest?cb=20120421165229"
         },
         {
+          "display": "Sting Hammer",
+          "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/scorpion-tribe/sting-hammer",
+          "slug": "sting-hammer",
+          "filter": "sting hammer Sting Hammer Sting Hammer  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/37/Scutter.jpg/revision/latest/scale-to-width-down/450?cb=20260815175357"
+        },
+        {
           "display": "Stone Army Catapult",
           "href": "/pages/content/objects/weapons/2012-weapons/stone-army-catapult",
           "slug": "stone-army-catapult",
@@ -4633,6 +5393,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/7/7e/Tan_Dark_Blade.png/revision/latest/scale-to-width-down/450?cb=20200828154047"
         },
         {
+          "display": "Supa Snowka",
+          "href": "/pages/content/characters/animal-tribes/hunters/ice-bear-tribe/supa-snowka",
+          "slug": "supa-snowka",
+          "filter": "supa snowka Supa Snowka Supa Snowka  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/94/IceklawTV.jpg/revision/latest/scale-to-width-down/450?cb=20260815233829"
+        },
+        {
           "display": "Time Blades",
           "href": "/pages/content/abilities/elements/amber/secondary-elements/time/time-blades",
           "slug": "time-blades",
@@ -4646,7 +5414,7 @@
           "slug": "toxic-toothpick",
           "filter": "toxic toothpick Toxic Toothpick Toxic Toothpick  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/2/25/Pic70523372847B9FF265DB9552DCC85A1F.png/revision/latest?cb=20120819095953"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/eb/Toxic_Toothpick.png/revision/latest?cb=20120819095953"
         },
         {
           "display": "Trident",
@@ -4655,6 +5423,14 @@
           "filter": "trident Trident Trident  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/d/d9/MoS169Trident.png/revision/latest/scale-to-width-down/450?cb=20210718074357"
+        },
+        {
+          "display": "Vengious of Honor",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/crocodile-tribe-weapons/vengious-of-honor",
+          "slug": "vengious-of-honor",
+          "filter": "vengious of honor Vengious of Honor Vengious of Honor  More weapons catalog year catalog weapons by year legacy year list 2011 2011 weapons 2012 2012 weapons 2013 2013 weapons 2014 2014 weapons 2015 2015 weapons 2016 2016 weapons 2017 2017 weapons 2018 2018 weapons 2019 2019 weapons 2020 2020 weapons 2021 2021 weapons 2022 2022 weapons 2023 2023 weapons 2024 2024 weapons 2025 2025 weapons 2026 2026 weapons weapon weapons ninjago weapons",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/7d/Vengious.png/revision/latest?cb=20260815191944"
         },
         {
           "display": "Vermillion axe",

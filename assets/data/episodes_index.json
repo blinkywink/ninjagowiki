@@ -524,7 +524,7 @@
             "s03ep2",
             "s3ep02"
           ],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f6/Ep29.jpg/revision/latest/scale-to-width-down/450?cb=20140712193020"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6a/MosEp28.jpg/revision/latest/scale-to-width-down/450?cb=20140712193020"
         },
         {
           "display": "Blackout",
@@ -785,6 +785,29 @@
             "s4ep10"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/4/4e/Ninjago44.png/revision/latest/scale-to-width-down/450?cb=20150404135912"
+        }
+      ]
+    },
+    {
+      "id": "episodes-of-dragons-fury",
+      "title": "Season 5: Dragons' Fury",
+      "seasonHref": "/pages/content/seasons/dragons-fury/season-5-dragons-fury",
+      "episodes": [
+        {
+          "display": "The Evil Within",
+          "href": "/pages/content/episodes/episodes-of-dragons-fury/the-evil-within",
+          "slug": "the-evil-within",
+          "filter": "the evil within The Evil Within The Evil Within s05e01 s05e1 s5e01 s5e1 s05ep01 s05ep1 s5ep01 Season 5: Dragons' Fury episodes of dragons fury Season 5: Dragons  Fury dragons fury season5 season 5 s5 s05",
+          "codes": [
+            "s05e01",
+            "s05e1",
+            "s5e01",
+            "s5e1",
+            "s05ep01",
+            "s05ep1",
+            "s5ep01"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fa/Futurenoleaks.png/revision/latest/scale-to-width-down/450?cb=20200821173040"
         }
       ]
     },
@@ -3002,6 +3025,14 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/ff/H4xmDGGJAoM-HD.jpg/revision/latest/scale-to-width-down/450?cb=20230104105023"
         },
         {
+          "display": "Mail Day",
+          "href": "/pages/content/episodes/specials/mail-day",
+          "slug": "mail-day",
+          "filter": "mail day Mail Day Mail Day  Specials specials Specials",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/0e/Exclusive_Scene_Performed_at_SDCC_by_The_Heroes_Behind_the_Heroes_-LEGONINJAGO_-LEGO_-SDCC/revision/latest/scale-to-width-down/450?cb=20260724094412"
+        },
+        {
           "display": "Peak of 1000 Suns",
           "href": "/pages/content/episodes/specials/peak-of-1000-suns",
           "slug": "peak-of-1000-suns",
@@ -3547,7 +3578,7 @@
           "slug": "no-more",
           "filter": "no more No More No More  Wu's Teas wus teas Wu s Teas wus teas wu teas master wu teas sensei wu teas",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Samuraixicon.png/revision/latest/scale-to-width-down/450?cb=20200821154353"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/35/NoMore.png/revision/latest/scale-to-width-down/450?cb=20181213183824"
         },
         {
           "display": "Plunger",
@@ -4688,6 +4719,136 @@
             "dr4ep10"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/e/e6/Birthright.png/revision/latest/scale-to-width-down/450?cb=20260401161221"
+        },
+        {
+          "display": "Monster in the Monastery",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/monster-in-the-monastery",
+          "slug": "monster-in-the-monastery",
+          "filter": "monster in the monastery Monster in the Monastery Monster in the Monastery dr4e11 drs4e11 dr4x11 dr4ep11 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e11",
+            "drs4e11",
+            "dr4x11",
+            "dr4ep11"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/c0/DR_S4_Ep11_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182420"
+        },
+        {
+          "display": "The Mech-Master 10,000",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/the-mech-master-10000",
+          "slug": "the-mech-master-10000",
+          "filter": "the mech-master 10,000 The Mech-Master 10,000 The Mech-Master 10,000 dr4e12 drs4e12 dr4x12 dr4ep12 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e12",
+            "drs4e12",
+            "dr4x12",
+            "dr4ep12"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/90/DR_S4_Ep12_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182423"
+        },
+        {
+          "display": "In the Pits",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/in-the-pits",
+          "slug": "in-the-pits",
+          "filter": "in the pits In the Pits In the Pits dr4e13 drs4e13 dr4x13 dr4ep13 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e13",
+            "drs4e13",
+            "dr4x13",
+            "dr4ep13"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/14/DR_S4_Ep13_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182425"
+        },
+        {
+          "display": "Ancient History (Dragons Rising)",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/ancient-history-dragons-rising",
+          "slug": "ancient-history-dragons-rising",
+          "filter": "ancient history (dragons rising) Ancient History (Dragons Rising) Ancient History (Dragons Rising) dr4e14 drs4e14 dr4x14 dr4ep14 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e14",
+            "drs4e14",
+            "dr4x14",
+            "dr4ep14"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/b7/DR_S4_Ep14_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182426"
+        },
+        {
+          "display": "A Frozen Scar",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/a-frozen-scar",
+          "slug": "a-frozen-scar",
+          "filter": "a frozen scar A Frozen Scar A Frozen Scar dr4e15 drs4e15 dr4x15 dr4ep15 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e15",
+            "drs4e15",
+            "dr4x15",
+            "dr4ep15"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/c0/DR_S4_Ep15_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182430"
+        },
+        {
+          "display": "100 Eyes to See Your Soul",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/100-eyes-to-see-your-soul",
+          "slug": "100-eyes-to-see-your-soul",
+          "filter": "100 eyes to see your soul 100 Eyes to See Your Soul 100 Eyes to See Your Soul dr4e16 drs4e16 dr4x16 dr4ep16 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e16",
+            "drs4e16",
+            "dr4x16",
+            "dr4ep16"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/69/DR_S4_Ep16_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182431"
+        },
+        {
+          "display": "All Wizards Are Liars",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/all-wizards-are-liars",
+          "slug": "all-wizards-are-liars",
+          "filter": "all wizards are liars All Wizards Are Liars All Wizards Are Liars dr4e17 drs4e17 dr4x17 dr4ep17 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e17",
+            "drs4e17",
+            "dr4x17",
+            "dr4ep17"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d6/DR_S4_Ep17_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182433"
+        },
+        {
+          "display": "The Summit",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/the-summit",
+          "slug": "the-summit",
+          "filter": "the summit The Summit The Summit dr4e18 drs4e18 dr4x18 dr4ep18 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e18",
+            "drs4e18",
+            "dr4x18",
+            "dr4ep18"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cd/DR_S4_Ep18_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182435"
+        },
+        {
+          "display": "Desperately Seeking Sora",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/desperately-seeking-sora",
+          "slug": "desperately-seeking-sora",
+          "filter": "desperately seeking sora Desperately Seeking Sora Desperately Seeking Sora dr4e19 drs4e19 dr4x19 dr4ep19 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e19",
+            "drs4e19",
+            "dr4x19",
+            "dr4ep19"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a3/DR_S4_Ep19_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182436"
+        },
+        {
+          "display": "Dangerous Connections",
+          "href": "/pages/content/episodes/episodes-of-season-4-dragons-rising/dangerous-connections",
+          "slug": "dangerous-connections",
+          "filter": "dangerous connections Dangerous Connections Dangerous Connections dr4e20 drs4e20 dr4x20 dr4ep20 Season 4 (Dragons Rising) episodes of season 4 dragons rising Season 4 (Dragons Rising) season 4 dragons rising season4 season 4 s4 s04 dragons rising ninjago dragons rising dragons rising season 4",
+          "codes": [
+            "dr4e20",
+            "drs4e20",
+            "dr4x20",
+            "dr4ep20"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/43/DR_S4_Ep20_Title_Screen.png/revision/latest/scale-to-width-down/450?cb=20260722182438"
         }
       ]
     }
