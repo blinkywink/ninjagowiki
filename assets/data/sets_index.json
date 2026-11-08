@@ -30,7 +30,7 @@
             "set71873",
             "lego71873"
           ],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fa/Futurenoleaks.png/revision/latest/scale-to-width-down/450?cb=20200821173040"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/df/71873_box.jpg/revision/latest/scale-to-width-down/450?cb=20261001013201"
         },
         {
           "display": "71875 Lloyd vs. Ras Spinner Battle",
@@ -42,13 +42,13 @@
             "set71875",
             "lego71875"
           ],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e0/71875_sdcc.jpg/revision/latest/scale-to-width-down/450?cb=20260802002013"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3a/71875_box.jpg/revision/latest/scale-to-width-down/450?cb=20261001013403"
         },
         {
-          "display": "71876 Kai's Red Fire Dragon Attack",
-          "href": "/pages/content/characters/animals/dragons/71876-kais-red-fire-dragon-attack",
-          "slug": "71876-kais-red-fire-dragon-attack",
-          "filter": "71876 kai's red fire dragon attack 71876 Kai's Red Fire Dragon Attack 71876 Kai's Red Fire Dragon Attack 71876 set71876 lego71876 2027 sets 2027 sets2027 lego2027",
+          "display": "71876 Kai's Red Fire Dragon",
+          "href": "/pages/content/characters/animals/dragons/71876-kais-red-fire-dragon",
+          "slug": "71876-kais-red-fire-dragon",
+          "filter": "71876 kai's red fire dragon 71876 Kai's Red Fire Dragon 71876 Kai's Red Fire Dragon 71876 set71876 lego71876 2027 sets 2027 sets2027 lego2027",
           "codes": [
             "71876",
             "set71876",
@@ -129,6 +129,30 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/fa/Futurenoleaks.png/revision/latest/scale-to-width-down/450?cb=20200821173040"
         },
         {
+          "display": "71887 Oni Demon Mech",
+          "href": "/pages/content/characters/animals/species/oni/71887-oni-demon-mech",
+          "slug": "71887-oni-demon-mech",
+          "filter": "71887 oni demon mech 71887 Oni Demon Mech 71887 Oni Demon Mech 71887 set71887 lego71887 2027 sets 2027 sets2027 lego2027",
+          "codes": [
+            "71887",
+            "set71887",
+            "lego71887"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fa/Futurenoleaks.png/revision/latest/scale-to-width-down/450?cb=20200821173040"
+        },
+        {
+          "display": "71888 Ivo's Ninja Dojo",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/serpentine/71888-ivos-ninja-dojo",
+          "slug": "71888-ivos-ninja-dojo",
+          "filter": "71888 ivo's ninja dojo 71888 Ivo's Ninja Dojo 71888 Ivo's Ninja Dojo 71888 set71888 lego71888 2027 sets 2027 sets2027 lego2027",
+          "codes": [
+            "71888",
+            "set71888",
+            "lego71888"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/96/Ivo_Dojo_box.jpg/revision/latest/scale-to-width-down/450?cb=20261106031324"
+        },
+        {
           "display": "71889 Earth Mech Battle Unit",
           "href": "/pages/content/seasons/dragons-fury/71889-earth-mech-battle-unit",
           "slug": "71889-earth-mech-battle-unit",
@@ -139,6 +163,14 @@
             "lego71889"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/fa/Futurenoleaks.png/revision/latest/scale-to-width-down/450?cb=20200821173040"
+        },
+        {
+          "display": "Ninjago Legends",
+          "href": "/pages/_unsorted/ninjago-legends",
+          "slug": "ninjago-legends",
+          "filter": "ninjago legends Ninjago Legends Ninjago Legends  2027 sets 2027 sets2027 lego2027",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d9/Ninjago_Legends_logo.png/revision/latest/scale-to-width-down/450?cb=20260725032225"
         }
       ]
     },
@@ -449,6 +481,18 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/8/88/112601-1.png/revision/latest/scale-to-width-down/450?cb=20260209035139"
         },
         {
+          "display": "831521 Commemorative Coin",
+          "href": "/pages/content/sets/2026-sets/831521-commemorative-coin",
+          "slug": "831521-commemorative-coin",
+          "filter": "831521 commemorative coin 831521 Commemorative Coin 831521 Commemorative Coin 831521 set831521 lego831521 2026 sets 2026 sets2026 lego2026",
+          "codes": [
+            "831521",
+            "set831521",
+            "lego831521"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3f/Shanghai_Legoland_Lloyd_Coin.webp/revision/latest/scale-to-width-down/450?cb=20260927191512"
+        },
+        {
           "display": "951466 Kai with Motorcycle",
           "href": "/pages/content/characters/elemental-masters/ninja/ninja-vehicles/kais-vehicles/951466-kai-with-motorcycle",
           "slug": "951466-kai-with-motorcycle",
@@ -565,6 +609,30 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/4/46/Acidm.jpg/revision/latest/scale-to-width-down/450?cb=20260808202045"
         },
         {
+          "display": "L0002208 Arin",
+          "href": "/pages/content/characters/elemental-masters/ninja/l0002208-arin",
+          "slug": "l0002208-arin",
+          "filter": "l0002208 arin L0002208 Arin L0002208 Arin  2026 sets 2026 sets2026 lego2026",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d2/L0002208-1.png/revision/latest/scale-to-width-down/450?cb=20261010160152"
+        },
+        {
+          "display": "L0002209 Loyalist",
+          "href": "/pages/content/characters/claws-of-imperium/imperians/loyalists/l0002209-loyalist",
+          "slug": "l0002209-loyalist",
+          "filter": "l0002209 loyalist L0002209 Loyalist L0002209 Loyalist  2026 sets 2026 sets2026 lego2026",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/04/Loyal.jpg/revision/latest/scale-to-width-down/450?cb=20261004190356"
+        },
+        {
+          "display": "L0002210 Kai",
+          "href": "/pages/content/seasons/season-4-dragons-rising/l0002210-kai",
+          "slug": "l0002210-kai",
+          "filter": "l0002210 kai L0002210 Kai L0002210 Kai  2026 sets 2026 sets2026 lego2026",
+          "codes": [],
+          "img": ""
+        },
+        {
           "display": "L0002212 Zane-Mech",
           "href": "/pages/content/characters/elemental-masters/ninja/l0002212-zane-mech",
           "slug": "l0002212-zane-mech",
@@ -602,7 +670,15 @@
           "slug": "l0002216-zane-vs-loyalist-leader",
           "filter": "l0002216 zane vs. loyalist leader L0002216 Zane vs. Loyalist Leader L0002216 Zane vs. Loyalist Leader  2026 sets 2026 sets2026 lego2026",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d0/Roby_statue_all_white.png/revision/latest/scale-to-width-down/450?cb=20250428010737"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f3/L0002216-1.png/revision/latest/scale-to-width-down/450?cb=20260923205221"
+        },
+        {
+          "display": "L0002217 Lloyd vs. Garmadon",
+          "href": "/pages/content/characters/elemental-masters/ninja/l0002217-lloyd-vs-garmadon",
+          "slug": "l0002217-lloyd-vs-garmadon",
+          "filter": "l0002217 lloyd vs. garmadon L0002217 Lloyd vs. Garmadon L0002217 Lloyd vs. Garmadon  2026 sets 2026 sets2026 lego2026",
+          "codes": [],
+          "img": ""
         },
         {
           "display": "LEGO Ninjago Legacy 15th Anniversary Coin",
@@ -613,10 +689,10 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/08/China15Anncoinreverse.webp/revision/latest/scale-to-width-down/450?cb=20260122023018"
         },
         {
-          "display": "Ninjago: Legends",
-          "href": "/pages/content/lego-themes/ninjago/ninjago-legends",
+          "display": "Ninjago Legends",
+          "href": "/pages/_unsorted/ninjago-legends",
           "slug": "ninjago-legends",
-          "filter": "ninjago: legends Ninjago: Legends Ninjago: Legends  2026 sets 2026 sets2026 lego2026",
+          "filter": "ninjago legends Ninjago Legends Ninjago Legends  2026 sets 2026 sets2026 lego2026",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/d/d9/Ninjago_Legends_logo.png/revision/latest/scale-to-width-down/450?cb=20260725032225"
         }
@@ -1309,10 +1385,10 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/4/47/Ninjago-Bundle2-202505-RDP-Product-Image.webp/revision/latest/scale-to-width-down/450?cb=20250530022718"
         },
         {
-          "display": "Ninjago: Legends",
-          "href": "/pages/content/lego-themes/ninjago/ninjago-legends",
+          "display": "Ninjago Legends",
+          "href": "/pages/_unsorted/ninjago-legends",
           "slug": "ninjago-legends",
-          "filter": "ninjago: legends Ninjago: Legends Ninjago: Legends  2025 sets 2025 sets2025 lego2025",
+          "filter": "ninjago legends Ninjago Legends Ninjago Legends  2025 sets 2025 sets2025 lego2025",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/d/d9/Ninjago_Legends_logo.png/revision/latest/scale-to-width-down/450?cb=20260725032225"
         }
@@ -6922,7 +6998,7 @@
           "slug": "the-lego-ninjago-movie-spinner",
           "filter": "the lego ninjago movie spinner The LEGO Ninjago Movie Spinner The LEGO Ninjago Movie Spinner  2017 sets 2017 sets2017 lego2017",
           "codes": [],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/d/dc/1000x800p.jpg/revision/latest/scale-to-width-down/450?cb=20260815185457"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/92/Ninjago_Movie_Spinner.jpg/revision/latest/scale-to-width-down/450?cb=20261007042921"
         }
       ]
     },
@@ -8621,6 +8697,66 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/f0/Cruiser.jpg/revision/latest?cb=20260815190133"
         },
         {
+          "display": "70123 Lion Legend Beast",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70123-lion-legend-beast",
+          "slug": "70123-lion-legend-beast",
+          "filter": "70123 lion legend beast 70123 Lion Legend Beast 70123 Lion Legend Beast 70123 set70123 lego70123 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70123",
+            "set70123",
+            "lego70123"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a4/Lbox.png/revision/latest/scale-to-width-down/450?cb=20260815173641"
+        },
+        {
+          "display": "70124 Eagle Legend Beast",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70124-eagle-legend-beast",
+          "slug": "70124-eagle-legend-beast",
+          "filter": "70124 eagle legend beast 70124 Eagle Legend Beast 70124 Eagle Legend Beast 70124 set70124 lego70124 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70124",
+            "set70124",
+            "lego70124"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/52/70124-box.jpg/revision/latest?cb=20260815170755"
+        },
+        {
+          "display": "70125 Gorilla Legend Beast",
+          "href": "/pages/content/characters/animals/legend-beasts/70125-gorilla-legend-beast",
+          "slug": "70125-gorilla-legend-beast",
+          "filter": "70125 gorilla legend beast 70125 Gorilla Legend Beast 70125 Gorilla Legend Beast 70125 set70125 lego70125 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70125",
+            "set70125",
+            "lego70125"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/83/70125-box.jpg/revision/latest?cb=20260815185534"
+        },
+        {
+          "display": "70126 Crocodile Legend Beast",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70126-crocodile-legend-beast",
+          "slug": "70126-crocodile-legend-beast",
+          "filter": "70126 crocodile legend beast 70126 Crocodile Legend Beast 70126 Crocodile Legend Beast 70126 set70126 lego70126 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70126",
+            "set70126",
+            "lego70126"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cf/716L4IKnr3L._AC_SX425_.jpg/revision/latest/scale-to-width-down/450?cb=20260815185455"
+        },
+        {
+          "display": "70127 Wolf Legend Beast",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70127-wolf-legend-beast",
+          "slug": "70127-wolf-legend-beast",
+          "filter": "70127 wolf legend beast 70127 Wolf Legend Beast 70127 Wolf Legend Beast 70127 set70127 lego70127 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70127",
+            "set70127",
+            "lego70127"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f9/Wolf_Legend_Set.jpg/revision/latest/scale-to-width-down/450?cb=20260815192044"
+        },
+        {
           "display": "70128 Braptor's Wing Striker",
           "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/70128-braptors-wing-striker",
           "slug": "70128-braptors-wing-striker",
@@ -8705,6 +8841,42 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/9/9b/61sD5VvPiVL._AC_UF894%2C1000_QL80_.jpg/revision/latest/scale-to-width-down/450?cb=20260815170608"
         },
         {
+          "display": "70135 Cragger's Fire Striker",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70135-craggers-fire-striker",
+          "slug": "70135-craggers-fire-striker",
+          "filter": "70135 cragger's fire striker 70135 Cragger's Fire Striker 70135 Cragger's Fire Striker 70135 set70135 lego70135 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70135",
+            "set70135",
+            "lego70135"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d2/70135-box.jpg/revision/latest/scale-to-width-down/450?cb=20260815185546"
+        },
+        {
+          "display": "70136 Banana Bash",
+          "href": "/pages/content/lego-themes/legends-of-chima/speedorz/70136-banana-bash",
+          "slug": "70136-banana-bash",
+          "filter": "70136 banana bash 70136 Banana Bash 70136 Banana Bash 70136 set70136 lego70136 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70136",
+            "set70136",
+            "lego70136"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/79/70136-box.jpg/revision/latest?cb=20260815185548"
+        },
+        {
+          "display": "70137 Bat Strike",
+          "href": "/pages/content/characters/animal-tribes/bat-tribe/70137-bat-strike",
+          "slug": "70137-bat-strike",
+          "filter": "70137 bat strike 70137 Bat Strike 70137 Bat Strike 70137 set70137 lego70137 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70137",
+            "set70137",
+            "lego70137"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ed/70137-box.jpg/revision/latest?cb=20260815185550"
+        },
+        {
           "display": "70138 Web Dash",
           "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/spider-tribe/70138-web-dash",
           "slug": "70138-web-dash",
@@ -8727,6 +8899,18 @@
             "lego70139"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/5/51/70139.jpg/revision/latest/scale-to-width-down/450?cb=20260815185554"
+        },
+        {
+          "display": "70140 Stinger Duel",
+          "href": "/pages/content/characters/animal-tribes/bat-tribe/crawlers/scorpion-tribe/70140-stinger-duel",
+          "slug": "70140-stinger-duel",
+          "filter": "70140 stinger duel 70140 Stinger Duel 70140 Stinger Duel 70140 set70140 lego70140 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70140",
+            "set70140",
+            "lego70140"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/61/70140.jpg/revision/latest/scale-to-width-down/450?cb=20260815185555"
         },
         {
           "display": "70141 Vardy's Ice Vulture Glider",
@@ -8777,6 +8961,18 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/9/93/70144_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815233357"
         },
         {
+          "display": "70145 Maula's Ice Mammoth Stomper",
+          "href": "/pages/content/characters/animal-tribes/hunters/mammoth-tribe/70145-maulas-ice-mammoth-stomper",
+          "slug": "70145-maulas-ice-mammoth-stomper",
+          "filter": "70145 maula's ice mammoth stomper 70145 Maula's Ice Mammoth Stomper 70145 Maula's Ice Mammoth Stomper 70145 set70145 lego70145 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70145",
+            "set70145",
+            "lego70145"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a6/70145_Maula%27s_Ice_Mammoth_Stomper.jpg/revision/latest/scale-to-width-down/450?cb=20260815170857"
+        },
+        {
           "display": "70146 Flying Phoenix Fire Temple",
           "href": "/pages/content/abilities/elements/combination-elements/earth/main-elements/fire/70146-flying-phoenix-fire-temple",
           "slug": "70146-flying-phoenix-fire-temple",
@@ -8789,6 +8985,18 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/f/f8/A1re6jctZqL._AC_SL1500_.jpg/revision/latest/scale-to-width-down/450?cb=20260815171151"
         },
         {
+          "display": "70147 Sir Fangar's Ice Fortress",
+          "href": "/pages/content/characters/animal-tribes/hunters/saber-tooth-tiger-tribe/70147-sir-fangars-ice-fortress",
+          "slug": "70147-sir-fangars-ice-fortress",
+          "filter": "70147 sir fangar's ice fortress 70147 Sir Fangar's Ice Fortress 70147 Sir Fangar's Ice Fortress 70147 set70147 lego70147 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70147",
+            "set70147",
+            "lego70147"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/27/IceFortressBox.png/revision/latest/scale-to-width-down/450?cb=20260815190555"
+        },
+        {
           "display": "70149 Scorching Blades",
           "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70149-scorching-blades",
           "slug": "70149-scorching-blades",
@@ -8799,6 +9007,18 @@
             "lego70149"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/1/1e/70149_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170905"
+        },
+        {
+          "display": "70150 Flaming Claws",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70150-flaming-claws",
+          "slug": "70150-flaming-claws",
+          "filter": "70150 flaming claws 70150 Flaming Claws 70150 Flaming Claws 70150 set70150 lego70150 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70150",
+            "set70150",
+            "lego70150"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/96/70150_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170907"
         },
         {
           "display": "70151 Frozen Spikes",
@@ -8837,6 +9057,30 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/1/1a/70156_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260816000210"
         },
         {
+          "display": "70206 CHI Laval",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70206-chi-laval",
+          "slug": "70206-chi-laval",
+          "filter": "70206 chi laval 70206 CHI Laval 70206 CHI Laval 70206 set70206 lego70206 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70206",
+            "set70206",
+            "lego70206"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e2/70206_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170931"
+        },
+        {
+          "display": "70207 CHI Cragger",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/70207-chi-cragger",
+          "slug": "70207-chi-cragger",
+          "filter": "70207 chi cragger 70207 CHI Cragger 70207 CHI Cragger 70207 set70207 lego70207 2014 sets 2014 sets2014 lego2014",
+          "codes": [
+            "70207",
+            "set70207",
+            "lego70207"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/87/70207_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170934"
+        },
+        {
           "display": "70208 CHI Panthar",
           "href": "/pages/content/lego-themes/legends-of-chima/70208-chi-panthar",
           "slug": "70208-chi-panthar",
@@ -8870,7 +9114,7 @@
             "set70210",
             "lego70210"
           ],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/b/b4/70210_main.jpg/revision/latest/scale-to-width-down/450?cb=20260816000226"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6e/70210_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170939"
         },
         {
           "display": "70211 CHI Fluminox",
@@ -8894,7 +9138,7 @@
             "set70212",
             "lego70212"
           ],
-          "img": "https://static.wikia.nocookie.net/ninjago/images/7/78/70212_main.jpg/revision/latest/scale-to-width-down/450?cb=20260816000226"
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/aa/70212_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170942"
         },
         {
           "display": "70726 Destructoid",
@@ -9253,6 +9497,18 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/8/83/70008_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170702"
         },
         {
+          "display": "70009 Worriz's Combat Lair",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70009-worrizs-combat-lair",
+          "slug": "70009-worrizs-combat-lair",
+          "filter": "70009 worriz's combat lair 70009 Worriz's Combat Lair 70009 Worriz's Combat Lair 70009 set70009 lego70009 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70009",
+            "set70009",
+            "lego70009"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6c/70009_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170704"
+        },
+        {
           "display": "70010 The Lion CHI Temple",
           "href": "/pages/content/characters/animals/anthropomorphic-animals/elders-of-chima/70010-the-lion-chi-temple",
           "slug": "70010-the-lion-chi-temple",
@@ -9263,6 +9519,18 @@
             "lego70010"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/d/da/70010.jpg/revision/latest/scale-to-width-down/450?cb=20260815233334"
+        },
+        {
+          "display": "70011 Eagles' Castle",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/elders-of-chima/70011-eagles-castle",
+          "slug": "70011-eagles-castle",
+          "filter": "70011 eagles' castle 70011 Eagles' Castle 70011 Eagles' Castle 70011 set70011 lego70011 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70011",
+            "set70011",
+            "lego70011"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/bc/70011_alt1.png/revision/latest/scale-to-width-down/450?cb=20260815233335"
         },
         {
           "display": "70012 Razar's CHI Raider",
@@ -9277,6 +9545,126 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/1/1c/70012_box.jpg/revision/latest/scale-to-width-down/450?cb=20260815233338"
         },
         {
+          "display": "70013 Equila's Ultra Striker",
+          "href": "/pages/content/characters/animal-tribes/eagle-tribe/70013-equilas-ultra-striker",
+          "slug": "70013-equilas-ultra-striker",
+          "filter": "70013 equila's ultra striker 70013 Equila's Ultra Striker 70013 Equila's Ultra Striker 70013 set70013 lego70013 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70013",
+            "set70013",
+            "lego70013"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3b/B_70013_box_side.jpg/revision/latest/scale-to-width-down/450?cb=20260815185748"
+        },
+        {
+          "display": "70014 The Croc Swamp Hideout",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70014-the-croc-swamp-hideout",
+          "slug": "70014-the-croc-swamp-hideout",
+          "filter": "70014 the croc swamp hideout 70014 The Croc Swamp Hideout 70014 The Croc Swamp Hideout 70014 set70014 lego70014 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70014",
+            "set70014",
+            "lego70014"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/92/70014_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815233340"
+        },
+        {
+          "display": "70100 Ring of Fire",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70100-ring-of-fire",
+          "slug": "70100-ring-of-fire",
+          "filter": "70100 ring of fire 70100 Ring of Fire 70100 Ring of Fire 70100 set70100 lego70100 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70100",
+            "set70100",
+            "lego70100"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f4/70100-1.jpg/revision/latest/scale-to-width-down/450?cb=20260815233347"
+        },
+        {
+          "display": "70101 Target Practice",
+          "href": "/pages/content/characters/animal-tribes/eagle-tribe/70101-target-practice",
+          "slug": "70101-target-practice",
+          "filter": "70101 target practice 70101 Target Practice 70101 Target Practice 70101 set70101 lego70101 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70101",
+            "set70101",
+            "lego70101"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/c1/70101-1.jpg/revision/latest/scale-to-width-down/450?cb=20260815233349"
+        },
+        {
+          "display": "70102 CHI Waterfall",
+          "href": "/pages/content/characters/animal-tribes/lion-tribe/70102-chi-waterfall",
+          "slug": "70102-chi-waterfall",
+          "filter": "70102 chi waterfall 70102 CHI Waterfall 70102 CHI Waterfall 70102 set70102 lego70102 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70102",
+            "set70102",
+            "lego70102"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/c/cb/70102-1.jpg/revision/latest/scale-to-width-down/450?cb=20260815233350"
+        },
+        {
+          "display": "70103 Boulder Bowling",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/70103-boulder-bowling",
+          "slug": "70103-boulder-bowling",
+          "filter": "70103 boulder bowling 70103 Boulder Bowling 70103 Boulder Bowling 70103 set70103 lego70103 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70103",
+            "set70103",
+            "lego70103"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/25/70103-1.jpg/revision/latest/scale-to-width-down/450?cb=20260815185529"
+        },
+        {
+          "display": "70104 Jungle Gates",
+          "href": "/pages/content/characters/animal-tribes/lion-tribe/70104-jungle-gates",
+          "slug": "70104-jungle-gates",
+          "filter": "70104 jungle gates 70104 Jungle Gates 70104 Jungle Gates 70104 set70104 lego70104 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70104",
+            "set70104",
+            "lego70104"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/1e/70104-1.jpg/revision/latest/scale-to-width-down/450?cb=20260815233351"
+        },
+        {
+          "display": "70105 Nest Dive",
+          "href": "/pages/content/characters/animal-tribes/eagle-tribe/70105-nest-dive",
+          "slug": "70105-nest-dive",
+          "filter": "70105 nest dive 70105 Nest Dive 70105 Nest Dive 70105 set70105 lego70105 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70105",
+            "set70105",
+            "lego70105"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e3/Nest_Dive.jpg/revision/latest/scale-to-width-down/450?cb=20260816000523"
+        },
+        {
+          "display": "70106 Ice Tower",
+          "href": "/pages/content/lego-themes/legends-of-chima/speedorz/70106-ice-tower",
+          "slug": "70106-ice-tower",
+          "filter": "70106 ice tower 70106 Ice Tower 70106 Ice Tower 70106 set70106 lego70106 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70106",
+            "set70106",
+            "lego70106"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/70106-1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170738"
+        },
+        {
+          "display": "70107 Skunk Attack",
+          "href": "/pages/content/lego-themes/legends-of-chima/speedorz/70107-skunk-attack",
+          "slug": "70107-skunk-attack",
+          "filter": "70107 skunk attack 70107 Skunk Attack 70107 Skunk Attack 70107 set70107 lego70107 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70107",
+            "set70107",
+            "lego70107"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/58/91y9Pfvpt0L._AC_SL1500_.jpg/revision/latest/scale-to-width-down/450?cb=20260815185447"
+        },
+        {
           "display": "70108 Royal Roost",
           "href": "/pages/content/characters/animals/anthropomorphic-animals/elders-of-chima/70108-royal-roost",
           "slug": "70108-royal-roost",
@@ -9287,6 +9675,30 @@
             "lego70108"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/8/8c/70108_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170741"
+        },
+        {
+          "display": "70109 Whirling Vines",
+          "href": "/pages/content/lego-themes/legends-of-chima/speedorz/70109-whirling-vines",
+          "slug": "70109-whirling-vines",
+          "filter": "70109 whirling vines 70109 Whirling Vines 70109 Whirling Vines 70109 set70109 lego70109 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70109",
+            "set70109",
+            "lego70109"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/7/79/91wzw3YCsaL._AC_SL1500_.jpg/revision/latest/scale-to-width-down/450?cb=20260815185446"
+        },
+        {
+          "display": "70110 Tower Target",
+          "href": "/pages/content/lego-themes/legends-of-chima/speedorz/70110-tower-target",
+          "slug": "70110-tower-target",
+          "filter": "70110 tower target 70110 Tower Target 70110 Tower Target 70110 set70110 lego70110 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70110",
+            "set70110",
+            "lego70110"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/22/70110_box1_in.jpg/revision/latest/scale-to-width-down/450?cb=20260815170746"
         },
         {
           "display": "70111 Swamp Jump",
@@ -9301,6 +9713,90 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/b/be/Lego-swamp-jump-set-70111-15-1.jpg/revision/latest/scale-to-width-down/450?cb=20260815190819"
         },
         {
+          "display": "70112 Croc Chomp",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/70112-croc-chomp",
+          "slug": "70112-croc-chomp",
+          "filter": "70112 croc chomp 70112 Croc Chomp 70112 Croc Chomp 70112 set70112 lego70112 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70112",
+            "set70112",
+            "lego70112"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/96/70112-box.jpg/revision/latest?cb=20260815170750"
+        },
+        {
+          "display": "70113 CHI Battles",
+          "href": "/pages/content/characters/animal-tribes/lion-tribe/70113-chi-battles",
+          "slug": "70113-chi-battles",
+          "filter": "70113 chi battles 70113 CHI Battles 70113 CHI Battles 70113 set70113 lego70113 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70113",
+            "set70113",
+            "lego70113"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f5/91HKRdafgkL._AC_SL1500_.jpg/revision/latest/scale-to-width-down/450?cb=20260815185445"
+        },
+        {
+          "display": "70114 Sky Joust",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/elders-of-chima/70114-sky-joust",
+          "slug": "70114-sky-joust",
+          "filter": "70114 sky joust 70114 Sky Joust 70114 Sky Joust 70114 set70114 lego70114 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70114",
+            "set70114",
+            "lego70114"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d7/Sky.jpg/revision/latest/scale-to-width-down/450?cb=20260815175554"
+        },
+        {
+          "display": "70115 Ultimate Speedor Tournament",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70115-ultimate-speedor-tournament",
+          "slug": "70115-ultimate-speedor-tournament",
+          "filter": "70115 ultimate speedor tournament 70115 Ultimate Speedor Tournament 70115 Ultimate Speedor Tournament 70115 set70115 lego70115 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70115",
+            "set70115",
+            "lego70115"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/1a/B_70115_box_side.jpg/revision/latest/scale-to-width-down/450?cb=20260815171245"
+        },
+        {
+          "display": "70200 CHI Laval",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70200-chi-laval",
+          "slug": "70200-chi-laval",
+          "filter": "70200 chi laval 70200 CHI Laval 70200 CHI Laval 70200 set70200 lego70200 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70200",
+            "set70200",
+            "lego70200"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/66/70200_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260816000213"
+        },
+        {
+          "display": "70201 CHI Eris",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70201-chi-eris",
+          "slug": "70201-chi-eris",
+          "filter": "70201 chi eris 70201 CHI Eris 70201 CHI Eris 70201 set70201 lego70201 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70201",
+            "set70201",
+            "lego70201"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/86/70201_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260816000218"
+        },
+        {
+          "display": "70202 CHI Gorzan",
+          "href": "/pages/content/lego-themes/legends-of-chima/70202-chi-gorzan",
+          "slug": "70202-chi-gorzan",
+          "filter": "70202 chi gorzan 70202 CHI Gorzan 70202 CHI Gorzan 70202 set70202 lego70202 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70202",
+            "set70202",
+            "lego70202"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a9/70202_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260816000219"
+        },
+        {
           "display": "70203 CHI Cragger",
           "href": "/pages/content/characters/animal-tribes/crocodile-tribe/70203-chi-cragger",
           "slug": "70203-chi-cragger",
@@ -9313,6 +9809,18 @@
           "img": "https://static.wikia.nocookie.net/ninjago/images/8/80/70203CHICragger-2.png/revision/latest/scale-to-width-down/450?cb=20260816000222"
         },
         {
+          "display": "70204 CHI Worriz",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70204-chi-worriz",
+          "slug": "70204-chi-worriz",
+          "filter": "70204 chi worriz 70204 CHI Worriz 70204 CHI Worriz 70204 set70204 lego70204 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70204",
+            "set70204",
+            "lego70204"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/0/0a/70204CHIWorriz-2.png/revision/latest/scale-to-width-down/450?cb=20260815170929"
+        },
+        {
           "display": "70205 CHI Razar",
           "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70205-chi-razar",
           "slug": "70205-chi-razar",
@@ -9322,7 +9830,91 @@
             "set70205",
             "lego70205"
           ],
-          "img": ""
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/17/Ultrabuild_razar.webp/revision/latest/scale-to-width-down/450?cb=20261007150527"
+        },
+        {
+          "display": "70206 CHI Laval",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/heroes-of-chima/70206-chi-laval",
+          "slug": "70206-chi-laval",
+          "filter": "70206 chi laval 70206 CHI Laval 70206 CHI Laval 70206 set70206 lego70206 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70206",
+            "set70206",
+            "lego70206"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/e2/70206_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170931"
+        },
+        {
+          "display": "70207 CHI Cragger",
+          "href": "/pages/content/characters/animal-tribes/crocodile-tribe/70207-chi-cragger",
+          "slug": "70207-chi-cragger",
+          "filter": "70207 chi cragger 70207 CHI Cragger 70207 CHI Cragger 70207 set70207 lego70207 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70207",
+            "set70207",
+            "lego70207"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/87/70207_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170934"
+        },
+        {
+          "display": "70208 CHI Panthar",
+          "href": "/pages/content/lego-themes/legends-of-chima/70208-chi-panthar",
+          "slug": "70208-chi-panthar",
+          "filter": "70208 chi panthar 70208 CHI Panthar 70208 CHI Panthar 70208 set70208 lego70208 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70208",
+            "set70208",
+            "lego70208"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/1/11/70208_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170935"
+        },
+        {
+          "display": "70209 CHI Mungus",
+          "href": "/pages/content/characters/animal-tribes/hunters/mammoth-tribe/70209-chi-mungus",
+          "slug": "70209-chi-mungus",
+          "filter": "70209 chi mungus 70209 CHI Mungus 70209 CHI Mungus 70209 set70209 lego70209 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70209",
+            "set70209",
+            "lego70209"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9c/70209_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170937"
+        },
+        {
+          "display": "70210 CHI Vardy",
+          "href": "/pages/content/lego-themes/legends-of-chima/70210-chi-vardy",
+          "slug": "70210-chi-vardy",
+          "filter": "70210 chi vardy 70210 CHI Vardy 70210 CHI Vardy 70210 set70210 lego70210 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70210",
+            "set70210",
+            "lego70210"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/6/6e/70210_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170939"
+        },
+        {
+          "display": "70211 CHI Fluminox",
+          "href": "/pages/content/characters/animal-tribes/fire-tribes/70211-chi-fluminox",
+          "slug": "70211-chi-fluminox",
+          "filter": "70211 chi fluminox 70211 CHI Fluminox 70211 CHI Fluminox 70211 set70211 lego70211 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70211",
+            "set70211",
+            "lego70211"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/23/70211_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170940"
+        },
+        {
+          "display": "70212 CHI Sir Fangar",
+          "href": "/pages/content/characters/animal-tribes/hunters/saber-tooth-tiger-tribe/70212-chi-sir-fangar",
+          "slug": "70212-chi-sir-fangar",
+          "filter": "70212 chi sir fangar 70212 CHI Sir Fangar 70212 CHI Sir Fangar 70212 set70212 lego70212 2013 sets 2013 sets2013 lego2013",
+          "codes": [
+            "70212",
+            "set70212",
+            "lego70212"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/aa/70212_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20260815170942"
         },
         {
           "display": "70720 Hover Hunter",
@@ -9499,6 +10091,14 @@
           "filter": "iq50889 worriz key light IQ50889 Worriz Key Light IQ50889 Worriz Key Light  2013 sets 2013 sets2013 lego2013",
           "codes": [],
           "img": "https://static.wikia.nocookie.net/ninjago/images/0/0c/Worriz_LED_Light.jpg/revision/latest/scale-to-width-down/450?cb=20260815180524"
+        },
+        {
+          "display": "Ultrabuild",
+          "href": "/pages/content/sets/2013-sets/ultrabuilds/ultrabuild",
+          "slug": "ultrabuild",
+          "filter": "ultrabuild Ultrabuild Ultrabuild  2013 sets 2013 sets2013 lego2013",
+          "codes": [],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/9a/Ninja_stub.png/revision/latest/scale-to-width-down/450?cb=20250412175544"
         }
       ]
     },
@@ -11387,6 +11987,182 @@
             "lego4636204"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/2/2d/LEGO_Ninjago_Promotion.jpg/revision/latest/scale-to-width-down/450?cb=20120609142619"
+        }
+      ]
+    },
+    {
+      "id": "2027-polybags",
+      "title": "2027 polybags",
+      "groupKey": "2027-polybags",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "30748 Ras' Tiger Speedor Mini-Build",
+          "href": "/pages/content/lego-themes/legends-of-chima/speedorz/30748-ras-tiger-speedor-mini-build",
+          "slug": "30748-ras-tiger-speedor-mini-build",
+          "filter": "30748 ras' tiger speedor mini-build 30748 Ras' Tiger Speedor Mini-Build 30748 Ras' Tiger Speedor Mini-Build 30748 set30748 lego30748 2027 polybags polybag polybags 2027 polybags2027",
+          "codes": [
+            "30748",
+            "set30748",
+            "lego30748"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/fa/Futurenoleaks.png/revision/latest/scale-to-width-down/450?cb=20200821173040"
+        }
+      ]
+    },
+    {
+      "id": "2026-polybags",
+      "title": "2026 polybags",
+      "groupKey": "2026-polybags",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "30723 Cole's Car",
+          "href": "/pages/content/characters/elemental-masters/ninja/30723-coles-car",
+          "slug": "30723-coles-car",
+          "filter": "30723 coles car 30723 Cole's Car 30723 Cole's Car 30723 set30723 lego30723 2026 polybags polybag polybags 2026 polybags2026",
+          "codes": [
+            "30723",
+            "set30723",
+            "lego30723"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/2/22/ColesCar.jpg/revision/latest/scale-to-width-down/450?cb=20251201162140"
+        }
+      ]
+    },
+    {
+      "id": "2025-polybags",
+      "title": "2025 polybags",
+      "groupKey": "2025-polybags",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "30699 Mini Ninja Combo Mech",
+          "href": "/pages/content/sets/2025-sets/30699-mini-ninja-combo-mech",
+          "slug": "30699-mini-ninja-combo-mech",
+          "filter": "30699 mini ninja combo mech 30699 Mini Ninja Combo Mech 30699 Mini Ninja Combo Mech 30699 set30699 lego30699 2025 polybags polybag polybags 2025 polybags2025",
+          "codes": [
+            "30699",
+            "set30699",
+            "lego30699"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a5/30699de.webp/revision/latest/scale-to-width-down/450?cb=20241011205955"
+        },
+        {
+          "display": "30700 Arin vs. Dragonian Battle",
+          "href": "/pages/content/characters/animals/anthropomorphic-animals/dragonians/30700-arin-vs-dragonian-battle",
+          "slug": "30700-arin-vs-dragonian-battle",
+          "filter": "30700 arin vs. dragonian battle 30700 Arin vs. Dragonian Battle 30700 Arin vs. Dragonian Battle 30700 set30700 lego30700 2025 polybags polybag polybags 2025 polybags2025",
+          "codes": [
+            "30700",
+            "set30700",
+            "lego30700"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a4/30700-1.webp/revision/latest/scale-to-width-down/450?cb=20250502111623"
+        }
+      ]
+    },
+    {
+      "id": "2024-polybags",
+      "title": "2024 polybags",
+      "groupKey": "2024-polybags",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "30674 Zane's Dragon Power Vehicles",
+          "href": "/pages/content/characters/elemental-masters/ninja/30674-zanes-dragon-power-vehicles",
+          "slug": "30674-zanes-dragon-power-vehicles",
+          "filter": "30674 zanes dragon power vehicles 30674 Zane's Dragon Power Vehicles 30674 Zane's Dragon Power Vehicles 30674 set30674 lego30674 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "30674",
+            "set30674",
+            "lego30674"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a1/30674_bag.png/revision/latest/scale-to-width-down/450?cb=20240124173143"
+        },
+        {
+          "display": "30675 Tournament Training Ground",
+          "href": "/pages/content/characters/groups/villainous-factions/wolf-clan/30675-tournament-training-ground",
+          "slug": "30675-tournament-training-ground",
+          "filter": "30675 tournament training ground 30675 Tournament Training Ground 30675 Tournament Training Ground 30675 set30675 lego30675 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "30675",
+            "set30675",
+            "lego30675"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/9/92/30675_bag.png/revision/latest/scale-to-width-down/450?cb=20240526012908"
+        },
+        {
+          "display": "892402 Wolf Hunter",
+          "href": "/pages/content/characters/groups/villainous-factions/wolf-clan/892402-wolf-hunter",
+          "slug": "892402-wolf-hunter",
+          "filter": "892402 wolf hunter 892402 Wolf Hunter 892402 Wolf Hunter 892402 set892402 lego892402 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "892402",
+            "set892402",
+            "lego892402"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/4a/Wolf_Hunter_Polybag.jpg/revision/latest/scale-to-width-down/450?cb=20240806173043"
+        },
+        {
+          "display": "892403 Jay",
+          "href": "/pages/content/characters/elemental-masters/ninja/892403-jay",
+          "slug": "892403-jay",
+          "filter": "892403 jay 892403 Jay 892403 Jay 892403 set892403 lego892403 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "892403",
+            "set892403",
+            "lego892403"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/5/56/892403Jay.jpg/revision/latest/scale-to-width-down/450?cb=20240806173209"
+        },
+        {
+          "display": "892404 Imperium Guard Commander",
+          "href": "/pages/content/characters/groups/imperians/892404-imperium-guard-commander",
+          "slug": "892404-imperium-guard-commander",
+          "filter": "892404 imperium guard commander 892404 Imperium Guard Commander 892404 Imperium Guard Commander 892404 set892404 lego892404 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "892404",
+            "set892404",
+            "lego892404"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/Imperium_Guard_Commander_mag_gift.jpg/revision/latest/scale-to-width-down/450?cb=20240317231757"
+        },
+        {
+          "display": "892405 Kai",
+          "href": "/pages/content/characters/elemental-masters/ninja/892405-kai",
+          "slug": "892405-kai",
+          "filter": "892405 kai 892405 Kai 892405 Kai 892405 set892405 lego892405 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "892405",
+            "set892405",
+            "lego892405"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3a/892405.jpg/revision/latest/scale-to-width-down/450?cb=20240503125645"
+        },
+        {
+          "display": "892406 Lloyd",
+          "href": "/pages/content/characters/elemental-masters/ninja/892406-lloyd",
+          "slug": "892406-lloyd",
+          "filter": "892406 lloyd 892406 Lloyd 892406 Lloyd 892406 set892406 lego892406 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "892406",
+            "set892406",
+            "lego892406"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/e/ef/892406-1.webp/revision/latest/scale-to-width-down/450?cb=20240531185946"
+        },
+        {
+          "display": "892413 Jay",
+          "href": "/pages/content/characters/elemental-masters/ninja/892413-jay",
+          "slug": "892413-jay",
+          "filter": "892413 jay 892413 Jay 892413 Jay 892413 set892413 lego892413 2024 polybags polybag polybags 2024 polybags2024",
+          "codes": [
+            "892413",
+            "set892413",
+            "lego892413"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/81/892413-1.png/revision/latest/scale-to-width-down/450?cb=20241124223144"
         }
       ]
     },
@@ -13843,6 +14619,122 @@
             "lego4636204"
           ],
           "img": "https://static.wikia.nocookie.net/ninjago/images/2/2d/LEGO_Ninjago_Promotion.jpg/revision/latest/scale-to-width-down/450?cb=20120609142619"
+        }
+      ]
+    },
+    {
+      "id": "accessory-sets",
+      "title": "Accessory sets",
+      "groupKey": "accessory-sets",
+      "groupHref": null,
+      "sets": [
+        {
+          "display": "40342 LEGO NINJAGO 2019 Minifigure Set",
+          "href": "/pages/content/seasons/secrets-of-the-forbidden-spinjitzu/40342-lego-ninjago-2019-minifigure-set",
+          "slug": "40342-lego-ninjago-2019-minifigure-set",
+          "filter": "40342 lego ninjago 2019 minifigure set 40342 LEGO NINJAGO 2019 Minifigure Set 40342 LEGO NINJAGO 2019 Minifigure Set 40342 set40342 lego40342 Accessory sets",
+          "codes": [
+            "40342",
+            "set40342",
+            "lego40342"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/f/f9/40342_alt1.png/revision/latest/scale-to-width-down/450?cb=20200101163541"
+        },
+        {
+          "display": "40374 Golden Zane Minifigure Accessory Set",
+          "href": "/pages/content/characters/elemental-masters/ninja/40374-golden-zane-minifigure-accessory-set",
+          "slug": "40374-golden-zane-minifigure-accessory-set",
+          "filter": "40374 golden zane minifigure accessory set 40374 Golden Zane Minifigure Accessory Set 40374 Golden Zane Minifigure Accessory Set 40374 set40374 lego40374 Accessory sets",
+          "codes": [
+            "40374",
+            "set40374",
+            "lego40374"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/b/bb/40374_LEGO_Ninjago_2020_Minifigure_Set.PNG/revision/latest/scale-to-width-down/450?cb=20200212193758"
+        },
+        {
+          "display": "850632 Samurai Accessory Set",
+          "href": "/pages/content/characters/elemental-masters/ninja/850632-samurai-accessory-set",
+          "slug": "850632-samurai-accessory-set",
+          "filter": "850632 samurai accessory set 850632 Samurai Accessory Set 850632 Samurai Accessory Set 850632 set850632 lego850632 Accessory sets",
+          "codes": [
+            "850632",
+            "set850632",
+            "lego850632"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/a/a5/850632samuraiaccessoryset2.png/revision/latest/scale-to-width-down/450?cb=20130305064421"
+        },
+        {
+          "display": "851342 Ninja Army Building Set",
+          "href": "/pages/content/characters/animals/species/ghosts/ghost-warriors/851342-ninja-army-building-set",
+          "slug": "851342-ninja-army-building-set",
+          "filter": "851342 ninja army building set 851342 Ninja Army Building Set 851342 Ninja Army Building Set 851342 set851342 lego851342 Accessory sets",
+          "codes": [
+            "851342",
+            "set851342",
+            "lego851342"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/41/18552309641_9c136e8fd7_o.jpg/revision/latest/scale-to-width-down/450?cb=20150911132336"
+        },
+        {
+          "display": "853544 LEGO NINJAGO Accessory Set",
+          "href": "/pages/content/characters/elemental-masters/ninja/853544-lego-ninjago-accessory-set",
+          "slug": "853544-lego-ninjago-accessory-set",
+          "filter": "853544 lego ninjago accessory set 853544 LEGO NINJAGO Accessory Set 853544 LEGO NINJAGO Accessory Set 853544 set853544 lego853544 Accessory sets",
+          "codes": [
+            "853544",
+            "set853544",
+            "lego853544"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/47/Lego-853544-lego-ninjago-harci-keszlet-4-figuraval.jpg/revision/latest?cb=20200806133140"
+        },
+        {
+          "display": "853687 LEGO NINJAGO Accessory Set",
+          "href": "/pages/content/abilities/elements/amber/secondary-elements/smoke/853687-lego-ninjago-accessory-set",
+          "slug": "853687-lego-ninjago-accessory-set",
+          "filter": "853687 lego ninjago accessory set 853687 LEGO NINJAGO Accessory Set 853687 LEGO NINJAGO Accessory Set 853687 set853687 lego853687 Accessory sets",
+          "codes": [
+            "853687",
+            "set853687",
+            "lego853687"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/d/d2/LEGONinjago853687.PNG/revision/latest/scale-to-width-down/450?cb=20200410050925"
+        },
+        {
+          "display": "853866 NINJAGO Accessory Set 2019",
+          "href": "/pages/content/characters/animals/species/oni/853866-ninjago-accessory-set-2019",
+          "slug": "853866-ninjago-accessory-set-2019",
+          "filter": "853866 ninjago accessory set 2019 853866 NINJAGO Accessory Set 2019 853866 NINJAGO Accessory Set 2019 853866 set853866 lego853866 Accessory sets",
+          "codes": [
+            "853866",
+            "set853866",
+            "lego853866"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/4/45/853866_alt1.jpg/revision/latest/scale-to-width-down/450?cb=20200226103834"
+        },
+        {
+          "display": "5002919 Scenery and Dagger Trap",
+          "href": "/pages/content/sets/2015-sets/5002919-scenery-and-dagger-trap",
+          "slug": "5002919-scenery-and-dagger-trap",
+          "filter": "5002919 scenery and dagger trap 5002919 Scenery and Dagger Trap 5002919 Scenery and Dagger Trap 5002919 set5002919 lego5002919 Accessory sets",
+          "codes": [
+            "5002919",
+            "set5002919",
+            "lego5002919"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/3/3a/7452999B-D32E-443A-B994-AEBAE0911840.jpeg/revision/latest/scale-to-width-down/450?cb=20200827145429"
+        },
+        {
+          "display": "5002920 Ninjago Accessory Pack",
+          "href": "/pages/content/sets/2015-sets/5002920-ninjago-accessory-pack",
+          "slug": "5002920-ninjago-accessory-pack",
+          "filter": "5002920 ninjago accessory pack 5002920 Ninjago Accessory Pack 5002920 Ninjago Accessory Pack 5002920 set5002920 lego5002920 Accessory sets",
+          "codes": [
+            "5002920",
+            "set5002920",
+            "lego5002920"
+          ],
+          "img": "https://static.wikia.nocookie.net/ninjago/images/8/8b/42E6B98D-FA43-4B71-8CB5-07F64000BD6A.jpeg/revision/latest/scale-to-width-down/450?cb=20200827151641"
         }
       ]
     },
